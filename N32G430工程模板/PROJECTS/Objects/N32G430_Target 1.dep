@@ -1,0 +1,752 @@
+Dependencies for Project 'N32G430', Target 'Target 1': (DO NOT MODIFY !)
+CompilerVersion: 5060960::V5.06 update 7 (build 960)::.\ARMCC
+F (..\USER\src\main.c)(0x6549AC65)(-c --cpu Cortex-M4.fp.sp -g -O0 --apcs=interwork --split_sections -I ..\FWLIB\inc -I ..\CMSIS -I ..\USER\inc-ID:\Keil_V5\Nationstech\N32G430_DFP\1.0.0\firmware\CMSIS\device-ID:\Keil_V5\ARM\CMSIS\Include-D__UVISION_VERSION="534" -DN32G430 -DUSE_STDPERIPH_DRIVER -DN32F8SX -DUSE_STDPERIPH_DRIVER-o .\objects\main.o --omf_browse .\objects\main.crf --depend .\objects\main.d)
+I (..\USER\inc\main.h)(0x6549AC3D)
+I (..\FWLIB\inc\n32g430.h)(0x64059F5F)
+I (..\CMSIS\core_cm4.h)(0x64059F5F)
+I (D:\Keil_V5\ARM\ARMCC\include\stdint.h)(0x6025237E)
+I (..\CMSIS\cmsis_version.h)(0x64059F5F)
+I (..\CMSIS\cmsis_compiler.h)(0x64059F5F)
+I (..\CMSIS\cmsis_armcc.h)(0x64059F5F)
+I (..\CMSIS\mpu_armv7.h)(0x64059F5F)
+I (..\FWLIB\inc\system_n32g430.h)(0x64059F5F)
+I (D:\Keil_V5\ARM\ARMCC\include\stdbool.h)(0x6025237C)
+I (..\FWLIB\inc\n32g430_conf.h)(0x64059F5F)
+I (..\FWLIB\inc\n32g430_adc.h)(0x64059F5F)
+I (..\FWLIB\inc\n32g430_can.h)(0x64059F5F)
+I (..\FWLIB\inc\n32g430_comp.h)(0x64059F5F)
+I (..\FWLIB\inc\n32g430_crc.h)(0x64059F5F)
+I (..\FWLIB\inc\n32g430_dbg.h)(0x64059F5F)
+I (..\FWLIB\inc\n32g430_dma.h)(0x64059F5F)
+I (..\FWLIB\inc\n32g430_exti.h)(0x64059F5F)
+I (..\FWLIB\inc\n32g430_flash.h)(0x64059F5F)
+I (..\FWLIB\inc\n32g430_gpio.h)(0x64059F5F)
+I (..\FWLIB\inc\n32g430_i2c.h)(0x64059F5F)
+I (..\FWLIB\inc\n32g430_iwdg.h)(0x64059F5F)
+I (..\FWLIB\inc\n32g430_pwr.h)(0x64059F5F)
+I (..\FWLIB\inc\n32g430_rcc.h)(0x64059F5F)
+I (..\FWLIB\inc\n32g430_rtc.h)(0x64059F5F)
+I (..\FWLIB\inc\n32g430_spi.h)(0x64059F5F)
+I (..\FWLIB\inc\n32g430_tim.h)(0x64059F5F)
+I (..\FWLIB\inc\n32g430_usart.h)(0x64059F5F)
+I (..\FWLIB\inc\n32g430_wwdg.h)(0x64059F5F)
+I (..\FWLIB\inc\n32g430_beeper.h)(0x64059F5F)
+I (..\FWLIB\inc\misc.h)(0x64059F5F)
+F (..\USER\src\n32g430_it.c)(0x6549FB12)(-c --cpu Cortex-M4.fp.sp -g -O0 --apcs=interwork --split_sections -I ..\FWLIB\inc -I ..\CMSIS -I ..\USER\inc-ID:\Keil_V5\Nationstech\N32G430_DFP\1.0.0\firmware\CMSIS\device-ID:\Keil_V5\ARM\CMSIS\Include-D__UVISION_VERSION="534" -DN32G430 -DUSE_STDPERIPH_DRIVER -DN32F8SX -DUSE_STDPERIPH_DRIVER-o .\objects\n32g430_it.o --omf_browse .\objects\n32g430_it.crf --depend .\objects\n32g430_it.d)
+I (..\USER\inc\n32g430_it.h)(0x6549FB12)
+I (..\FWLIB\inc\n32g430.h)(0x64059F5F)
+I (..\CMSIS\core_cm4.h)(0x64059F5F)
+I (D:\Keil_V5\ARM\ARMCC\include\stdint.h)(0x6025237E)
+I (..\CMSIS\cmsis_version.h)(0x64059F5F)
+I (..\CMSIS\cmsis_compiler.h)(0x64059F5F)
+I (..\CMSIS\cmsis_armcc.h)(0x64059F5F)
+I (..\CMSIS\mpu_armv7.h)(0x64059F5F)
+I (..\FWLIB\inc\system_n32g430.h)(0x64059F5F)
+I (D:\Keil_V5\ARM\ARMCC\include\stdbool.h)(0x6025237C)
+I (..\FWLIB\inc\n32g430_conf.h)(0x64059F5F)
+I (..\FWLIB\inc\n32g430_adc.h)(0x64059F5F)
+I (..\FWLIB\inc\n32g430_can.h)(0x64059F5F)
+I (..\FWLIB\inc\n32g430_comp.h)(0x64059F5F)
+I (..\FWLIB\inc\n32g430_crc.h)(0x64059F5F)
+I (..\FWLIB\inc\n32g430_dbg.h)(0x64059F5F)
+I (..\FWLIB\inc\n32g430_dma.h)(0x64059F5F)
+I (..\FWLIB\inc\n32g430_exti.h)(0x64059F5F)
+I (..\FWLIB\inc\n32g430_flash.h)(0x64059F5F)
+I (..\FWLIB\inc\n32g430_gpio.h)(0x64059F5F)
+I (..\FWLIB\inc\n32g430_i2c.h)(0x64059F5F)
+I (..\FWLIB\inc\n32g430_iwdg.h)(0x64059F5F)
+I (..\FWLIB\inc\n32g430_pwr.h)(0x64059F5F)
+I (..\FWLIB\inc\n32g430_rcc.h)(0x64059F5F)
+I (..\FWLIB\inc\n32g430_rtc.h)(0x64059F5F)
+I (..\FWLIB\inc\n32g430_spi.h)(0x64059F5F)
+I (..\FWLIB\inc\n32g430_tim.h)(0x64059F5F)
+I (..\FWLIB\inc\n32g430_usart.h)(0x64059F5F)
+I (..\FWLIB\inc\n32g430_wwdg.h)(0x64059F5F)
+I (..\FWLIB\inc\n32g430_beeper.h)(0x64059F5F)
+I (..\FWLIB\inc\misc.h)(0x64059F5F)
+I (..\USER\inc\main.h)(0x6549AC3D)
+F (..\FWLIB\src\misc.c)(0x64059F5F)(-c --cpu Cortex-M4.fp.sp -g -O0 --apcs=interwork --split_sections -I ..\FWLIB\inc -I ..\CMSIS -I ..\USER\inc-ID:\Keil_V5\Nationstech\N32G430_DFP\1.0.0\firmware\CMSIS\device-ID:\Keil_V5\ARM\CMSIS\Include-D__UVISION_VERSION="534" -DN32G430 -DUSE_STDPERIPH_DRIVER -DN32F8SX -DUSE_STDPERIPH_DRIVER-o .\objects\misc.o --omf_browse .\objects\misc.crf --depend .\objects\misc.d)
+I (..\FWLIB\inc\misc.h)(0x64059F5F)
+I (..\FWLIB\inc\n32g430.h)(0x64059F5F)
+I (..\CMSIS\core_cm4.h)(0x64059F5F)
+I (D:\Keil_V5\ARM\ARMCC\include\stdint.h)(0x6025237E)
+I (..\CMSIS\cmsis_version.h)(0x64059F5F)
+I (..\CMSIS\cmsis_compiler.h)(0x64059F5F)
+I (..\CMSIS\cmsis_armcc.h)(0x64059F5F)
+I (..\CMSIS\mpu_armv7.h)(0x64059F5F)
+I (..\FWLIB\inc\system_n32g430.h)(0x64059F5F)
+I (D:\Keil_V5\ARM\ARMCC\include\stdbool.h)(0x6025237C)
+I (..\FWLIB\inc\n32g430_conf.h)(0x64059F5F)
+I (..\FWLIB\inc\n32g430_adc.h)(0x64059F5F)
+I (..\FWLIB\inc\n32g430_can.h)(0x64059F5F)
+I (..\FWLIB\inc\n32g430_comp.h)(0x64059F5F)
+I (..\FWLIB\inc\n32g430_crc.h)(0x64059F5F)
+I (..\FWLIB\inc\n32g430_dbg.h)(0x64059F5F)
+I (..\FWLIB\inc\n32g430_dma.h)(0x64059F5F)
+I (..\FWLIB\inc\n32g430_exti.h)(0x64059F5F)
+I (..\FWLIB\inc\n32g430_flash.h)(0x64059F5F)
+I (..\FWLIB\inc\n32g430_gpio.h)(0x64059F5F)
+I (..\FWLIB\inc\n32g430_i2c.h)(0x64059F5F)
+I (..\FWLIB\inc\n32g430_iwdg.h)(0x64059F5F)
+I (..\FWLIB\inc\n32g430_pwr.h)(0x64059F5F)
+I (..\FWLIB\inc\n32g430_rcc.h)(0x64059F5F)
+I (..\FWLIB\inc\n32g430_rtc.h)(0x64059F5F)
+I (..\FWLIB\inc\n32g430_spi.h)(0x64059F5F)
+I (..\FWLIB\inc\n32g430_tim.h)(0x64059F5F)
+I (..\FWLIB\inc\n32g430_usart.h)(0x64059F5F)
+I (..\FWLIB\inc\n32g430_wwdg.h)(0x64059F5F)
+I (..\FWLIB\inc\n32g430_beeper.h)(0x64059F5F)
+F (..\FWLIB\src\n32g430_adc.c)(0x64059F5F)(-c --cpu Cortex-M4.fp.sp -g -O0 --apcs=interwork --split_sections -I ..\FWLIB\inc -I ..\CMSIS -I ..\USER\inc-ID:\Keil_V5\Nationstech\N32G430_DFP\1.0.0\firmware\CMSIS\device-ID:\Keil_V5\ARM\CMSIS\Include-D__UVISION_VERSION="534" -DN32G430 -DUSE_STDPERIPH_DRIVER -DN32F8SX -DUSE_STDPERIPH_DRIVER-o .\objects\n32g430_adc.o --omf_browse .\objects\n32g430_adc.crf --depend .\objects\n32g430_adc.d)
+I (..\FWLIB\inc\n32g430_adc.h)(0x64059F5F)
+I (..\FWLIB\inc\n32g430.h)(0x64059F5F)
+I (..\CMSIS\core_cm4.h)(0x64059F5F)
+I (D:\Keil_V5\ARM\ARMCC\include\stdint.h)(0x6025237E)
+I (..\CMSIS\cmsis_version.h)(0x64059F5F)
+I (..\CMSIS\cmsis_compiler.h)(0x64059F5F)
+I (..\CMSIS\cmsis_armcc.h)(0x64059F5F)
+I (..\CMSIS\mpu_armv7.h)(0x64059F5F)
+I (..\FWLIB\inc\system_n32g430.h)(0x64059F5F)
+I (D:\Keil_V5\ARM\ARMCC\include\stdbool.h)(0x6025237C)
+I (..\FWLIB\inc\n32g430_conf.h)(0x64059F5F)
+I (..\FWLIB\inc\n32g430_can.h)(0x64059F5F)
+I (..\FWLIB\inc\n32g430_comp.h)(0x64059F5F)
+I (..\FWLIB\inc\n32g430_crc.h)(0x64059F5F)
+I (..\FWLIB\inc\n32g430_dbg.h)(0x64059F5F)
+I (..\FWLIB\inc\n32g430_dma.h)(0x64059F5F)
+I (..\FWLIB\inc\n32g430_exti.h)(0x64059F5F)
+I (..\FWLIB\inc\n32g430_flash.h)(0x64059F5F)
+I (..\FWLIB\inc\n32g430_gpio.h)(0x64059F5F)
+I (..\FWLIB\inc\n32g430_i2c.h)(0x64059F5F)
+I (..\FWLIB\inc\n32g430_iwdg.h)(0x64059F5F)
+I (..\FWLIB\inc\n32g430_pwr.h)(0x64059F5F)
+I (..\FWLIB\inc\n32g430_rcc.h)(0x64059F5F)
+I (..\FWLIB\inc\n32g430_rtc.h)(0x64059F5F)
+I (..\FWLIB\inc\n32g430_spi.h)(0x64059F5F)
+I (..\FWLIB\inc\n32g430_tim.h)(0x64059F5F)
+I (..\FWLIB\inc\n32g430_usart.h)(0x64059F5F)
+I (..\FWLIB\inc\n32g430_wwdg.h)(0x64059F5F)
+I (..\FWLIB\inc\n32g430_beeper.h)(0x64059F5F)
+I (..\FWLIB\inc\misc.h)(0x64059F5F)
+F (..\FWLIB\src\n32g430_beeper.c)(0x64059F5F)(-c --cpu Cortex-M4.fp.sp -g -O0 --apcs=interwork --split_sections -I ..\FWLIB\inc -I ..\CMSIS -I ..\USER\inc-ID:\Keil_V5\Nationstech\N32G430_DFP\1.0.0\firmware\CMSIS\device-ID:\Keil_V5\ARM\CMSIS\Include-D__UVISION_VERSION="534" -DN32G430 -DUSE_STDPERIPH_DRIVER -DN32F8SX -DUSE_STDPERIPH_DRIVER-o .\objects\n32g430_beeper.o --omf_browse .\objects\n32g430_beeper.crf --depend .\objects\n32g430_beeper.d)
+I (..\FWLIB\inc\n32g430_beeper.h)(0x64059F5F)
+I (..\FWLIB\inc\n32g430.h)(0x64059F5F)
+I (..\CMSIS\core_cm4.h)(0x64059F5F)
+I (D:\Keil_V5\ARM\ARMCC\include\stdint.h)(0x6025237E)
+I (..\CMSIS\cmsis_version.h)(0x64059F5F)
+I (..\CMSIS\cmsis_compiler.h)(0x64059F5F)
+I (..\CMSIS\cmsis_armcc.h)(0x64059F5F)
+I (..\CMSIS\mpu_armv7.h)(0x64059F5F)
+I (..\FWLIB\inc\system_n32g430.h)(0x64059F5F)
+I (D:\Keil_V5\ARM\ARMCC\include\stdbool.h)(0x6025237C)
+I (..\FWLIB\inc\n32g430_conf.h)(0x64059F5F)
+I (..\FWLIB\inc\n32g430_adc.h)(0x64059F5F)
+I (..\FWLIB\inc\n32g430_can.h)(0x64059F5F)
+I (..\FWLIB\inc\n32g430_comp.h)(0x64059F5F)
+I (..\FWLIB\inc\n32g430_crc.h)(0x64059F5F)
+I (..\FWLIB\inc\n32g430_dbg.h)(0x64059F5F)
+I (..\FWLIB\inc\n32g430_dma.h)(0x64059F5F)
+I (..\FWLIB\inc\n32g430_exti.h)(0x64059F5F)
+I (..\FWLIB\inc\n32g430_flash.h)(0x64059F5F)
+I (..\FWLIB\inc\n32g430_gpio.h)(0x64059F5F)
+I (..\FWLIB\inc\n32g430_i2c.h)(0x64059F5F)
+I (..\FWLIB\inc\n32g430_iwdg.h)(0x64059F5F)
+I (..\FWLIB\inc\n32g430_pwr.h)(0x64059F5F)
+I (..\FWLIB\inc\n32g430_rcc.h)(0x64059F5F)
+I (..\FWLIB\inc\n32g430_rtc.h)(0x64059F5F)
+I (..\FWLIB\inc\n32g430_spi.h)(0x64059F5F)
+I (..\FWLIB\inc\n32g430_tim.h)(0x64059F5F)
+I (..\FWLIB\inc\n32g430_usart.h)(0x64059F5F)
+I (..\FWLIB\inc\n32g430_wwdg.h)(0x64059F5F)
+I (..\FWLIB\inc\misc.h)(0x64059F5F)
+F (..\FWLIB\src\n32g430_can.c)(0x64059F5F)(-c --cpu Cortex-M4.fp.sp -g -O0 --apcs=interwork --split_sections -I ..\FWLIB\inc -I ..\CMSIS -I ..\USER\inc-ID:\Keil_V5\Nationstech\N32G430_DFP\1.0.0\firmware\CMSIS\device-ID:\Keil_V5\ARM\CMSIS\Include-D__UVISION_VERSION="534" -DN32G430 -DUSE_STDPERIPH_DRIVER -DN32F8SX -DUSE_STDPERIPH_DRIVER-o .\objects\n32g430_can.o --omf_browse .\objects\n32g430_can.crf --depend .\objects\n32g430_can.d)
+I (..\FWLIB\inc\n32g430_can.h)(0x64059F5F)
+I (..\FWLIB\inc\n32g430.h)(0x64059F5F)
+I (..\CMSIS\core_cm4.h)(0x64059F5F)
+I (D:\Keil_V5\ARM\ARMCC\include\stdint.h)(0x6025237E)
+I (..\CMSIS\cmsis_version.h)(0x64059F5F)
+I (..\CMSIS\cmsis_compiler.h)(0x64059F5F)
+I (..\CMSIS\cmsis_armcc.h)(0x64059F5F)
+I (..\CMSIS\mpu_armv7.h)(0x64059F5F)
+I (..\FWLIB\inc\system_n32g430.h)(0x64059F5F)
+I (D:\Keil_V5\ARM\ARMCC\include\stdbool.h)(0x6025237C)
+I (..\FWLIB\inc\n32g430_conf.h)(0x64059F5F)
+I (..\FWLIB\inc\n32g430_adc.h)(0x64059F5F)
+I (..\FWLIB\inc\n32g430_comp.h)(0x64059F5F)
+I (..\FWLIB\inc\n32g430_crc.h)(0x64059F5F)
+I (..\FWLIB\inc\n32g430_dbg.h)(0x64059F5F)
+I (..\FWLIB\inc\n32g430_dma.h)(0x64059F5F)
+I (..\FWLIB\inc\n32g430_exti.h)(0x64059F5F)
+I (..\FWLIB\inc\n32g430_flash.h)(0x64059F5F)
+I (..\FWLIB\inc\n32g430_gpio.h)(0x64059F5F)
+I (..\FWLIB\inc\n32g430_i2c.h)(0x64059F5F)
+I (..\FWLIB\inc\n32g430_iwdg.h)(0x64059F5F)
+I (..\FWLIB\inc\n32g430_pwr.h)(0x64059F5F)
+I (..\FWLIB\inc\n32g430_rcc.h)(0x64059F5F)
+I (..\FWLIB\inc\n32g430_rtc.h)(0x64059F5F)
+I (..\FWLIB\inc\n32g430_spi.h)(0x64059F5F)
+I (..\FWLIB\inc\n32g430_tim.h)(0x64059F5F)
+I (..\FWLIB\inc\n32g430_usart.h)(0x64059F5F)
+I (..\FWLIB\inc\n32g430_wwdg.h)(0x64059F5F)
+I (..\FWLIB\inc\n32g430_beeper.h)(0x64059F5F)
+I (..\FWLIB\inc\misc.h)(0x64059F5F)
+F (..\FWLIB\src\n32g430_comp.c)(0x64059F5F)(-c --cpu Cortex-M4.fp.sp -g -O0 --apcs=interwork --split_sections -I ..\FWLIB\inc -I ..\CMSIS -I ..\USER\inc-ID:\Keil_V5\Nationstech\N32G430_DFP\1.0.0\firmware\CMSIS\device-ID:\Keil_V5\ARM\CMSIS\Include-D__UVISION_VERSION="534" -DN32G430 -DUSE_STDPERIPH_DRIVER -DN32F8SX -DUSE_STDPERIPH_DRIVER-o .\objects\n32g430_comp.o --omf_browse .\objects\n32g430_comp.crf --depend .\objects\n32g430_comp.d)
+I (..\FWLIB\inc\n32g430_comp.h)(0x64059F5F)
+I (..\FWLIB\inc\n32g430.h)(0x64059F5F)
+I (..\CMSIS\core_cm4.h)(0x64059F5F)
+I (D:\Keil_V5\ARM\ARMCC\include\stdint.h)(0x6025237E)
+I (..\CMSIS\cmsis_version.h)(0x64059F5F)
+I (..\CMSIS\cmsis_compiler.h)(0x64059F5F)
+I (..\CMSIS\cmsis_armcc.h)(0x64059F5F)
+I (..\CMSIS\mpu_armv7.h)(0x64059F5F)
+I (..\FWLIB\inc\system_n32g430.h)(0x64059F5F)
+I (D:\Keil_V5\ARM\ARMCC\include\stdbool.h)(0x6025237C)
+I (..\FWLIB\inc\n32g430_conf.h)(0x64059F5F)
+I (..\FWLIB\inc\n32g430_adc.h)(0x64059F5F)
+I (..\FWLIB\inc\n32g430_can.h)(0x64059F5F)
+I (..\FWLIB\inc\n32g430_crc.h)(0x64059F5F)
+I (..\FWLIB\inc\n32g430_dbg.h)(0x64059F5F)
+I (..\FWLIB\inc\n32g430_dma.h)(0x64059F5F)
+I (..\FWLIB\inc\n32g430_exti.h)(0x64059F5F)
+I (..\FWLIB\inc\n32g430_flash.h)(0x64059F5F)
+I (..\FWLIB\inc\n32g430_gpio.h)(0x64059F5F)
+I (..\FWLIB\inc\n32g430_i2c.h)(0x64059F5F)
+I (..\FWLIB\inc\n32g430_iwdg.h)(0x64059F5F)
+I (..\FWLIB\inc\n32g430_pwr.h)(0x64059F5F)
+I (..\FWLIB\inc\n32g430_rcc.h)(0x64059F5F)
+I (..\FWLIB\inc\n32g430_rtc.h)(0x64059F5F)
+I (..\FWLIB\inc\n32g430_spi.h)(0x64059F5F)
+I (..\FWLIB\inc\n32g430_tim.h)(0x64059F5F)
+I (..\FWLIB\inc\n32g430_usart.h)(0x64059F5F)
+I (..\FWLIB\inc\n32g430_wwdg.h)(0x64059F5F)
+I (..\FWLIB\inc\n32g430_beeper.h)(0x64059F5F)
+I (..\FWLIB\inc\misc.h)(0x64059F5F)
+F (..\FWLIB\src\n32g430_crc.c)(0x64059F5F)(-c --cpu Cortex-M4.fp.sp -g -O0 --apcs=interwork --split_sections -I ..\FWLIB\inc -I ..\CMSIS -I ..\USER\inc-ID:\Keil_V5\Nationstech\N32G430_DFP\1.0.0\firmware\CMSIS\device-ID:\Keil_V5\ARM\CMSIS\Include-D__UVISION_VERSION="534" -DN32G430 -DUSE_STDPERIPH_DRIVER -DN32F8SX -DUSE_STDPERIPH_DRIVER-o .\objects\n32g430_crc.o --omf_browse .\objects\n32g430_crc.crf --depend .\objects\n32g430_crc.d)
+I (..\FWLIB\inc\n32g430_crc.h)(0x64059F5F)
+I (..\FWLIB\inc\n32g430.h)(0x64059F5F)
+I (..\CMSIS\core_cm4.h)(0x64059F5F)
+I (D:\Keil_V5\ARM\ARMCC\include\stdint.h)(0x6025237E)
+I (..\CMSIS\cmsis_version.h)(0x64059F5F)
+I (..\CMSIS\cmsis_compiler.h)(0x64059F5F)
+I (..\CMSIS\cmsis_armcc.h)(0x64059F5F)
+I (..\CMSIS\mpu_armv7.h)(0x64059F5F)
+I (..\FWLIB\inc\system_n32g430.h)(0x64059F5F)
+I (D:\Keil_V5\ARM\ARMCC\include\stdbool.h)(0x6025237C)
+I (..\FWLIB\inc\n32g430_conf.h)(0x64059F5F)
+I (..\FWLIB\inc\n32g430_adc.h)(0x64059F5F)
+I (..\FWLIB\inc\n32g430_can.h)(0x64059F5F)
+I (..\FWLIB\inc\n32g430_comp.h)(0x64059F5F)
+I (..\FWLIB\inc\n32g430_dbg.h)(0x64059F5F)
+I (..\FWLIB\inc\n32g430_dma.h)(0x64059F5F)
+I (..\FWLIB\inc\n32g430_exti.h)(0x64059F5F)
+I (..\FWLIB\inc\n32g430_flash.h)(0x64059F5F)
+I (..\FWLIB\inc\n32g430_gpio.h)(0x64059F5F)
+I (..\FWLIB\inc\n32g430_i2c.h)(0x64059F5F)
+I (..\FWLIB\inc\n32g430_iwdg.h)(0x64059F5F)
+I (..\FWLIB\inc\n32g430_pwr.h)(0x64059F5F)
+I (..\FWLIB\inc\n32g430_rcc.h)(0x64059F5F)
+I (..\FWLIB\inc\n32g430_rtc.h)(0x64059F5F)
+I (..\FWLIB\inc\n32g430_spi.h)(0x64059F5F)
+I (..\FWLIB\inc\n32g430_tim.h)(0x64059F5F)
+I (..\FWLIB\inc\n32g430_usart.h)(0x64059F5F)
+I (..\FWLIB\inc\n32g430_wwdg.h)(0x64059F5F)
+I (..\FWLIB\inc\n32g430_beeper.h)(0x64059F5F)
+I (..\FWLIB\inc\misc.h)(0x64059F5F)
+F (..\FWLIB\src\n32g430_dbg.c)(0x64059F5F)(-c --cpu Cortex-M4.fp.sp -g -O0 --apcs=interwork --split_sections -I ..\FWLIB\inc -I ..\CMSIS -I ..\USER\inc-ID:\Keil_V5\Nationstech\N32G430_DFP\1.0.0\firmware\CMSIS\device-ID:\Keil_V5\ARM\CMSIS\Include-D__UVISION_VERSION="534" -DN32G430 -DUSE_STDPERIPH_DRIVER -DN32F8SX -DUSE_STDPERIPH_DRIVER-o .\objects\n32g430_dbg.o --omf_browse .\objects\n32g430_dbg.crf --depend .\objects\n32g430_dbg.d)
+I (..\FWLIB\inc\n32g430.h)(0x64059F5F)
+I (..\CMSIS\core_cm4.h)(0x64059F5F)
+I (D:\Keil_V5\ARM\ARMCC\include\stdint.h)(0x6025237E)
+I (..\CMSIS\cmsis_version.h)(0x64059F5F)
+I (..\CMSIS\cmsis_compiler.h)(0x64059F5F)
+I (..\CMSIS\cmsis_armcc.h)(0x64059F5F)
+I (..\CMSIS\mpu_armv7.h)(0x64059F5F)
+I (..\FWLIB\inc\system_n32g430.h)(0x64059F5F)
+I (D:\Keil_V5\ARM\ARMCC\include\stdbool.h)(0x6025237C)
+I (..\FWLIB\inc\n32g430_conf.h)(0x64059F5F)
+I (..\FWLIB\inc\n32g430_adc.h)(0x64059F5F)
+I (..\FWLIB\inc\n32g430_can.h)(0x64059F5F)
+I (..\FWLIB\inc\n32g430_comp.h)(0x64059F5F)
+I (..\FWLIB\inc\n32g430_crc.h)(0x64059F5F)
+I (..\FWLIB\inc\n32g430_dbg.h)(0x64059F5F)
+I (..\FWLIB\inc\n32g430_dma.h)(0x64059F5F)
+I (..\FWLIB\inc\n32g430_exti.h)(0x64059F5F)
+I (..\FWLIB\inc\n32g430_flash.h)(0x64059F5F)
+I (..\FWLIB\inc\n32g430_gpio.h)(0x64059F5F)
+I (..\FWLIB\inc\n32g430_i2c.h)(0x64059F5F)
+I (..\FWLIB\inc\n32g430_iwdg.h)(0x64059F5F)
+I (..\FWLIB\inc\n32g430_pwr.h)(0x64059F5F)
+I (..\FWLIB\inc\n32g430_rcc.h)(0x64059F5F)
+I (..\FWLIB\inc\n32g430_rtc.h)(0x64059F5F)
+I (..\FWLIB\inc\n32g430_spi.h)(0x64059F5F)
+I (..\FWLIB\inc\n32g430_tim.h)(0x64059F5F)
+I (..\FWLIB\inc\n32g430_usart.h)(0x64059F5F)
+I (..\FWLIB\inc\n32g430_wwdg.h)(0x64059F5F)
+I (..\FWLIB\inc\n32g430_beeper.h)(0x64059F5F)
+I (..\FWLIB\inc\misc.h)(0x64059F5F)
+F (..\FWLIB\src\n32g430_dma.c)(0x64059F5F)(-c --cpu Cortex-M4.fp.sp -g -O0 --apcs=interwork --split_sections -I ..\FWLIB\inc -I ..\CMSIS -I ..\USER\inc-ID:\Keil_V5\Nationstech\N32G430_DFP\1.0.0\firmware\CMSIS\device-ID:\Keil_V5\ARM\CMSIS\Include-D__UVISION_VERSION="534" -DN32G430 -DUSE_STDPERIPH_DRIVER -DN32F8SX -DUSE_STDPERIPH_DRIVER-o .\objects\n32g430_dma.o --omf_browse .\objects\n32g430_dma.crf --depend .\objects\n32g430_dma.d)
+I (..\FWLIB\inc\n32g430_dma.h)(0x64059F5F)
+I (..\FWLIB\inc\n32g430.h)(0x64059F5F)
+I (..\CMSIS\core_cm4.h)(0x64059F5F)
+I (D:\Keil_V5\ARM\ARMCC\include\stdint.h)(0x6025237E)
+I (..\CMSIS\cmsis_version.h)(0x64059F5F)
+I (..\CMSIS\cmsis_compiler.h)(0x64059F5F)
+I (..\CMSIS\cmsis_armcc.h)(0x64059F5F)
+I (..\CMSIS\mpu_armv7.h)(0x64059F5F)
+I (..\FWLIB\inc\system_n32g430.h)(0x64059F5F)
+I (D:\Keil_V5\ARM\ARMCC\include\stdbool.h)(0x6025237C)
+I (..\FWLIB\inc\n32g430_conf.h)(0x64059F5F)
+I (..\FWLIB\inc\n32g430_adc.h)(0x64059F5F)
+I (..\FWLIB\inc\n32g430_can.h)(0x64059F5F)
+I (..\FWLIB\inc\n32g430_comp.h)(0x64059F5F)
+I (..\FWLIB\inc\n32g430_crc.h)(0x64059F5F)
+I (..\FWLIB\inc\n32g430_dbg.h)(0x64059F5F)
+I (..\FWLIB\inc\n32g430_exti.h)(0x64059F5F)
+I (..\FWLIB\inc\n32g430_flash.h)(0x64059F5F)
+I (..\FWLIB\inc\n32g430_gpio.h)(0x64059F5F)
+I (..\FWLIB\inc\n32g430_i2c.h)(0x64059F5F)
+I (..\FWLIB\inc\n32g430_iwdg.h)(0x64059F5F)
+I (..\FWLIB\inc\n32g430_pwr.h)(0x64059F5F)
+I (..\FWLIB\inc\n32g430_rcc.h)(0x64059F5F)
+I (..\FWLIB\inc\n32g430_rtc.h)(0x64059F5F)
+I (..\FWLIB\inc\n32g430_spi.h)(0x64059F5F)
+I (..\FWLIB\inc\n32g430_tim.h)(0x64059F5F)
+I (..\FWLIB\inc\n32g430_usart.h)(0x64059F5F)
+I (..\FWLIB\inc\n32g430_wwdg.h)(0x64059F5F)
+I (..\FWLIB\inc\n32g430_beeper.h)(0x64059F5F)
+I (..\FWLIB\inc\misc.h)(0x64059F5F)
+F (..\FWLIB\src\n32g430_exti.c)(0x64059F5F)(-c --cpu Cortex-M4.fp.sp -g -O0 --apcs=interwork --split_sections -I ..\FWLIB\inc -I ..\CMSIS -I ..\USER\inc-ID:\Keil_V5\Nationstech\N32G430_DFP\1.0.0\firmware\CMSIS\device-ID:\Keil_V5\ARM\CMSIS\Include-D__UVISION_VERSION="534" -DN32G430 -DUSE_STDPERIPH_DRIVER -DN32F8SX -DUSE_STDPERIPH_DRIVER-o .\objects\n32g430_exti.o --omf_browse .\objects\n32g430_exti.crf --depend .\objects\n32g430_exti.d)
+I (..\FWLIB\inc\n32g430_exti.h)(0x64059F5F)
+I (..\FWLIB\inc\n32g430.h)(0x64059F5F)
+I (..\CMSIS\core_cm4.h)(0x64059F5F)
+I (D:\Keil_V5\ARM\ARMCC\include\stdint.h)(0x6025237E)
+I (..\CMSIS\cmsis_version.h)(0x64059F5F)
+I (..\CMSIS\cmsis_compiler.h)(0x64059F5F)
+I (..\CMSIS\cmsis_armcc.h)(0x64059F5F)
+I (..\CMSIS\mpu_armv7.h)(0x64059F5F)
+I (..\FWLIB\inc\system_n32g430.h)(0x64059F5F)
+I (D:\Keil_V5\ARM\ARMCC\include\stdbool.h)(0x6025237C)
+I (..\FWLIB\inc\n32g430_conf.h)(0x64059F5F)
+I (..\FWLIB\inc\n32g430_adc.h)(0x64059F5F)
+I (..\FWLIB\inc\n32g430_can.h)(0x64059F5F)
+I (..\FWLIB\inc\n32g430_comp.h)(0x64059F5F)
+I (..\FWLIB\inc\n32g430_crc.h)(0x64059F5F)
+I (..\FWLIB\inc\n32g430_dbg.h)(0x64059F5F)
+I (..\FWLIB\inc\n32g430_dma.h)(0x64059F5F)
+I (..\FWLIB\inc\n32g430_flash.h)(0x64059F5F)
+I (..\FWLIB\inc\n32g430_gpio.h)(0x64059F5F)
+I (..\FWLIB\inc\n32g430_i2c.h)(0x64059F5F)
+I (..\FWLIB\inc\n32g430_iwdg.h)(0x64059F5F)
+I (..\FWLIB\inc\n32g430_pwr.h)(0x64059F5F)
+I (..\FWLIB\inc\n32g430_rcc.h)(0x64059F5F)
+I (..\FWLIB\inc\n32g430_rtc.h)(0x64059F5F)
+I (..\FWLIB\inc\n32g430_spi.h)(0x64059F5F)
+I (..\FWLIB\inc\n32g430_tim.h)(0x64059F5F)
+I (..\FWLIB\inc\n32g430_usart.h)(0x64059F5F)
+I (..\FWLIB\inc\n32g430_wwdg.h)(0x64059F5F)
+I (..\FWLIB\inc\n32g430_beeper.h)(0x64059F5F)
+I (..\FWLIB\inc\misc.h)(0x64059F5F)
+F (..\FWLIB\src\n32g430_flash.c)(0x64059F5F)(-c --cpu Cortex-M4.fp.sp -g -O0 --apcs=interwork --split_sections -I ..\FWLIB\inc -I ..\CMSIS -I ..\USER\inc-ID:\Keil_V5\Nationstech\N32G430_DFP\1.0.0\firmware\CMSIS\device-ID:\Keil_V5\ARM\CMSIS\Include-D__UVISION_VERSION="534" -DN32G430 -DUSE_STDPERIPH_DRIVER -DN32F8SX -DUSE_STDPERIPH_DRIVER-o .\objects\n32g430_flash.o --omf_browse .\objects\n32g430_flash.crf --depend .\objects\n32g430_flash.d)
+I (..\FWLIB\inc\n32g430_flash.h)(0x64059F5F)
+I (..\FWLIB\inc\n32g430.h)(0x64059F5F)
+I (..\CMSIS\core_cm4.h)(0x64059F5F)
+I (D:\Keil_V5\ARM\ARMCC\include\stdint.h)(0x6025237E)
+I (..\CMSIS\cmsis_version.h)(0x64059F5F)
+I (..\CMSIS\cmsis_compiler.h)(0x64059F5F)
+I (..\CMSIS\cmsis_armcc.h)(0x64059F5F)
+I (..\CMSIS\mpu_armv7.h)(0x64059F5F)
+I (..\FWLIB\inc\system_n32g430.h)(0x64059F5F)
+I (D:\Keil_V5\ARM\ARMCC\include\stdbool.h)(0x6025237C)
+I (..\FWLIB\inc\n32g430_conf.h)(0x64059F5F)
+I (..\FWLIB\inc\n32g430_adc.h)(0x64059F5F)
+I (..\FWLIB\inc\n32g430_can.h)(0x64059F5F)
+I (..\FWLIB\inc\n32g430_comp.h)(0x64059F5F)
+I (..\FWLIB\inc\n32g430_crc.h)(0x64059F5F)
+I (..\FWLIB\inc\n32g430_dbg.h)(0x64059F5F)
+I (..\FWLIB\inc\n32g430_dma.h)(0x64059F5F)
+I (..\FWLIB\inc\n32g430_exti.h)(0x64059F5F)
+I (..\FWLIB\inc\n32g430_gpio.h)(0x64059F5F)
+I (..\FWLIB\inc\n32g430_i2c.h)(0x64059F5F)
+I (..\FWLIB\inc\n32g430_iwdg.h)(0x64059F5F)
+I (..\FWLIB\inc\n32g430_pwr.h)(0x64059F5F)
+I (..\FWLIB\inc\n32g430_rcc.h)(0x64059F5F)
+I (..\FWLIB\inc\n32g430_rtc.h)(0x64059F5F)
+I (..\FWLIB\inc\n32g430_spi.h)(0x64059F5F)
+I (..\FWLIB\inc\n32g430_tim.h)(0x64059F5F)
+I (..\FWLIB\inc\n32g430_usart.h)(0x64059F5F)
+I (..\FWLIB\inc\n32g430_wwdg.h)(0x64059F5F)
+I (..\FWLIB\inc\n32g430_beeper.h)(0x64059F5F)
+I (..\FWLIB\inc\misc.h)(0x64059F5F)
+F (..\FWLIB\src\n32g430_gpio.c)(0x64059F5F)(-c --cpu Cortex-M4.fp.sp -g -O0 --apcs=interwork --split_sections -I ..\FWLIB\inc -I ..\CMSIS -I ..\USER\inc-ID:\Keil_V5\Nationstech\N32G430_DFP\1.0.0\firmware\CMSIS\device-ID:\Keil_V5\ARM\CMSIS\Include-D__UVISION_VERSION="534" -DN32G430 -DUSE_STDPERIPH_DRIVER -DN32F8SX -DUSE_STDPERIPH_DRIVER-o .\objects\n32g430_gpio.o --omf_browse .\objects\n32g430_gpio.crf --depend .\objects\n32g430_gpio.d)
+I (..\FWLIB\inc\n32g430_gpio.h)(0x64059F5F)
+I (..\FWLIB\inc\n32g430.h)(0x64059F5F)
+I (..\CMSIS\core_cm4.h)(0x64059F5F)
+I (D:\Keil_V5\ARM\ARMCC\include\stdint.h)(0x6025237E)
+I (..\CMSIS\cmsis_version.h)(0x64059F5F)
+I (..\CMSIS\cmsis_compiler.h)(0x64059F5F)
+I (..\CMSIS\cmsis_armcc.h)(0x64059F5F)
+I (..\CMSIS\mpu_armv7.h)(0x64059F5F)
+I (..\FWLIB\inc\system_n32g430.h)(0x64059F5F)
+I (D:\Keil_V5\ARM\ARMCC\include\stdbool.h)(0x6025237C)
+I (..\FWLIB\inc\n32g430_conf.h)(0x64059F5F)
+I (..\FWLIB\inc\n32g430_adc.h)(0x64059F5F)
+I (..\FWLIB\inc\n32g430_can.h)(0x64059F5F)
+I (..\FWLIB\inc\n32g430_comp.h)(0x64059F5F)
+I (..\FWLIB\inc\n32g430_crc.h)(0x64059F5F)
+I (..\FWLIB\inc\n32g430_dbg.h)(0x64059F5F)
+I (..\FWLIB\inc\n32g430_dma.h)(0x64059F5F)
+I (..\FWLIB\inc\n32g430_exti.h)(0x64059F5F)
+I (..\FWLIB\inc\n32g430_flash.h)(0x64059F5F)
+I (..\FWLIB\inc\n32g430_i2c.h)(0x64059F5F)
+I (..\FWLIB\inc\n32g430_iwdg.h)(0x64059F5F)
+I (..\FWLIB\inc\n32g430_pwr.h)(0x64059F5F)
+I (..\FWLIB\inc\n32g430_rcc.h)(0x64059F5F)
+I (..\FWLIB\inc\n32g430_rtc.h)(0x64059F5F)
+I (..\FWLIB\inc\n32g430_spi.h)(0x64059F5F)
+I (..\FWLIB\inc\n32g430_tim.h)(0x64059F5F)
+I (..\FWLIB\inc\n32g430_usart.h)(0x64059F5F)
+I (..\FWLIB\inc\n32g430_wwdg.h)(0x64059F5F)
+I (..\FWLIB\inc\n32g430_beeper.h)(0x64059F5F)
+I (..\FWLIB\inc\misc.h)(0x64059F5F)
+F (..\FWLIB\src\n32g430_i2c.c)(0x64059F5F)(-c --cpu Cortex-M4.fp.sp -g -O0 --apcs=interwork --split_sections -I ..\FWLIB\inc -I ..\CMSIS -I ..\USER\inc-ID:\Keil_V5\Nationstech\N32G430_DFP\1.0.0\firmware\CMSIS\device-ID:\Keil_V5\ARM\CMSIS\Include-D__UVISION_VERSION="534" -DN32G430 -DUSE_STDPERIPH_DRIVER -DN32F8SX -DUSE_STDPERIPH_DRIVER-o .\objects\n32g430_i2c.o --omf_browse .\objects\n32g430_i2c.crf --depend .\objects\n32g430_i2c.d)
+I (..\FWLIB\inc\n32g430_i2c.h)(0x64059F5F)
+I (..\FWLIB\inc\n32g430.h)(0x64059F5F)
+I (..\CMSIS\core_cm4.h)(0x64059F5F)
+I (D:\Keil_V5\ARM\ARMCC\include\stdint.h)(0x6025237E)
+I (..\CMSIS\cmsis_version.h)(0x64059F5F)
+I (..\CMSIS\cmsis_compiler.h)(0x64059F5F)
+I (..\CMSIS\cmsis_armcc.h)(0x64059F5F)
+I (..\CMSIS\mpu_armv7.h)(0x64059F5F)
+I (..\FWLIB\inc\system_n32g430.h)(0x64059F5F)
+I (D:\Keil_V5\ARM\ARMCC\include\stdbool.h)(0x6025237C)
+I (..\FWLIB\inc\n32g430_conf.h)(0x64059F5F)
+I (..\FWLIB\inc\n32g430_adc.h)(0x64059F5F)
+I (..\FWLIB\inc\n32g430_can.h)(0x64059F5F)
+I (..\FWLIB\inc\n32g430_comp.h)(0x64059F5F)
+I (..\FWLIB\inc\n32g430_crc.h)(0x64059F5F)
+I (..\FWLIB\inc\n32g430_dbg.h)(0x64059F5F)
+I (..\FWLIB\inc\n32g430_dma.h)(0x64059F5F)
+I (..\FWLIB\inc\n32g430_exti.h)(0x64059F5F)
+I (..\FWLIB\inc\n32g430_flash.h)(0x64059F5F)
+I (..\FWLIB\inc\n32g430_gpio.h)(0x64059F5F)
+I (..\FWLIB\inc\n32g430_iwdg.h)(0x64059F5F)
+I (..\FWLIB\inc\n32g430_pwr.h)(0x64059F5F)
+I (..\FWLIB\inc\n32g430_rcc.h)(0x64059F5F)
+I (..\FWLIB\inc\n32g430_rtc.h)(0x64059F5F)
+I (..\FWLIB\inc\n32g430_spi.h)(0x64059F5F)
+I (..\FWLIB\inc\n32g430_tim.h)(0x64059F5F)
+I (..\FWLIB\inc\n32g430_usart.h)(0x64059F5F)
+I (..\FWLIB\inc\n32g430_wwdg.h)(0x64059F5F)
+I (..\FWLIB\inc\n32g430_beeper.h)(0x64059F5F)
+I (..\FWLIB\inc\misc.h)(0x64059F5F)
+F (..\FWLIB\src\n32g430_iwdg.c)(0x64059F5F)(-c --cpu Cortex-M4.fp.sp -g -O0 --apcs=interwork --split_sections -I ..\FWLIB\inc -I ..\CMSIS -I ..\USER\inc-ID:\Keil_V5\Nationstech\N32G430_DFP\1.0.0\firmware\CMSIS\device-ID:\Keil_V5\ARM\CMSIS\Include-D__UVISION_VERSION="534" -DN32G430 -DUSE_STDPERIPH_DRIVER -DN32F8SX -DUSE_STDPERIPH_DRIVER-o .\objects\n32g430_iwdg.o --omf_browse .\objects\n32g430_iwdg.crf --depend .\objects\n32g430_iwdg.d)
+I (..\FWLIB\inc\n32g430_iwdg.h)(0x64059F5F)
+I (..\FWLIB\inc\n32g430.h)(0x64059F5F)
+I (..\CMSIS\core_cm4.h)(0x64059F5F)
+I (D:\Keil_V5\ARM\ARMCC\include\stdint.h)(0x6025237E)
+I (..\CMSIS\cmsis_version.h)(0x64059F5F)
+I (..\CMSIS\cmsis_compiler.h)(0x64059F5F)
+I (..\CMSIS\cmsis_armcc.h)(0x64059F5F)
+I (..\CMSIS\mpu_armv7.h)(0x64059F5F)
+I (..\FWLIB\inc\system_n32g430.h)(0x64059F5F)
+I (D:\Keil_V5\ARM\ARMCC\include\stdbool.h)(0x6025237C)
+I (..\FWLIB\inc\n32g430_conf.h)(0x64059F5F)
+I (..\FWLIB\inc\n32g430_adc.h)(0x64059F5F)
+I (..\FWLIB\inc\n32g430_can.h)(0x64059F5F)
+I (..\FWLIB\inc\n32g430_comp.h)(0x64059F5F)
+I (..\FWLIB\inc\n32g430_crc.h)(0x64059F5F)
+I (..\FWLIB\inc\n32g430_dbg.h)(0x64059F5F)
+I (..\FWLIB\inc\n32g430_dma.h)(0x64059F5F)
+I (..\FWLIB\inc\n32g430_exti.h)(0x64059F5F)
+I (..\FWLIB\inc\n32g430_flash.h)(0x64059F5F)
+I (..\FWLIB\inc\n32g430_gpio.h)(0x64059F5F)
+I (..\FWLIB\inc\n32g430_i2c.h)(0x64059F5F)
+I (..\FWLIB\inc\n32g430_pwr.h)(0x64059F5F)
+I (..\FWLIB\inc\n32g430_rcc.h)(0x64059F5F)
+I (..\FWLIB\inc\n32g430_rtc.h)(0x64059F5F)
+I (..\FWLIB\inc\n32g430_spi.h)(0x64059F5F)
+I (..\FWLIB\inc\n32g430_tim.h)(0x64059F5F)
+I (..\FWLIB\inc\n32g430_usart.h)(0x64059F5F)
+I (..\FWLIB\inc\n32g430_wwdg.h)(0x64059F5F)
+I (..\FWLIB\inc\n32g430_beeper.h)(0x64059F5F)
+I (..\FWLIB\inc\misc.h)(0x64059F5F)
+F (..\FWLIB\src\n32g430_lptim.c)(0x64059F5F)(-c --cpu Cortex-M4.fp.sp -g -O0 --apcs=interwork --split_sections -I ..\FWLIB\inc -I ..\CMSIS -I ..\USER\inc-ID:\Keil_V5\Nationstech\N32G430_DFP\1.0.0\firmware\CMSIS\device-ID:\Keil_V5\ARM\CMSIS\Include-D__UVISION_VERSION="534" -DN32G430 -DUSE_STDPERIPH_DRIVER -DN32F8SX -DUSE_STDPERIPH_DRIVER-o .\objects\n32g430_lptim.o --omf_browse .\objects\n32g430_lptim.crf --depend .\objects\n32g430_lptim.d)
+I (..\FWLIB\inc\n32g430_lptim.h)(0x64059F5F)
+I (..\FWLIB\inc\n32g430.h)(0x64059F5F)
+I (..\CMSIS\core_cm4.h)(0x64059F5F)
+I (D:\Keil_V5\ARM\ARMCC\include\stdint.h)(0x6025237E)
+I (..\CMSIS\cmsis_version.h)(0x64059F5F)
+I (..\CMSIS\cmsis_compiler.h)(0x64059F5F)
+I (..\CMSIS\cmsis_armcc.h)(0x64059F5F)
+I (..\CMSIS\mpu_armv7.h)(0x64059F5F)
+I (..\FWLIB\inc\system_n32g430.h)(0x64059F5F)
+I (D:\Keil_V5\ARM\ARMCC\include\stdbool.h)(0x6025237C)
+I (..\FWLIB\inc\n32g430_conf.h)(0x64059F5F)
+I (..\FWLIB\inc\n32g430_adc.h)(0x64059F5F)
+I (..\FWLIB\inc\n32g430_can.h)(0x64059F5F)
+I (..\FWLIB\inc\n32g430_comp.h)(0x64059F5F)
+I (..\FWLIB\inc\n32g430_crc.h)(0x64059F5F)
+I (..\FWLIB\inc\n32g430_dbg.h)(0x64059F5F)
+I (..\FWLIB\inc\n32g430_dma.h)(0x64059F5F)
+I (..\FWLIB\inc\n32g430_exti.h)(0x64059F5F)
+I (..\FWLIB\inc\n32g430_flash.h)(0x64059F5F)
+I (..\FWLIB\inc\n32g430_gpio.h)(0x64059F5F)
+I (..\FWLIB\inc\n32g430_i2c.h)(0x64059F5F)
+I (..\FWLIB\inc\n32g430_iwdg.h)(0x64059F5F)
+I (..\FWLIB\inc\n32g430_pwr.h)(0x64059F5F)
+I (..\FWLIB\inc\n32g430_rcc.h)(0x64059F5F)
+I (..\FWLIB\inc\n32g430_rtc.h)(0x64059F5F)
+I (..\FWLIB\inc\n32g430_spi.h)(0x64059F5F)
+I (..\FWLIB\inc\n32g430_tim.h)(0x64059F5F)
+I (..\FWLIB\inc\n32g430_usart.h)(0x64059F5F)
+I (..\FWLIB\inc\n32g430_wwdg.h)(0x64059F5F)
+I (..\FWLIB\inc\n32g430_beeper.h)(0x64059F5F)
+I (..\FWLIB\inc\misc.h)(0x64059F5F)
+F (..\FWLIB\src\n32g430_pwr.c)(0x64F95DE9)(-c --cpu Cortex-M4.fp.sp -g -O0 --apcs=interwork --split_sections -I ..\FWLIB\inc -I ..\CMSIS -I ..\USER\inc-ID:\Keil_V5\Nationstech\N32G430_DFP\1.0.0\firmware\CMSIS\device-ID:\Keil_V5\ARM\CMSIS\Include-D__UVISION_VERSION="534" -DN32G430 -DUSE_STDPERIPH_DRIVER -DN32F8SX -DUSE_STDPERIPH_DRIVER-o .\objects\n32g430_pwr.o --omf_browse .\objects\n32g430_pwr.crf --depend .\objects\n32g430_pwr.d)
+I (..\FWLIB\inc\n32g430_pwr.h)(0x64059F5F)
+I (..\FWLIB\inc\n32g430.h)(0x64059F5F)
+I (..\CMSIS\core_cm4.h)(0x64059F5F)
+I (D:\Keil_V5\ARM\ARMCC\include\stdint.h)(0x6025237E)
+I (..\CMSIS\cmsis_version.h)(0x64059F5F)
+I (..\CMSIS\cmsis_compiler.h)(0x64059F5F)
+I (..\CMSIS\cmsis_armcc.h)(0x64059F5F)
+I (..\CMSIS\mpu_armv7.h)(0x64059F5F)
+I (..\FWLIB\inc\system_n32g430.h)(0x64059F5F)
+I (D:\Keil_V5\ARM\ARMCC\include\stdbool.h)(0x6025237C)
+I (..\FWLIB\inc\n32g430_conf.h)(0x64059F5F)
+I (..\FWLIB\inc\n32g430_adc.h)(0x64059F5F)
+I (..\FWLIB\inc\n32g430_can.h)(0x64059F5F)
+I (..\FWLIB\inc\n32g430_comp.h)(0x64059F5F)
+I (..\FWLIB\inc\n32g430_crc.h)(0x64059F5F)
+I (..\FWLIB\inc\n32g430_dbg.h)(0x64059F5F)
+I (..\FWLIB\inc\n32g430_dma.h)(0x64059F5F)
+I (..\FWLIB\inc\n32g430_exti.h)(0x64059F5F)
+I (..\FWLIB\inc\n32g430_flash.h)(0x64059F5F)
+I (..\FWLIB\inc\n32g430_gpio.h)(0x64059F5F)
+I (..\FWLIB\inc\n32g430_i2c.h)(0x64059F5F)
+I (..\FWLIB\inc\n32g430_iwdg.h)(0x64059F5F)
+I (..\FWLIB\inc\n32g430_rcc.h)(0x64059F5F)
+I (..\FWLIB\inc\n32g430_rtc.h)(0x64059F5F)
+I (..\FWLIB\inc\n32g430_spi.h)(0x64059F5F)
+I (..\FWLIB\inc\n32g430_tim.h)(0x64059F5F)
+I (..\FWLIB\inc\n32g430_usart.h)(0x64059F5F)
+I (..\FWLIB\inc\n32g430_wwdg.h)(0x64059F5F)
+I (..\FWLIB\inc\n32g430_beeper.h)(0x64059F5F)
+I (..\FWLIB\inc\misc.h)(0x64059F5F)
+F (..\FWLIB\src\n32g430_rcc.c)(0x64059F5F)(-c --cpu Cortex-M4.fp.sp -g -O0 --apcs=interwork --split_sections -I ..\FWLIB\inc -I ..\CMSIS -I ..\USER\inc-ID:\Keil_V5\Nationstech\N32G430_DFP\1.0.0\firmware\CMSIS\device-ID:\Keil_V5\ARM\CMSIS\Include-D__UVISION_VERSION="534" -DN32G430 -DUSE_STDPERIPH_DRIVER -DN32F8SX -DUSE_STDPERIPH_DRIVER-o .\objects\n32g430_rcc.o --omf_browse .\objects\n32g430_rcc.crf --depend .\objects\n32g430_rcc.d)
+I (..\FWLIB\inc\n32g430_rcc.h)(0x64059F5F)
+I (..\FWLIB\inc\n32g430.h)(0x64059F5F)
+I (..\CMSIS\core_cm4.h)(0x64059F5F)
+I (D:\Keil_V5\ARM\ARMCC\include\stdint.h)(0x6025237E)
+I (..\CMSIS\cmsis_version.h)(0x64059F5F)
+I (..\CMSIS\cmsis_compiler.h)(0x64059F5F)
+I (..\CMSIS\cmsis_armcc.h)(0x64059F5F)
+I (..\CMSIS\mpu_armv7.h)(0x64059F5F)
+I (..\FWLIB\inc\system_n32g430.h)(0x64059F5F)
+I (D:\Keil_V5\ARM\ARMCC\include\stdbool.h)(0x6025237C)
+I (..\FWLIB\inc\n32g430_conf.h)(0x64059F5F)
+I (..\FWLIB\inc\n32g430_adc.h)(0x64059F5F)
+I (..\FWLIB\inc\n32g430_can.h)(0x64059F5F)
+I (..\FWLIB\inc\n32g430_comp.h)(0x64059F5F)
+I (..\FWLIB\inc\n32g430_crc.h)(0x64059F5F)
+I (..\FWLIB\inc\n32g430_dbg.h)(0x64059F5F)
+I (..\FWLIB\inc\n32g430_dma.h)(0x64059F5F)
+I (..\FWLIB\inc\n32g430_exti.h)(0x64059F5F)
+I (..\FWLIB\inc\n32g430_flash.h)(0x64059F5F)
+I (..\FWLIB\inc\n32g430_gpio.h)(0x64059F5F)
+I (..\FWLIB\inc\n32g430_i2c.h)(0x64059F5F)
+I (..\FWLIB\inc\n32g430_iwdg.h)(0x64059F5F)
+I (..\FWLIB\inc\n32g430_pwr.h)(0x64059F5F)
+I (..\FWLIB\inc\n32g430_rtc.h)(0x64059F5F)
+I (..\FWLIB\inc\n32g430_spi.h)(0x64059F5F)
+I (..\FWLIB\inc\n32g430_tim.h)(0x64059F5F)
+I (..\FWLIB\inc\n32g430_usart.h)(0x64059F5F)
+I (..\FWLIB\inc\n32g430_wwdg.h)(0x64059F5F)
+I (..\FWLIB\inc\n32g430_beeper.h)(0x64059F5F)
+I (..\FWLIB\inc\misc.h)(0x64059F5F)
+F (..\FWLIB\src\n32g430_rtc.c)(0x64059F5F)(-c --cpu Cortex-M4.fp.sp -g -O0 --apcs=interwork --split_sections -I ..\FWLIB\inc -I ..\CMSIS -I ..\USER\inc-ID:\Keil_V5\Nationstech\N32G430_DFP\1.0.0\firmware\CMSIS\device-ID:\Keil_V5\ARM\CMSIS\Include-D__UVISION_VERSION="534" -DN32G430 -DUSE_STDPERIPH_DRIVER -DN32F8SX -DUSE_STDPERIPH_DRIVER-o .\objects\n32g430_rtc.o --omf_browse .\objects\n32g430_rtc.crf --depend .\objects\n32g430_rtc.d)
+I (..\FWLIB\inc\n32g430_rtc.h)(0x64059F5F)
+I (..\FWLIB\inc\n32g430.h)(0x64059F5F)
+I (..\CMSIS\core_cm4.h)(0x64059F5F)
+I (D:\Keil_V5\ARM\ARMCC\include\stdint.h)(0x6025237E)
+I (..\CMSIS\cmsis_version.h)(0x64059F5F)
+I (..\CMSIS\cmsis_compiler.h)(0x64059F5F)
+I (..\CMSIS\cmsis_armcc.h)(0x64059F5F)
+I (..\CMSIS\mpu_armv7.h)(0x64059F5F)
+I (..\FWLIB\inc\system_n32g430.h)(0x64059F5F)
+I (D:\Keil_V5\ARM\ARMCC\include\stdbool.h)(0x6025237C)
+I (..\FWLIB\inc\n32g430_conf.h)(0x64059F5F)
+I (..\FWLIB\inc\n32g430_adc.h)(0x64059F5F)
+I (..\FWLIB\inc\n32g430_can.h)(0x64059F5F)
+I (..\FWLIB\inc\n32g430_comp.h)(0x64059F5F)
+I (..\FWLIB\inc\n32g430_crc.h)(0x64059F5F)
+I (..\FWLIB\inc\n32g430_dbg.h)(0x64059F5F)
+I (..\FWLIB\inc\n32g430_dma.h)(0x64059F5F)
+I (..\FWLIB\inc\n32g430_exti.h)(0x64059F5F)
+I (..\FWLIB\inc\n32g430_flash.h)(0x64059F5F)
+I (..\FWLIB\inc\n32g430_gpio.h)(0x64059F5F)
+I (..\FWLIB\inc\n32g430_i2c.h)(0x64059F5F)
+I (..\FWLIB\inc\n32g430_iwdg.h)(0x64059F5F)
+I (..\FWLIB\inc\n32g430_pwr.h)(0x64059F5F)
+I (..\FWLIB\inc\n32g430_rcc.h)(0x64059F5F)
+I (..\FWLIB\inc\n32g430_spi.h)(0x64059F5F)
+I (..\FWLIB\inc\n32g430_tim.h)(0x64059F5F)
+I (..\FWLIB\inc\n32g430_usart.h)(0x64059F5F)
+I (..\FWLIB\inc\n32g430_wwdg.h)(0x64059F5F)
+I (..\FWLIB\inc\n32g430_beeper.h)(0x64059F5F)
+I (..\FWLIB\inc\misc.h)(0x64059F5F)
+I (D:\Keil_V5\ARM\ARMCC\include\stdio.h)(0x60252374)
+F (..\FWLIB\src\n32g430_spi.c)(0x64059F5F)(-c --cpu Cortex-M4.fp.sp -g -O0 --apcs=interwork --split_sections -I ..\FWLIB\inc -I ..\CMSIS -I ..\USER\inc-ID:\Keil_V5\Nationstech\N32G430_DFP\1.0.0\firmware\CMSIS\device-ID:\Keil_V5\ARM\CMSIS\Include-D__UVISION_VERSION="534" -DN32G430 -DUSE_STDPERIPH_DRIVER -DN32F8SX -DUSE_STDPERIPH_DRIVER-o .\objects\n32g430_spi.o --omf_browse .\objects\n32g430_spi.crf --depend .\objects\n32g430_spi.d)
+I (..\FWLIB\inc\n32g430_spi.h)(0x64059F5F)
+I (..\FWLIB\inc\n32g430.h)(0x64059F5F)
+I (..\CMSIS\core_cm4.h)(0x64059F5F)
+I (D:\Keil_V5\ARM\ARMCC\include\stdint.h)(0x6025237E)
+I (..\CMSIS\cmsis_version.h)(0x64059F5F)
+I (..\CMSIS\cmsis_compiler.h)(0x64059F5F)
+I (..\CMSIS\cmsis_armcc.h)(0x64059F5F)
+I (..\CMSIS\mpu_armv7.h)(0x64059F5F)
+I (..\FWLIB\inc\system_n32g430.h)(0x64059F5F)
+I (D:\Keil_V5\ARM\ARMCC\include\stdbool.h)(0x6025237C)
+I (..\FWLIB\inc\n32g430_conf.h)(0x64059F5F)
+I (..\FWLIB\inc\n32g430_adc.h)(0x64059F5F)
+I (..\FWLIB\inc\n32g430_can.h)(0x64059F5F)
+I (..\FWLIB\inc\n32g430_comp.h)(0x64059F5F)
+I (..\FWLIB\inc\n32g430_crc.h)(0x64059F5F)
+I (..\FWLIB\inc\n32g430_dbg.h)(0x64059F5F)
+I (..\FWLIB\inc\n32g430_dma.h)(0x64059F5F)
+I (..\FWLIB\inc\n32g430_exti.h)(0x64059F5F)
+I (..\FWLIB\inc\n32g430_flash.h)(0x64059F5F)
+I (..\FWLIB\inc\n32g430_gpio.h)(0x64059F5F)
+I (..\FWLIB\inc\n32g430_i2c.h)(0x64059F5F)
+I (..\FWLIB\inc\n32g430_iwdg.h)(0x64059F5F)
+I (..\FWLIB\inc\n32g430_pwr.h)(0x64059F5F)
+I (..\FWLIB\inc\n32g430_rcc.h)(0x64059F5F)
+I (..\FWLIB\inc\n32g430_rtc.h)(0x64059F5F)
+I (..\FWLIB\inc\n32g430_tim.h)(0x64059F5F)
+I (..\FWLIB\inc\n32g430_usart.h)(0x64059F5F)
+I (..\FWLIB\inc\n32g430_wwdg.h)(0x64059F5F)
+I (..\FWLIB\inc\n32g430_beeper.h)(0x64059F5F)
+I (..\FWLIB\inc\misc.h)(0x64059F5F)
+F (..\FWLIB\src\n32g430_tim.c)(0x64059F5F)(-c --cpu Cortex-M4.fp.sp -g -O0 --apcs=interwork --split_sections -I ..\FWLIB\inc -I ..\CMSIS -I ..\USER\inc-ID:\Keil_V5\Nationstech\N32G430_DFP\1.0.0\firmware\CMSIS\device-ID:\Keil_V5\ARM\CMSIS\Include-D__UVISION_VERSION="534" -DN32G430 -DUSE_STDPERIPH_DRIVER -DN32F8SX -DUSE_STDPERIPH_DRIVER-o .\objects\n32g430_tim.o --omf_browse .\objects\n32g430_tim.crf --depend .\objects\n32g430_tim.d)
+I (..\FWLIB\inc\n32g430_tim.h)(0x64059F5F)
+I (..\FWLIB\inc\n32g430.h)(0x64059F5F)
+I (..\CMSIS\core_cm4.h)(0x64059F5F)
+I (D:\Keil_V5\ARM\ARMCC\include\stdint.h)(0x6025237E)
+I (..\CMSIS\cmsis_version.h)(0x64059F5F)
+I (..\CMSIS\cmsis_compiler.h)(0x64059F5F)
+I (..\CMSIS\cmsis_armcc.h)(0x64059F5F)
+I (..\CMSIS\mpu_armv7.h)(0x64059F5F)
+I (..\FWLIB\inc\system_n32g430.h)(0x64059F5F)
+I (D:\Keil_V5\ARM\ARMCC\include\stdbool.h)(0x6025237C)
+I (..\FWLIB\inc\n32g430_conf.h)(0x64059F5F)
+I (..\FWLIB\inc\n32g430_adc.h)(0x64059F5F)
+I (..\FWLIB\inc\n32g430_can.h)(0x64059F5F)
+I (..\FWLIB\inc\n32g430_comp.h)(0x64059F5F)
+I (..\FWLIB\inc\n32g430_crc.h)(0x64059F5F)
+I (..\FWLIB\inc\n32g430_dbg.h)(0x64059F5F)
+I (..\FWLIB\inc\n32g430_dma.h)(0x64059F5F)
+I (..\FWLIB\inc\n32g430_exti.h)(0x64059F5F)
+I (..\FWLIB\inc\n32g430_flash.h)(0x64059F5F)
+I (..\FWLIB\inc\n32g430_gpio.h)(0x64059F5F)
+I (..\FWLIB\inc\n32g430_i2c.h)(0x64059F5F)
+I (..\FWLIB\inc\n32g430_iwdg.h)(0x64059F5F)
+I (..\FWLIB\inc\n32g430_pwr.h)(0x64059F5F)
+I (..\FWLIB\inc\n32g430_rcc.h)(0x64059F5F)
+I (..\FWLIB\inc\n32g430_rtc.h)(0x64059F5F)
+I (..\FWLIB\inc\n32g430_spi.h)(0x64059F5F)
+I (..\FWLIB\inc\n32g430_usart.h)(0x64059F5F)
+I (..\FWLIB\inc\n32g430_wwdg.h)(0x64059F5F)
+I (..\FWLIB\inc\n32g430_beeper.h)(0x64059F5F)
+I (..\FWLIB\inc\misc.h)(0x64059F5F)
+F (..\FWLIB\src\n32g430_usart.c)(0x64059F5F)(-c --cpu Cortex-M4.fp.sp -g -O0 --apcs=interwork --split_sections -I ..\FWLIB\inc -I ..\CMSIS -I ..\USER\inc-ID:\Keil_V5\Nationstech\N32G430_DFP\1.0.0\firmware\CMSIS\device-ID:\Keil_V5\ARM\CMSIS\Include-D__UVISION_VERSION="534" -DN32G430 -DUSE_STDPERIPH_DRIVER -DN32F8SX -DUSE_STDPERIPH_DRIVER-o .\objects\n32g430_usart.o --omf_browse .\objects\n32g430_usart.crf --depend .\objects\n32g430_usart.d)
+I (..\FWLIB\inc\n32g430_usart.h)(0x64059F5F)
+I (..\FWLIB\inc\n32g430.h)(0x64059F5F)
+I (..\CMSIS\core_cm4.h)(0x64059F5F)
+I (D:\Keil_V5\ARM\ARMCC\include\stdint.h)(0x6025237E)
+I (..\CMSIS\cmsis_version.h)(0x64059F5F)
+I (..\CMSIS\cmsis_compiler.h)(0x64059F5F)
+I (..\CMSIS\cmsis_armcc.h)(0x64059F5F)
+I (..\CMSIS\mpu_armv7.h)(0x64059F5F)
+I (..\FWLIB\inc\system_n32g430.h)(0x64059F5F)
+I (D:\Keil_V5\ARM\ARMCC\include\stdbool.h)(0x6025237C)
+I (..\FWLIB\inc\n32g430_conf.h)(0x64059F5F)
+I (..\FWLIB\inc\n32g430_adc.h)(0x64059F5F)
+I (..\FWLIB\inc\n32g430_can.h)(0x64059F5F)
+I (..\FWLIB\inc\n32g430_comp.h)(0x64059F5F)
+I (..\FWLIB\inc\n32g430_crc.h)(0x64059F5F)
+I (..\FWLIB\inc\n32g430_dbg.h)(0x64059F5F)
+I (..\FWLIB\inc\n32g430_dma.h)(0x64059F5F)
+I (..\FWLIB\inc\n32g430_exti.h)(0x64059F5F)
+I (..\FWLIB\inc\n32g430_flash.h)(0x64059F5F)
+I (..\FWLIB\inc\n32g430_gpio.h)(0x64059F5F)
+I (..\FWLIB\inc\n32g430_i2c.h)(0x64059F5F)
+I (..\FWLIB\inc\n32g430_iwdg.h)(0x64059F5F)
+I (..\FWLIB\inc\n32g430_pwr.h)(0x64059F5F)
+I (..\FWLIB\inc\n32g430_rcc.h)(0x64059F5F)
+I (..\FWLIB\inc\n32g430_rtc.h)(0x64059F5F)
+I (..\FWLIB\inc\n32g430_spi.h)(0x64059F5F)
+I (..\FWLIB\inc\n32g430_tim.h)(0x64059F5F)
+I (..\FWLIB\inc\n32g430_wwdg.h)(0x64059F5F)
+I (..\FWLIB\inc\n32g430_beeper.h)(0x64059F5F)
+I (..\FWLIB\inc\misc.h)(0x64059F5F)
+F (..\FWLIB\src\n32g430_wwdg.c)(0x64059F5F)(-c --cpu Cortex-M4.fp.sp -g -O0 --apcs=interwork --split_sections -I ..\FWLIB\inc -I ..\CMSIS -I ..\USER\inc-ID:\Keil_V5\Nationstech\N32G430_DFP\1.0.0\firmware\CMSIS\device-ID:\Keil_V5\ARM\CMSIS\Include-D__UVISION_VERSION="534" -DN32G430 -DUSE_STDPERIPH_DRIVER -DN32F8SX -DUSE_STDPERIPH_DRIVER-o .\objects\n32g430_wwdg.o --omf_browse .\objects\n32g430_wwdg.crf --depend .\objects\n32g430_wwdg.d)
+I (..\FWLIB\inc\n32g430_wwdg.h)(0x64059F5F)
+I (..\FWLIB\inc\n32g430.h)(0x64059F5F)
+I (..\CMSIS\core_cm4.h)(0x64059F5F)
+I (D:\Keil_V5\ARM\ARMCC\include\stdint.h)(0x6025237E)
+I (..\CMSIS\cmsis_version.h)(0x64059F5F)
+I (..\CMSIS\cmsis_compiler.h)(0x64059F5F)
+I (..\CMSIS\cmsis_armcc.h)(0x64059F5F)
+I (..\CMSIS\mpu_armv7.h)(0x64059F5F)
+I (..\FWLIB\inc\system_n32g430.h)(0x64059F5F)
+I (D:\Keil_V5\ARM\ARMCC\include\stdbool.h)(0x6025237C)
+I (..\FWLIB\inc\n32g430_conf.h)(0x64059F5F)
+I (..\FWLIB\inc\n32g430_adc.h)(0x64059F5F)
+I (..\FWLIB\inc\n32g430_can.h)(0x64059F5F)
+I (..\FWLIB\inc\n32g430_comp.h)(0x64059F5F)
+I (..\FWLIB\inc\n32g430_crc.h)(0x64059F5F)
+I (..\FWLIB\inc\n32g430_dbg.h)(0x64059F5F)
+I (..\FWLIB\inc\n32g430_dma.h)(0x64059F5F)
+I (..\FWLIB\inc\n32g430_exti.h)(0x64059F5F)
+I (..\FWLIB\inc\n32g430_flash.h)(0x64059F5F)
+I (..\FWLIB\inc\n32g430_gpio.h)(0x64059F5F)
+I (..\FWLIB\inc\n32g430_i2c.h)(0x64059F5F)
+I (..\FWLIB\inc\n32g430_iwdg.h)(0x64059F5F)
+I (..\FWLIB\inc\n32g430_pwr.h)(0x64059F5F)
+I (..\FWLIB\inc\n32g430_rcc.h)(0x64059F5F)
+I (..\FWLIB\inc\n32g430_rtc.h)(0x64059F5F)
+I (..\FWLIB\inc\n32g430_spi.h)(0x64059F5F)
+I (..\FWLIB\inc\n32g430_tim.h)(0x64059F5F)
+I (..\FWLIB\inc\n32g430_usart.h)(0x64059F5F)
+I (..\FWLIB\inc\n32g430_beeper.h)(0x64059F5F)
+I (..\FWLIB\inc\misc.h)(0x64059F5F)
+F (..\FWLIB\src\system_n32g430.c)(0x64059F5F)(-c --cpu Cortex-M4.fp.sp -g -O0 --apcs=interwork --split_sections -I ..\FWLIB\inc -I ..\CMSIS -I ..\USER\inc-ID:\Keil_V5\Nationstech\N32G430_DFP\1.0.0\firmware\CMSIS\device-ID:\Keil_V5\ARM\CMSIS\Include-D__UVISION_VERSION="534" -DN32G430 -DUSE_STDPERIPH_DRIVER -DN32F8SX -DUSE_STDPERIPH_DRIVER-o .\objects\system_n32g430.o --omf_browse .\objects\system_n32g430.crf --depend .\objects\system_n32g430.d)
+I (..\FWLIB\inc\n32g430.h)(0x64059F5F)
+I (..\CMSIS\core_cm4.h)(0x64059F5F)
+I (D:\Keil_V5\ARM\ARMCC\include\stdint.h)(0x6025237E)
+I (..\CMSIS\cmsis_version.h)(0x64059F5F)
+I (..\CMSIS\cmsis_compiler.h)(0x64059F5F)
+I (..\CMSIS\cmsis_armcc.h)(0x64059F5F)
+I (..\CMSIS\mpu_armv7.h)(0x64059F5F)
+I (..\FWLIB\inc\system_n32g430.h)(0x64059F5F)
+I (D:\Keil_V5\ARM\ARMCC\include\stdbool.h)(0x6025237C)
+I (..\FWLIB\inc\n32g430_conf.h)(0x64059F5F)
+I (..\FWLIB\inc\n32g430_adc.h)(0x64059F5F)
+I (..\FWLIB\inc\n32g430_can.h)(0x64059F5F)
+I (..\FWLIB\inc\n32g430_comp.h)(0x64059F5F)
+I (..\FWLIB\inc\n32g430_crc.h)(0x64059F5F)
+I (..\FWLIB\inc\n32g430_dbg.h)(0x64059F5F)
+I (..\FWLIB\inc\n32g430_dma.h)(0x64059F5F)
+I (..\FWLIB\inc\n32g430_exti.h)(0x64059F5F)
+I (..\FWLIB\inc\n32g430_flash.h)(0x64059F5F)
+I (..\FWLIB\inc\n32g430_gpio.h)(0x64059F5F)
+I (..\FWLIB\inc\n32g430_i2c.h)(0x64059F5F)
+I (..\FWLIB\inc\n32g430_iwdg.h)(0x64059F5F)
+I (..\FWLIB\inc\n32g430_pwr.h)(0x64059F5F)
+I (..\FWLIB\inc\n32g430_rcc.h)(0x64059F5F)
+I (..\FWLIB\inc\n32g430_rtc.h)(0x64059F5F)
+I (..\FWLIB\inc\n32g430_spi.h)(0x64059F5F)
+I (..\FWLIB\inc\n32g430_tim.h)(0x64059F5F)
+I (..\FWLIB\inc\n32g430_usart.h)(0x64059F5F)
+I (..\FWLIB\inc\n32g430_wwdg.h)(0x64059F5F)
+I (..\FWLIB\inc\n32g430_beeper.h)(0x64059F5F)
+I (..\FWLIB\inc\misc.h)(0x64059F5F)
+F (..\STARTUP\startup_n32g430.s)(0x64059F5F)(--cpu Cortex-M4.fp.sp -g --apcs=interwork -ID:\Keil_V5\Nationstech\N32G430_DFP\1.0.0\firmware\CMSIS\device-ID:\Keil_V5\ARM\CMSIS\Include--pd "__UVISION_VERSION SETA 534" --pd "N32G430 SETA 1" --pd "USE_STDPERIPH_DRIVER SETA 1"--list .\listings\startup_n32g430.lst --xref -o .\objects\startup_n32g430.o --depend .\objects\startup_n32g430.d)

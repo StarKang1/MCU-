@@ -1,0 +1,1937 @@
+Component: ARM Compiler 5.06 update 7 (build 960) Tool: armlink [4d3601]
+
+==============================================================================
+
+Section Cross References
+
+    n32g430_adc.o(i.ADC_Clock_Mode_Config) refers to n32g430_rcc.o(i.RCC_ADC_Hclk_Enable) for RCC_ADC_Hclk_Enable
+    n32g430_adc.o(i.ADC_Clock_Mode_Config) refers to n32g430_rcc.o(i.RCC_ADC_PLL_Clock_Disable) for RCC_ADC_PLL_Clock_Disable
+    n32g430_adc.o(i.ADC_Clock_Mode_Config) refers to n32g430_rcc.o(i.RCC_ADC_Hclk_Config) for RCC_ADC_Hclk_Config
+    n32g430_adc.o(i.ADC_Clock_Mode_Config) refers to n32g430_adc.o(i.ADC_AHB_Clock_Mode_Config) for ADC_AHB_Clock_Mode_Config
+    n32g430_adc.o(i.ADC_Clock_Mode_Config) refers to n32g430_rcc.o(i.RCC_ADC_PLL_Clock_Prescaler_Enable) for RCC_ADC_PLL_Clock_Prescaler_Enable
+    n32g430_adc.o(i.ADC_Clock_Mode_Config) refers to n32g430_adc.o(i.ADC_PLL_Clock_Mode_Config) for ADC_PLL_Clock_Mode_Config
+    n32g430_adc.o(i.ADC_Initializes) refers to n32g430_adc.o(i.ADC_Multichannels_Enable) for ADC_Multichannels_Enable
+    n32g430_adc.o(i.ADC_Initializes) refers to n32g430_adc.o(i.ADC_Multichannels_Disable) for ADC_Multichannels_Disable
+    n32g430_adc.o(i.ADC_Initializes) refers to n32g430_adc.o(i.ADC_Continue_Conversion_Enable) for ADC_Continue_Conversion_Enable
+    n32g430_adc.o(i.ADC_Initializes) refers to n32g430_adc.o(i.ADC_Continue_Conversion_Disable) for ADC_Continue_Conversion_Disable
+    n32g430_adc.o(i.ADC_Initializes) refers to n32g430_adc.o(i.ADC_Regular_Group_External_Trigger_Source_Config) for ADC_Regular_Group_External_Trigger_Source_Config
+    n32g430_adc.o(i.ADC_Initializes) refers to n32g430_adc.o(i.ADC_Data_Alignment_Config) for ADC_Data_Alignment_Config
+    n32g430_adc.o(i.ADC_Initializes) refers to n32g430_adc.o(i.ADC_Regular_Channels_Number_Config) for ADC_Regular_Channels_Number_Config
+    n32g430_adc.o(i.ADC_Initializes_Ex) refers to n32g430_adc.o(i.ADC_Vbat_Monitor_Enable) for ADC_Vbat_Monitor_Enable
+    n32g430_adc.o(i.ADC_Initializes_Ex) refers to n32g430_adc.o(i.ADC_Vbat_Monitor_Disable) for ADC_Vbat_Monitor_Disable
+    n32g430_adc.o(i.ADC_Initializes_Ex) refers to n32g430_adc.o(i.ADC_Deep_Power_Mode_Enable) for ADC_Deep_Power_Mode_Enable
+    n32g430_adc.o(i.ADC_Initializes_Ex) refers to n32g430_adc.o(i.ADC_Deep_Power_Mode_Disable) for ADC_Deep_Power_Mode_Disable
+    n32g430_adc.o(i.ADC_Initializes_Ex) refers to n32g430_adc.o(i.ADC_Interrupts_Enable) for ADC_Interrupts_Enable
+    n32g430_adc.o(i.ADC_Initializes_Ex) refers to n32g430_adc.o(i.ADC_Interrupts_Disable) for ADC_Interrupts_Disable
+    n32g430_adc.o(i.ADC_Initializes_Ex) refers to n32g430_adc.o(i.ADC_PLL_Clock_Mode_Config) for ADC_PLL_Clock_Mode_Config
+    n32g430_adc.o(i.ADC_Initializes_Ex) refers to n32g430_adc.o(i.ADC_AHB_Clock_Mode_Config) for ADC_AHB_Clock_Mode_Config
+    n32g430_adc.o(i.ADC_Initializes_Ex) refers to n32g430_adc.o(i.ADC_Calibration_Auto_Load_Enable) for ADC_Calibration_Auto_Load_Enable
+    n32g430_adc.o(i.ADC_Initializes_Ex) refers to n32g430_adc.o(i.ADC_Calibration_Auto_Load_Disable) for ADC_Calibration_Auto_Load_Disable
+    n32g430_adc.o(i.ADC_Initializes_Ex) refers to n32g430_adc.o(i.ADC_Differential_Mode_Enable) for ADC_Differential_Mode_Enable
+    n32g430_adc.o(i.ADC_Initializes_Ex) refers to n32g430_adc.o(i.ADC_Differential_Mode_Disable) for ADC_Differential_Mode_Disable
+    n32g430_adc.o(i.ADC_Initializes_Ex) refers to n32g430_adc.o(i.ADC_Data_Resolution_Config) for ADC_Data_Resolution_Config
+    n32g430_adc.o(i.ADC_Initializes_Ex) refers to n32g430_adc.o(i.ADC_Sample_Time_Level_Config) for ADC_Sample_Time_Level_Config
+    n32g430_adc.o(i.ADC_Reset) refers to n32g430_rcc.o(i.RCC_AHB_Peripheral_Reset) for RCC_AHB_Peripheral_Reset
+    n32g430_adc.o(i.ADC_Vrefint_Get) refers to n32g430_adc.o(.data) for vrefint_value
+    n32g430_beeper.o(i.BEEPER_Initialize) refers to n32g430_beeper.o(i.BEEPER_Clock_Select) for BEEPER_Clock_Select
+    n32g430_beeper.o(i.BEEPER_Initialize) refers to n32g430_beeper.o(i.BEEPER_APB_Clock_Prescale_Set) for BEEPER_APB_Clock_Prescale_Set
+    n32g430_beeper.o(i.BEEPER_Initialize) refers to n32g430_beeper.o(i.BEEPER_Div_Factor_Select) for BEEPER_Div_Factor_Select
+    n32g430_beeper.o(i.BEEPER_Reset) refers to n32g430_rcc.o(i.RCC_APB2_Peripheral_Reset) for RCC_APB2_Peripheral_Reset
+    n32g430_can.o(i.CAN_Filter_Initializes) refers to n32g430_can.o(i.CAN_Filter_Initializes_Enable) for CAN_Filter_Initializes_Enable
+    n32g430_can.o(i.CAN_Filter_Initializes) refers to n32g430_can.o(i.CAN_Filter_Deactivation) for CAN_Filter_Deactivation
+    n32g430_can.o(i.CAN_Filter_Initializes) refers to n32g430_can.o(i.CAN_Filter_Scale_16bit_Set) for CAN_Filter_Scale_16bit_Set
+    n32g430_can.o(i.CAN_Filter_Initializes) refers to n32g430_can.o(i.CAN_Filter_Scale_32bit_Set) for CAN_Filter_Scale_32bit_Set
+    n32g430_can.o(i.CAN_Filter_Initializes) refers to n32g430_can.o(i.CAN_Filter_Mode_Set) for CAN_Filter_Mode_Set
+    n32g430_can.o(i.CAN_Filter_Initializes) refers to n32g430_can.o(i.CAN_Filter_DATA_FIFO_Assign) for CAN_Filter_DATA_FIFO_Assign
+    n32g430_can.o(i.CAN_Filter_Initializes) refers to n32g430_can.o(i.CAN_Filter_Activate) for CAN_Filter_Activate
+    n32g430_can.o(i.CAN_Filter_Initializes) refers to n32g430_can.o(i.CAN_Filter_Initializes_Disable) for CAN_Filter_Initializes_Disable
+    n32g430_can.o(i.CAN_Initializes) refers to n32g430_can.o(i.CAN_Sleep_Mode_Exit) for CAN_Sleep_Mode_Exit
+    n32g430_can.o(i.CAN_Initializes) refers to n32g430_can.o(i.CAN_Initializes_Enable) for CAN_Initializes_Enable
+    n32g430_can.o(i.CAN_Initializes) refers to n32g430_can.o(i.CAN_Initializes_Wait) for CAN_Initializes_Wait
+    n32g430_can.o(i.CAN_Initializes) refers to n32g430_can.o(i.CAN_Time_Trigger_Mode_Enable) for CAN_Time_Trigger_Mode_Enable
+    n32g430_can.o(i.CAN_Initializes) refers to n32g430_can.o(i.CAN_Time_Trigger_Mode_Disable) for CAN_Time_Trigger_Mode_Disable
+    n32g430_can.o(i.CAN_Initializes) refers to n32g430_can.o(i.CAN_Bus_Off_Enable) for CAN_Bus_Off_Enable
+    n32g430_can.o(i.CAN_Initializes) refers to n32g430_can.o(i.CAN_Bus_Off_Disable) for CAN_Bus_Off_Disable
+    n32g430_can.o(i.CAN_Initializes) refers to n32g430_can.o(i.CAN_Wake_Up_Mode_Enable) for CAN_Wake_Up_Mode_Enable
+    n32g430_can.o(i.CAN_Initializes) refers to n32g430_can.o(i.CAN_Wake_Up_Mode_Disable) for CAN_Wake_Up_Mode_Disable
+    n32g430_can.o(i.CAN_Initializes) refers to n32g430_can.o(i.CAN_No_Retransmission_Enable) for CAN_No_Retransmission_Enable
+    n32g430_can.o(i.CAN_Initializes) refers to n32g430_can.o(i.CAN_No_Retransmission_Disable) for CAN_No_Retransmission_Disable
+    n32g430_can.o(i.CAN_Initializes) refers to n32g430_can.o(i.CAN_DATA_FIFO_Receive_Lock_Enable) for CAN_DATA_FIFO_Receive_Lock_Enable
+    n32g430_can.o(i.CAN_Initializes) refers to n32g430_can.o(i.CAN_DATA_FIFO_Receive_Lock_Disable) for CAN_DATA_FIFO_Receive_Lock_Disable
+    n32g430_can.o(i.CAN_Initializes) refers to n32g430_can.o(i.CAN_DATA_FIFO_Transmit_Priority_Enable) for CAN_DATA_FIFO_Transmit_Priority_Enable
+    n32g430_can.o(i.CAN_Initializes) refers to n32g430_can.o(i.CAN_DATA_FIFO_Transmit_Priority_Disable) for CAN_DATA_FIFO_Transmit_Priority_Disable
+    n32g430_can.o(i.CAN_Initializes) refers to n32g430_can.o(i.CAN_Bit_Timing_Set) for CAN_Bit_Timing_Set
+    n32g430_can.o(i.CAN_Initializes) refers to n32g430_can.o(i.CAN_Initializes_Disable) for CAN_Initializes_Disable
+    n32g430_can.o(i.CAN_Initializes) refers to n32g430_can.o(i.CAN_Initializes_Leave_Wait) for CAN_Initializes_Leave_Wait
+    n32g430_can.o(i.CAN_Interrupt_Status_Get) refers to n32g430_can.o(i.Interrupt_Status_Check) for Interrupt_Status_Check
+    n32g430_can.o(i.CAN_Reset) refers to n32g430_rcc.o(i.RCC_APB1_Peripheral_Reset) for RCC_APB1_Peripheral_Reset
+    n32g430_can.o(i.CAN_Transmit_Message_initializes) refers to n32g430_can.o(i.CAN_Transmit_Message_ID_Config) for CAN_Transmit_Message_ID_Config
+    n32g430_can.o(i.CAN_Transmit_Message_initializes) refers to n32g430_can.o(i.CAN_Transmit_Message_DLC_Config) for CAN_Transmit_Message_DLC_Config
+    n32g430_can.o(i.CAN_Transmit_Message_initializes) refers to n32g430_can.o(i.CAN_Transmit_Message_Data_Config) for CAN_Transmit_Message_Data_Config
+    n32g430_can.o(i.CAN_Transmit_Message_initializes) refers to n32g430_can.o(i.CAN_Transmit_Enable) for CAN_Transmit_Enable
+    n32g430_comp.o(i.COMP_Filter_Control_Config) refers to n32g430_comp.o(i.COMP_Filter_SampWindow_Config) for COMP_Filter_SampWindow_Config
+    n32g430_comp.o(i.COMP_Filter_Control_Config) refers to n32g430_comp.o(i.COMP_Filter_Threshold_Config) for COMP_Filter_Threshold_Config
+    n32g430_comp.o(i.COMP_Filter_Control_Config) refers to n32g430_comp.o(i.COMP_Filter_Enable) for COMP_Filter_Enable
+    n32g430_comp.o(i.COMP_Filter_Control_Config) refers to n32g430_comp.o(i.COMP_Filter_Disable) for COMP_Filter_Disable
+    n32g430_comp.o(i.COMP_Initializes) refers to n32g430_comp.o(i.COMP_Filter_SampWindow_Config) for COMP_Filter_SampWindow_Config
+    n32g430_comp.o(i.COMP_Initializes) refers to n32g430_comp.o(i.COMP_Filter_Threshold_Config) for COMP_Filter_Threshold_Config
+    n32g430_comp.o(i.COMP_Initializes) refers to n32g430_comp.o(i.COMP_Filter_Enable) for COMP_Filter_Enable
+    n32g430_comp.o(i.COMP_Initializes) refers to n32g430_comp.o(i.COMP_Filter_Disable) for COMP_Filter_Disable
+    n32g430_comp.o(i.COMP_Initializes) refers to n32g430_comp.o(i.COMP_Filter_Clock_Prescale_Config) for COMP_Filter_Clock_Prescale_Config
+    n32g430_comp.o(i.COMP_Initializes) refers to n32g430_comp.o(i.COMP_Blking_Soucre_Config) for COMP_Blking_Soucre_Config
+    n32g430_comp.o(i.COMP_Initializes) refers to n32g430_comp.o(i.COMP_Hysteresis_Level_Config) for COMP_Hysteresis_Level_Config
+    n32g430_comp.o(i.COMP_Initializes) refers to n32g430_comp.o(i.COMP_Output_Polarity_Config) for COMP_Output_Polarity_Config
+    n32g430_comp.o(i.COMP_Initializes) refers to n32g430_comp.o(i.COMP_InpSel_Config) for COMP_InpSel_Config
+    n32g430_comp.o(i.COMP_Initializes) refers to n32g430_comp.o(i.COMP_InmSel_Config) for COMP_InmSel_Config
+    n32g430_comp.o(i.COMP_Initializes) refers to n32g430_comp.o(i.COMP_Output_Trigger_Config) for COMP_Output_Trigger_Config
+    n32g430_comp.o(i.COMP_Initializes) refers to n32g430_comp.o(i.COMP_ON) for COMP_ON
+    n32g430_comp.o(i.COMP_Initializes) refers to n32g430_comp.o(i.COMP_OFF) for COMP_OFF
+    n32g430_comp.o(i.COMP_Reset) refers to n32g430_rcc.o(i.RCC_APB1_Peripheral_Reset) for RCC_APB1_Peripheral_Reset
+    n32g430_dma.o(i.DMA_Initializes) refers to n32g430_dma.o(i.DMA_Peripheral_Address_Config) for DMA_Peripheral_Address_Config
+    n32g430_dma.o(i.DMA_Initializes) refers to n32g430_dma.o(i.DMA_Memory_Address_Config) for DMA_Memory_Address_Config
+    n32g430_dma.o(i.DMA_Initializes) refers to n32g430_dma.o(i.DMA_Destination_Config) for DMA_Destination_Config
+    n32g430_dma.o(i.DMA_Initializes) refers to n32g430_dma.o(i.DMA_Buffer_Size_Config) for DMA_Buffer_Size_Config
+    n32g430_dma.o(i.DMA_Initializes) refers to n32g430_dma.o(i.DMA_Peripheral_Addr_Increment_Config) for DMA_Peripheral_Addr_Increment_Config
+    n32g430_dma.o(i.DMA_Initializes) refers to n32g430_dma.o(i.DMA_Memory_Addr_Increment_Config) for DMA_Memory_Addr_Increment_Config
+    n32g430_dma.o(i.DMA_Initializes) refers to n32g430_dma.o(i.DMA_Peripheral_Data_Width_Config) for DMA_Peripheral_Data_Width_Config
+    n32g430_dma.o(i.DMA_Initializes) refers to n32g430_dma.o(i.DMA_Memory_Data_Width_Config) for DMA_Memory_Data_Width_Config
+    n32g430_dma.o(i.DMA_Initializes) refers to n32g430_dma.o(i.DMA_Circular_Mode_Config) for DMA_Circular_Mode_Config
+    n32g430_dma.o(i.DMA_Initializes) refers to n32g430_dma.o(i.DMA_Priority_Config) for DMA_Priority_Config
+    n32g430_dma.o(i.DMA_Initializes) refers to n32g430_dma.o(i.DMA_Memory_2_Memory_Config) for DMA_Memory_2_Memory_Config
+    n32g430_exti.o(i.EXTI_Peripheral_Initializes) refers to n32g430_exti.o(i.EXTI_Work_Mode_Config) for EXTI_Work_Mode_Config
+    n32g430_exti.o(i.EXTI_Peripheral_Initializes) refers to n32g430_exti.o(i.EXTI_Trigger_Config) for EXTI_Trigger_Config
+    n32g430_exti.o(i.EXTI_Peripheral_Initializes) refers to n32g430_exti.o(i.EXTI_LineCmd_Disable) for EXTI_LineCmd_Disable
+    n32g430_flash.o(i.FLASH_Last_Operation_Wait) refers to n32g430_flash.o(i.FLASH_Status_Get) for FLASH_Status_Get
+    n32g430_flash.o(i.FLASH_Mass_Erase) refers to n32g430_flash.o(i.FLASH_Flag_Status_Clear) for FLASH_Flag_Status_Clear
+    n32g430_flash.o(i.FLASH_Mass_Erase) refers to n32g430_flash.o(i.FLASH_Last_Operation_Wait) for FLASH_Last_Operation_Wait
+    n32g430_flash.o(i.FLASH_One_Page_Erase) refers to n32g430_flash.o(i.FLASH_Flag_Status_Clear) for FLASH_Flag_Status_Clear
+    n32g430_flash.o(i.FLASH_One_Page_Erase) refers to n32g430_flash.o(i.FLASH_Last_Operation_Wait) for FLASH_Last_Operation_Wait
+    n32g430_flash.o(i.FLASH_Option_Bytes_DATA_Program) refers to n32g430_flash.o(i.FLASH_Flag_Status_Clear) for FLASH_Flag_Status_Clear
+    n32g430_flash.o(i.FLASH_Option_Bytes_DATA_Program) refers to n32g430_flash.o(i.FLASH_Last_Operation_Wait) for FLASH_Last_Operation_Wait
+    n32g430_flash.o(i.FLASH_Option_Bytes_DATA_Program) refers to n32g430_flash.o(i.FLASH_Read_Out_Protection_L2_Status_Get) for FLASH_Read_Out_Protection_L2_Status_Get
+    n32g430_flash.o(i.FLASH_Option_Bytes_DATA_Program) refers to n32g430_flash.o(i.Option_Bytes_Unlock) for Option_Bytes_Unlock
+    n32g430_flash.o(i.FLASH_Option_Bytes_Erase) refers to n32g430_flash.o(i.FLASH_Read_Out_Protection_L2_Status_Get) for FLASH_Read_Out_Protection_L2_Status_Get
+    n32g430_flash.o(i.FLASH_Option_Bytes_Erase) refers to n32g430_flash.o(i.FLASH_Flag_Status_Clear) for FLASH_Flag_Status_Clear
+    n32g430_flash.o(i.FLASH_Option_Bytes_Erase) refers to n32g430_flash.o(i.FLASH_Last_Operation_Wait) for FLASH_Last_Operation_Wait
+    n32g430_flash.o(i.FLASH_Option_Bytes_Erase) refers to n32g430_flash.o(i.Option_Bytes_Unlock) for Option_Bytes_Unlock
+    n32g430_flash.o(i.FLASH_Option_Bytes_User2_RDP2_Program) refers to n32g430_flash.o(i.FLASH_Read_Out_Protection_L2_Status_Get) for FLASH_Read_Out_Protection_L2_Status_Get
+    n32g430_flash.o(i.FLASH_Option_Bytes_User2_RDP2_Program) refers to n32g430_flash.o(i.Option_Bytes_Unlock) for Option_Bytes_Unlock
+    n32g430_flash.o(i.FLASH_Option_Bytes_User2_RDP2_Program) refers to n32g430_flash.o(i.FLASH_Flag_Status_Clear) for FLASH_Flag_Status_Clear
+    n32g430_flash.o(i.FLASH_Option_Bytes_User2_RDP2_Program) refers to n32g430_flash.o(i.FLASH_Last_Operation_Wait) for FLASH_Last_Operation_Wait
+    n32g430_flash.o(i.FLASH_Option_Bytes_User_RDP1_Program) refers to n32g430_flash.o(i.FLASH_Read_Out_Protection_L2_Status_Get) for FLASH_Read_Out_Protection_L2_Status_Get
+    n32g430_flash.o(i.FLASH_Option_Bytes_User_RDP1_Program) refers to n32g430_flash.o(i.Option_Bytes_Unlock) for Option_Bytes_Unlock
+    n32g430_flash.o(i.FLASH_Option_Bytes_User_RDP1_Program) refers to n32g430_flash.o(i.FLASH_Flag_Status_Clear) for FLASH_Flag_Status_Clear
+    n32g430_flash.o(i.FLASH_Option_Bytes_User_RDP1_Program) refers to n32g430_flash.o(i.FLASH_Last_Operation_Wait) for FLASH_Last_Operation_Wait
+    n32g430_flash.o(i.FLASH_Read_Out_Protection_L1_Disable) refers to n32g430_flash.o(i.FLASH_Read_Out_Protection_L2_Status_Get) for FLASH_Read_Out_Protection_L2_Status_Get
+    n32g430_flash.o(i.FLASH_Read_Out_Protection_L1_Disable) refers to n32g430_flash.o(i.FLASH_Flag_Status_Clear) for FLASH_Flag_Status_Clear
+    n32g430_flash.o(i.FLASH_Read_Out_Protection_L1_Disable) refers to n32g430_flash.o(i.FLASH_Last_Operation_Wait) for FLASH_Last_Operation_Wait
+    n32g430_flash.o(i.FLASH_Read_Out_Protection_L1_Disable) refers to n32g430_flash.o(i.Option_Bytes_Unlock) for Option_Bytes_Unlock
+    n32g430_flash.o(i.FLASH_Read_Out_Protection_L1_Enable) refers to n32g430_flash.o(i.FLASH_Read_Out_Protection_L2_Status_Get) for FLASH_Read_Out_Protection_L2_Status_Get
+    n32g430_flash.o(i.FLASH_Read_Out_Protection_L1_Enable) refers to n32g430_flash.o(i.FLASH_Flag_Status_Clear) for FLASH_Flag_Status_Clear
+    n32g430_flash.o(i.FLASH_Read_Out_Protection_L1_Enable) refers to n32g430_flash.o(i.FLASH_Last_Operation_Wait) for FLASH_Last_Operation_Wait
+    n32g430_flash.o(i.FLASH_Read_Out_Protection_L1_Enable) refers to n32g430_flash.o(i.Option_Bytes_Unlock) for Option_Bytes_Unlock
+    n32g430_flash.o(i.FLASH_Read_Out_Protection_L2_Enable) refers to n32g430_flash.o(i.FLASH_Read_Out_Protection_Status_Get) for FLASH_Read_Out_Protection_Status_Get
+    n32g430_flash.o(i.FLASH_Read_Out_Protection_L2_Enable) refers to n32g430_flash.o(i.FLASH_Read_Out_Protection_L2_Status_Get) for FLASH_Read_Out_Protection_L2_Status_Get
+    n32g430_flash.o(i.FLASH_Read_Out_Protection_L2_Enable) refers to n32g430_flash.o(i.FLASH_Flag_Status_Clear) for FLASH_Flag_Status_Clear
+    n32g430_flash.o(i.FLASH_Read_Out_Protection_L2_Enable) refers to n32g430_flash.o(i.FLASH_Last_Operation_Wait) for FLASH_Last_Operation_Wait
+    n32g430_flash.o(i.FLASH_Read_Out_Protection_L2_Enable) refers to n32g430_flash.o(i.Option_Bytes_Unlock) for Option_Bytes_Unlock
+    n32g430_flash.o(i.FLASH_Word_Program) refers to n32g430_flash.o(i.FLASH_Flag_Status_Clear) for FLASH_Flag_Status_Clear
+    n32g430_flash.o(i.FLASH_Word_Program) refers to n32g430_flash.o(i.FLASH_Last_Operation_Wait) for FLASH_Last_Operation_Wait
+    n32g430_flash.o(i.FLASH_Write_Protection_Enable) refers to n32g430_flash.o(i.FLASH_Read_Out_Protection_L2_Status_Get) for FLASH_Read_Out_Protection_L2_Status_Get
+    n32g430_flash.o(i.FLASH_Write_Protection_Enable) refers to n32g430_flash.o(i.FLASH_Flag_Status_Clear) for FLASH_Flag_Status_Clear
+    n32g430_flash.o(i.FLASH_Write_Protection_Enable) refers to n32g430_flash.o(i.FLASH_Last_Operation_Wait) for FLASH_Last_Operation_Wait
+    n32g430_flash.o(i.FLASH_Write_Protection_Enable) refers to n32g430_flash.o(i.Option_Bytes_Unlock) for Option_Bytes_Unlock
+    n32g430_gpio.o(i.GPIO_ALLPin_Reset) refers to n32g430_gpio.o(i.GPIOA_Pin_Reset) for GPIOA_Pin_Reset
+    n32g430_gpio.o(i.GPIO_ALLPin_Reset) refers to n32g430_gpio.o(i.GPIOB_Pin_Reset) for GPIOB_Pin_Reset
+    n32g430_gpio.o(i.GPIO_ALLPin_Reset) refers to n32g430_gpio.o(i.GPIOC_Pin_Reset) for GPIOC_Pin_Reset
+    n32g430_gpio.o(i.GPIO_ALLPin_Reset) refers to n32g430_gpio.o(i.GPIOD_Pin_Reset) for GPIOD_Pin_Reset
+    n32g430_gpio.o(i.GPIO_Alternate_Function_Reset) refers to n32g430_rcc.o(i.RCC_APB2_Peripheral_Reset) for RCC_APB2_Peripheral_Reset
+    n32g430_gpio.o(i.GPIO_Peripheral_Initialize) refers to n32g430_gpio.o(i.GPIO_Alternate_Set) for GPIO_Alternate_Set
+    n32g430_gpio.o(i.GPIO_Peripheral_Initialize) refers to n32g430_gpio.o(i.GPIO_Mode_Set) for GPIO_Mode_Set
+    n32g430_gpio.o(i.GPIO_Peripheral_Initialize) refers to n32g430_gpio.o(i.GPIO_Pull_Set) for GPIO_Pull_Set
+    n32g430_gpio.o(i.GPIO_Peripheral_Initialize) refers to n32g430_gpio.o(i.GPIO_SlewRate_Set) for GPIO_SlewRate_Set
+    n32g430_gpio.o(i.GPIO_Peripheral_Initialize) refers to n32g430_gpio.o(i.GPIO_Driver_Set) for GPIO_Driver_Set
+    n32g430_gpio.o(i.GPIO_Reset) refers to n32g430_rcc.o(i.RCC_AHB_Peripheral_Reset) for RCC_AHB_Peripheral_Reset
+    n32g430_i2c.o(i.I2C_Clock_Speed_Config) refers to n32g430_rcc.o(i.RCC_Clocks_Frequencies_Value_Get) for RCC_Clocks_Frequencies_Value_Get
+    n32g430_i2c.o(i.I2C_Initializes) refers to n32g430_i2c.o(i.I2C_Clock_Speed_Config) for I2C_Clock_Speed_Config
+    n32g430_i2c.o(i.I2C_Initializes) refers to n32g430_i2c.o(i.I2C_Bus_Mode_Config) for I2C_Bus_Mode_Config
+    n32g430_i2c.o(i.I2C_Initializes) refers to n32g430_i2c.o(i.I2C_Acknowledgement_Config) for I2C_Acknowledgement_Config
+    n32g430_i2c.o(i.I2C_Initializes) refers to n32g430_i2c.o(i.I2C_Addressing_Mode_Config) for I2C_Addressing_Mode_Config
+    n32g430_i2c.o(i.I2C_Initializes) refers to n32g430_i2c.o(i.I2C_Own_Addr1_Config) for I2C_Own_Addr1_Config
+    n32g430_i2c.o(i.I2C_Reset) refers to n32g430_rcc.o(i.RCC_APB1_Peripheral_Reset) for RCC_APB1_Peripheral_Reset
+    n32g430_lptim.o(i.LPTIM_Initializes) refers to n32g430_lptim.o(i.LPTIM_Clock_Source_Set) for LPTIM_Clock_Source_Set
+    n32g430_lptim.o(i.LPTIM_Initializes) refers to n32g430_lptim.o(i.LPTIM_Prescaler_Set) for LPTIM_Prescaler_Set
+    n32g430_lptim.o(i.LPTIM_Initializes) refers to n32g430_lptim.o(i.LPTIM_Waveform_Set) for LPTIM_Waveform_Set
+    n32g430_lptim.o(i.LPTIM_Initializes) refers to n32g430_lptim.o(i.LPTIM_Polarity_Set) for LPTIM_Polarity_Set
+    n32g430_lptim.o(i.LPTIM_Reset) refers to n32g430_rcc.o(i.RCC_LPTIM_Reset) for RCC_LPTIM_Reset
+    n32g430_pwr.o(i.PWR_Reset) refers to n32g430_rcc.o(i.RCC_APB1_Peripheral_Reset) for RCC_APB1_Peripheral_Reset
+    n32g430_rcc.o(i.RCC_Clocks_Frequencies_Value_Get) refers to n32g430_rcc.o(.constdata) for APBAHBPresTable
+    n32g430_rcc.o(i.RCC_HSE_Stable_Wait) refers to n32g430_rcc.o(i.RCC_Clocks_Frequencies_Value_Get) for RCC_Clocks_Frequencies_Value_Get
+    n32g430_rcc.o(i.RCC_HSE_Stable_Wait) refers to n32g430_rcc.o(i.RCC_Flag_Status_Get) for RCC_Flag_Status_Get
+    n32g430_rcc.o(i.RCC_HSI_Stable_Wait) refers to n32g430_rcc.o(i.RCC_Clocks_Frequencies_Value_Get) for RCC_Clocks_Frequencies_Value_Get
+    n32g430_rcc.o(i.RCC_HSI_Stable_Wait) refers to n32g430_rcc.o(i.RCC_Flag_Status_Get) for RCC_Flag_Status_Get
+    n32g430_rcc.o(i.RCC_LPTIM_Clock_Config) refers to n32g430_rcc.o(i.RCC_APB1_Peripheral_Clock_Enable) for RCC_APB1_Peripheral_Clock_Enable
+    n32g430_rcc.o(i.RCC_LSE_Stable_Wait) refers to n32g430_rcc.o(i.RCC_Clocks_Frequencies_Value_Get) for RCC_Clocks_Frequencies_Value_Get
+    n32g430_rcc.o(i.RCC_LSE_Stable_Wait) refers to n32g430_rcc.o(i.RCC_Flag_Status_Get) for RCC_Flag_Status_Get
+    n32g430_rcc.o(i.RCC_LSI_Stable_Wait) refers to n32g430_rcc.o(i.RCC_Clocks_Frequencies_Value_Get) for RCC_Clocks_Frequencies_Value_Get
+    n32g430_rcc.o(i.RCC_LSI_Stable_Wait) refers to n32g430_rcc.o(i.RCC_Flag_Status_Get) for RCC_Flag_Status_Get
+    n32g430_rtc.o(i.RTC_Alarm_Disable) refers to n32g430_rtc.o(i.RTC_Write_Protection_Disable) for RTC_Write_Protection_Disable
+    n32g430_rtc.o(i.RTC_Alarm_Disable) refers to n32g430_rtc.o(i.RTC_Write_Protection_Enable) for RTC_Write_Protection_Enable
+    n32g430_rtc.o(i.RTC_Alarm_Enable) refers to n32g430_rtc.o(i.RTC_Write_Protection_Disable) for RTC_Write_Protection_Disable
+    n32g430_rtc.o(i.RTC_Alarm_Enable) refers to n32g430_rtc.o(i.RTC_Write_Protection_Enable) for RTC_Write_Protection_Enable
+    n32g430_rtc.o(i.RTC_Alarm_Get) refers to n32g430_rtc.o(i.RTC_Bcd2_To_Byte) for RTC_Bcd2_To_Byte
+    n32g430_rtc.o(i.RTC_Alarm_Set) refers to n32g430_rtc.o(i.RTC_Byte_To_Bcd2) for RTC_Byte_To_Bcd2
+    n32g430_rtc.o(i.RTC_Alarm_Set) refers to n32g430_rtc.o(i.RTC_Write_Protection_Disable) for RTC_Write_Protection_Disable
+    n32g430_rtc.o(i.RTC_Alarm_Set) refers to n32g430_rtc.o(i.RTC_Write_Protection_Enable) for RTC_Write_Protection_Enable
+    n32g430_rtc.o(i.RTC_Alarm_SubSecond_Config) refers to n32g430_rtc.o(i.RTC_Write_Protection_Disable) for RTC_Write_Protection_Disable
+    n32g430_rtc.o(i.RTC_Alarm_SubSecond_Config) refers to n32g430_rtc.o(i.RTC_Write_Protection_Enable) for RTC_Write_Protection_Enable
+    n32g430_rtc.o(i.RTC_Bypass_Shadow_Disable) refers to n32g430_rtc.o(i.RTC_Write_Protection_Disable) for RTC_Write_Protection_Disable
+    n32g430_rtc.o(i.RTC_Bypass_Shadow_Disable) refers to n32g430_rtc.o(i.RTC_Write_Protection_Enable) for RTC_Write_Protection_Enable
+    n32g430_rtc.o(i.RTC_Bypass_Shadow_Enable) refers to n32g430_rtc.o(i.RTC_Write_Protection_Disable) for RTC_Write_Protection_Disable
+    n32g430_rtc.o(i.RTC_Bypass_Shadow_Enable) refers to n32g430_rtc.o(i.RTC_Write_Protection_Enable) for RTC_Write_Protection_Enable
+    n32g430_rtc.o(i.RTC_Calendar_Initializes) refers to n32g430_rtc.o(i.RTC_Byte_To_Bcd2) for RTC_Byte_To_Bcd2
+    n32g430_rtc.o(i.RTC_Calendar_Initializes) refers to n32g430_rtc.o(i.RTC_Write_Protection_Disable) for RTC_Write_Protection_Disable
+    n32g430_rtc.o(i.RTC_Calendar_Initializes) refers to n32g430_rtc.o(i.RTC_Initialization_Mode_Enter) for RTC_Initialization_Mode_Enter
+    n32g430_rtc.o(i.RTC_Calendar_Initializes) refers to n32g430_rtc.o(i.RTC_Hour_Format_Set) for RTC_Hour_Format_Set
+    n32g430_rtc.o(i.RTC_Calendar_Initializes) refers to n32g430_rtc.o(i.RTC_Prescale_Config) for RTC_Prescale_Config
+    n32g430_rtc.o(i.RTC_Calendar_Initializes) refers to n32g430_rtc.o(i.RTC_Initialization_Mode_Exit) for RTC_Initialization_Mode_Exit
+    n32g430_rtc.o(i.RTC_Calendar_Initializes) refers to n32g430_rtc.o(i.RTC_Wait_For_Synchronization) for RTC_Wait_For_Synchronization
+    n32g430_rtc.o(i.RTC_Calendar_Initializes) refers to n32g430_rtc.o(i.RTC_Write_Protection_Enable) for RTC_Write_Protection_Enable
+    n32g430_rtc.o(i.RTC_Calendar_Initializes) refers to n32g430_rtc.o(.data) for first_init_flag
+    n32g430_rtc.o(i.RTC_Calendar_Initializes) refers to system_n32g430.o(.data) for SystemClockFrequency
+    n32g430_rtc.o(i.RTC_Calibration_Output_Config) refers to n32g430_rtc.o(i.RTC_Write_Protection_Disable) for RTC_Write_Protection_Disable
+    n32g430_rtc.o(i.RTC_Calibration_Output_Config) refers to n32g430_rtc.o(i.RTC_Write_Protection_Enable) for RTC_Write_Protection_Enable
+    n32g430_rtc.o(i.RTC_Calibration_Output_Disable) refers to n32g430_rtc.o(i.RTC_Write_Protection_Disable) for RTC_Write_Protection_Disable
+    n32g430_rtc.o(i.RTC_Calibration_Output_Disable) refers to n32g430_rtc.o(i.RTC_Write_Protection_Enable) for RTC_Write_Protection_Enable
+    n32g430_rtc.o(i.RTC_Calibration_Output_Enable) refers to n32g430_rtc.o(i.RTC_Write_Protection_Disable) for RTC_Write_Protection_Disable
+    n32g430_rtc.o(i.RTC_Calibration_Output_Enable) refers to n32g430_rtc.o(i.RTC_Write_Protection_Enable) for RTC_Write_Protection_Enable
+    n32g430_rtc.o(i.RTC_Date_Get) refers to n32g430_rtc.o(i.RTC_Bcd2_To_Byte) for RTC_Bcd2_To_Byte
+    n32g430_rtc.o(i.RTC_Day_Light_Saving_Config) refers to n32g430_rtc.o(i.RTC_Write_Protection_Disable) for RTC_Write_Protection_Disable
+    n32g430_rtc.o(i.RTC_Day_Light_Saving_Config) refers to n32g430_rtc.o(i.RTC_Write_Protection_Enable) for RTC_Write_Protection_Enable
+    n32g430_rtc.o(i.RTC_Deinitializes) refers to n32g430_rtc.o(i.RTC_Write_Protection_Disable) for RTC_Write_Protection_Disable
+    n32g430_rtc.o(i.RTC_Deinitializes) refers to n32g430_rtc.o(i.RTC_Initialization_Mode_Enter) for RTC_Initialization_Mode_Enter
+    n32g430_rtc.o(i.RTC_Deinitializes) refers to n32g430_rtc.o(i.RTC_Registers_Reset) for RTC_Registers_Reset
+    n32g430_rtc.o(i.RTC_Deinitializes) refers to n32g430_rtc.o(i.RTC_Wait_For_Synchronization) for RTC_Wait_For_Synchronization
+    n32g430_rtc.o(i.RTC_Deinitializes) refers to n32g430_rtc.o(i.RTC_Write_Protection_Enable) for RTC_Write_Protection_Enable
+    n32g430_rtc.o(i.RTC_Interrupts_Disable) refers to n32g430_rtc.o(i.RTC_Write_Protection_Disable) for RTC_Write_Protection_Disable
+    n32g430_rtc.o(i.RTC_Interrupts_Disable) refers to n32g430_rtc.o(i.RTC_Write_Protection_Enable) for RTC_Write_Protection_Enable
+    n32g430_rtc.o(i.RTC_Interrupts_Enable) refers to n32g430_rtc.o(i.RTC_Write_Protection_Disable) for RTC_Write_Protection_Disable
+    n32g430_rtc.o(i.RTC_Interrupts_Enable) refers to n32g430_rtc.o(i.RTC_Write_Protection_Enable) for RTC_Write_Protection_Enable
+    n32g430_rtc.o(i.RTC_Output_Config) refers to n32g430_rtc.o(i.RTC_Write_Protection_Disable) for RTC_Write_Protection_Disable
+    n32g430_rtc.o(i.RTC_Output_Config) refers to n32g430_rtc.o(i.RTC_Write_Protection_Enable) for RTC_Write_Protection_Enable
+    n32g430_rtc.o(i.RTC_Reference_Clock_Disable) refers to n32g430_rtc.o(i.RTC_Write_Protection_Disable) for RTC_Write_Protection_Disable
+    n32g430_rtc.o(i.RTC_Reference_Clock_Disable) refers to n32g430_rtc.o(i.RTC_Initialization_Mode_Enter) for RTC_Initialization_Mode_Enter
+    n32g430_rtc.o(i.RTC_Reference_Clock_Disable) refers to n32g430_rtc.o(i.RTC_Initialization_Mode_Exit) for RTC_Initialization_Mode_Exit
+    n32g430_rtc.o(i.RTC_Reference_Clock_Disable) refers to n32g430_rtc.o(i.RTC_Write_Protection_Enable) for RTC_Write_Protection_Enable
+    n32g430_rtc.o(i.RTC_Reference_Clock_Enable) refers to n32g430_rtc.o(i.RTC_Write_Protection_Disable) for RTC_Write_Protection_Disable
+    n32g430_rtc.o(i.RTC_Reference_Clock_Enable) refers to n32g430_rtc.o(i.RTC_Initialization_Mode_Enter) for RTC_Initialization_Mode_Enter
+    n32g430_rtc.o(i.RTC_Reference_Clock_Enable) refers to n32g430_rtc.o(i.RTC_Initialization_Mode_Exit) for RTC_Initialization_Mode_Exit
+    n32g430_rtc.o(i.RTC_Reference_Clock_Enable) refers to n32g430_rtc.o(i.RTC_Write_Protection_Enable) for RTC_Write_Protection_Enable
+    n32g430_rtc.o(i.RTC_Smooth_Calibration_Config) refers to n32g430_rtc.o(i.RTC_Write_Protection_Disable) for RTC_Write_Protection_Disable
+    n32g430_rtc.o(i.RTC_Smooth_Calibration_Config) refers to n32g430_rtc.o(i.RTC_Write_Protection_Enable) for RTC_Write_Protection_Enable
+    n32g430_rtc.o(i.RTC_Synchronization_Shift_Config) refers to n32g430_rtc.o(i.RTC_Write_Protection_Disable) for RTC_Write_Protection_Disable
+    n32g430_rtc.o(i.RTC_Synchronization_Shift_Config) refers to n32g430_rtc.o(i.RTC_Wait_For_Synchronization) for RTC_Wait_For_Synchronization
+    n32g430_rtc.o(i.RTC_Synchronization_Shift_Config) refers to n32g430_rtc.o(i.RTC_Write_Protection_Enable) for RTC_Write_Protection_Enable
+    n32g430_rtc.o(i.RTC_TimeStamp_Disable) refers to n32g430_rtc.o(i.RTC_Write_Protection_Disable) for RTC_Write_Protection_Disable
+    n32g430_rtc.o(i.RTC_TimeStamp_Disable) refers to n32g430_rtc.o(i.RTC_Write_Protection_Enable) for RTC_Write_Protection_Enable
+    n32g430_rtc.o(i.RTC_TimeStamp_Enable) refers to n32g430_rtc.o(i.RTC_Write_Protection_Disable) for RTC_Write_Protection_Disable
+    n32g430_rtc.o(i.RTC_TimeStamp_Enable) refers to n32g430_rtc.o(i.RTC_Write_Protection_Enable) for RTC_Write_Protection_Enable
+    n32g430_rtc.o(i.RTC_TimeStamp_Get) refers to n32g430_rtc.o(i.RTC_Bcd2_To_Byte) for RTC_Bcd2_To_Byte
+    n32g430_rtc.o(i.RTC_Time_Get) refers to n32g430_rtc.o(i.RTC_Bcd2_To_Byte) for RTC_Bcd2_To_Byte
+    n32g430_rtc.o(i.RTC_Wait_For_Synchronization) refers to n32g430_rtc.o(i.RTC_Write_Protection_Disable) for RTC_Write_Protection_Disable
+    n32g430_rtc.o(i.RTC_Wait_For_Synchronization) refers to n32g430_rtc.o(i.RTC_Write_Protection_Enable) for RTC_Write_Protection_Enable
+    n32g430_rtc.o(i.RTC_WakeUp_Clock_Select) refers to n32g430_rtc.o(i.RTC_Write_Protection_Disable) for RTC_Write_Protection_Disable
+    n32g430_rtc.o(i.RTC_WakeUp_Clock_Select) refers to n32g430_rtc.o(i.RTC_Write_Protection_Enable) for RTC_Write_Protection_Enable
+    n32g430_rtc.o(i.RTC_WakeUp_Counter_Set) refers to n32g430_rtc.o(i.RTC_Write_Protection_Disable) for RTC_Write_Protection_Disable
+    n32g430_rtc.o(i.RTC_WakeUp_Counter_Set) refers to n32g430_rtc.o(i.RTC_Write_Protection_Enable) for RTC_Write_Protection_Enable
+    n32g430_rtc.o(i.RTC_WakeUp_Disable) refers to n32g430_rtc.o(i.RTC_Write_Protection_Disable) for RTC_Write_Protection_Disable
+    n32g430_rtc.o(i.RTC_WakeUp_Disable) refers to n32g430_rtc.o(i.RTC_Write_Protection_Enable) for RTC_Write_Protection_Enable
+    n32g430_rtc.o(i.RTC_WakeUp_Enable) refers to n32g430_rtc.o(i.RTC_Write_Protection_Disable) for RTC_Write_Protection_Disable
+    n32g430_rtc.o(i.RTC_WakeUp_Enable) refers to n32g430_rtc.o(i.RTC_Write_Protection_Enable) for RTC_Write_Protection_Enable
+    n32g430_spi.o(i.I2S_AudioFrequency_Config) refers to n32g430_rcc.o(i.RCC_Clocks_Frequencies_Value_Get) for RCC_Clocks_Frequencies_Value_Get
+    n32g430_spi.o(i.I2S_Initializes) refers to n32g430_spi.o(i.I2S_Mode_Config) for I2S_Mode_Config
+    n32g430_spi.o(i.I2S_Initializes) refers to n32g430_spi.o(i.I2S_Standard_Config) for I2S_Standard_Config
+    n32g430_spi.o(i.I2S_Initializes) refers to n32g430_spi.o(i.I2S_DataFormat_Config) for I2S_DataFormat_Config
+    n32g430_spi.o(i.I2S_Initializes) refers to n32g430_spi.o(i.I2S_MCLK_Enable) for I2S_MCLK_Enable
+    n32g430_spi.o(i.I2S_Initializes) refers to n32g430_spi.o(i.I2S_MCLK_Disable) for I2S_MCLK_Disable
+    n32g430_spi.o(i.I2S_Initializes) refers to n32g430_spi.o(i.I2S_AudioFrequency_Config) for I2S_AudioFrequency_Config
+    n32g430_spi.o(i.I2S_Initializes) refers to n32g430_spi.o(i.I2S_CLKPOL_Config) for I2S_CLKPOL_Config
+    n32g430_spi.o(i.SPI_I2S_Reset) refers to n32g430_rcc.o(i.RCC_APB2_Peripheral_Reset) for RCC_APB2_Peripheral_Reset
+    n32g430_spi.o(i.SPI_Initializes) refers to n32g430_spi.o(i.SPI_DataDirection_Config) for SPI_DataDirection_Config
+    n32g430_spi.o(i.SPI_Initializes) refers to n32g430_spi.o(i.SPI_SpiMode_Config) for SPI_SpiMode_Config
+    n32g430_spi.o(i.SPI_Initializes) refers to n32g430_spi.o(i.SPI_DataLen_Config) for SPI_DataLen_Config
+    n32g430_spi.o(i.SPI_Initializes) refers to n32g430_spi.o(i.SPI_CLKPHA_Config) for SPI_CLKPHA_Config
+    n32g430_spi.o(i.SPI_Initializes) refers to n32g430_spi.o(i.SPI_CLKPOL_Config) for SPI_CLKPOL_Config
+    n32g430_spi.o(i.SPI_Initializes) refers to n32g430_spi.o(i.SPI_NSS_Config) for SPI_NSS_Config
+    n32g430_spi.o(i.SPI_Initializes) refers to n32g430_spi.o(i.SPI_BaudRatePres_Config) for SPI_BaudRatePres_Config
+    n32g430_spi.o(i.SPI_Initializes) refers to n32g430_spi.o(i.SPI_FirstBit_Config) for SPI_FirstBit_Config
+    n32g430_spi.o(i.SPI_Initializes) refers to n32g430_spi.o(i.SPI_CRC_Polynomial_Set) for SPI_CRC_Polynomial_Set
+    n32g430_tim.o(i.TIM_Base_Initialize) refers to n32g430_tim.o(i.TIM_Base_Count_Mode_Set) for TIM_Base_Count_Mode_Set
+    n32g430_tim.o(i.TIM_Base_Initialize) refers to n32g430_tim.o(i.TIM_Clock_Division_Set) for TIM_Clock_Division_Set
+    n32g430_tim.o(i.TIM_Base_Initialize) refers to n32g430_tim.o(i.TIM_Base_Auto_Reload_Set) for TIM_Base_Auto_Reload_Set
+    n32g430_tim.o(i.TIM_Base_Initialize) refers to n32g430_tim.o(i.TIM_Base_Prescaler_Set) for TIM_Base_Prescaler_Set
+    n32g430_tim.o(i.TIM_Base_Initialize) refers to n32g430_tim.o(i.TIM_Base_Repeat_Count_Set) for TIM_Base_Repeat_Count_Set
+    n32g430_tim.o(i.TIM_Base_Initialize) refers to n32g430_tim.o(i.TIM_Base_Reload_Mode_Set) for TIM_Base_Reload_Mode_Set
+    n32g430_tim.o(i.TIM_Base_Initialize) refers to n32g430_tim.o(i.TIM_Base_Channel1) for TIM_Base_Channel1
+    n32g430_tim.o(i.TIM_Base_Initialize) refers to n32g430_tim.o(i.TIM_Base_OCrefClear) for TIM_Base_OCrefClear
+    n32g430_tim.o(i.TIM_Base_Initialize) refers to n32g430_tim.o(i.TIM_Base_Channel2) for TIM_Base_Channel2
+    n32g430_tim.o(i.TIM_Base_Initialize) refers to n32g430_tim.o(i.TIM_Base_Channel3) for TIM_Base_Channel3
+    n32g430_tim.o(i.TIM_Base_Initialize) refers to n32g430_tim.o(i.TIM_Base_Channel4) for TIM_Base_Channel4
+    n32g430_tim.o(i.TIM_Break_And_Dead_Time_Set) refers to n32g430_tim.o(i.TIM_IOM_Comp_Break) for TIM_IOM_Comp_Break
+    n32g430_tim.o(i.TIM_Break_And_Dead_Time_Set) refers to n32g430_tim.o(i.TIM_Lock_Up_Break_Enable) for TIM_Lock_Up_Break_Enable
+    n32g430_tim.o(i.TIM_Break_And_Dead_Time_Set) refers to n32g430_tim.o(i.TIM_Lock_Up_Break_Disable) for TIM_Lock_Up_Break_Disable
+    n32g430_tim.o(i.TIM_Break_And_Dead_Time_Set) refers to n32g430_tim.o(i.TIM_Pvd_Break_Enable) for TIM_Pvd_Break_Enable
+    n32g430_tim.o(i.TIM_Break_And_Dead_Time_Set) refers to n32g430_tim.o(i.TIM_Pvd_Break_Disable) for TIM_Pvd_Break_Disable
+    n32g430_tim.o(i.TIM_External_Clock_Mode1_Set) refers to n32g430_tim.o(i.TIM_External_Trigger_Filter_Set) for TIM_External_Trigger_Filter_Set
+    n32g430_tim.o(i.TIM_External_Clock_Mode1_Set) refers to n32g430_tim.o(i.TIM_External_Trigger_Polarity_Set) for TIM_External_Trigger_Polarity_Set
+    n32g430_tim.o(i.TIM_External_Clock_Mode1_Set) refers to n32g430_tim.o(i.TIM_External_Trigger_Prescaler_Set) for TIM_External_Trigger_Prescaler_Set
+    n32g430_tim.o(i.TIM_External_Clock_Mode2_Set) refers to n32g430_tim.o(i.TIM_External_Trigger_Filter_Set) for TIM_External_Trigger_Filter_Set
+    n32g430_tim.o(i.TIM_External_Clock_Mode2_Set) refers to n32g430_tim.o(i.TIM_External_Trigger_Polarity_Set) for TIM_External_Trigger_Polarity_Set
+    n32g430_tim.o(i.TIM_External_Clock_Mode2_Set) refers to n32g430_tim.o(i.TIM_External_Trigger_Prescaler_Set) for TIM_External_Trigger_Prescaler_Set
+    n32g430_tim.o(i.TIM_Input_Channel_Initialize) refers to n32g430_tim.o(i.Input_Channel1_Config) for Input_Channel1_Config
+    n32g430_tim.o(i.TIM_Input_Channel_Initialize) refers to n32g430_tim.o(i.TIM_Input_Capture1_Prescaler_Set) for TIM_Input_Capture1_Prescaler_Set
+    n32g430_tim.o(i.TIM_Input_Channel_Initialize) refers to n32g430_tim.o(i.Input_Channel2_Config) for Input_Channel2_Config
+    n32g430_tim.o(i.TIM_Input_Channel_Initialize) refers to n32g430_tim.o(i.TIM_Input_Capture2_Prescaler_Set) for TIM_Input_Capture2_Prescaler_Set
+    n32g430_tim.o(i.TIM_Input_Channel_Initialize) refers to n32g430_tim.o(i.Input_Channel3_Config) for Input_Channel3_Config
+    n32g430_tim.o(i.TIM_Input_Channel_Initialize) refers to n32g430_tim.o(i.TIM_Input_Capture3_Prescaler_Set) for TIM_Input_Capture3_Prescaler_Set
+    n32g430_tim.o(i.TIM_Input_Channel_Initialize) refers to n32g430_tim.o(i.Input_Channel4_Config) for Input_Channel4_Config
+    n32g430_tim.o(i.TIM_Input_Channel_Initialize) refers to n32g430_tim.o(i.TIM_Input_Capture4_Prescaler_Set) for TIM_Input_Capture4_Prescaler_Set
+    n32g430_tim.o(i.TIM_Internal_Trig_To_Ext_Set) refers to n32g430_tim.o(i.TIM_Trigger_Source_Select) for TIM_Trigger_Source_Select
+    n32g430_tim.o(i.TIM_Output_Channel1_Initialize) refers to n32g430_tim.o(i.TIM_Capture_Compare_Ch_Disable) for TIM_Capture_Compare_Ch_Disable
+    n32g430_tim.o(i.TIM_Output_Channel1_Initialize) refers to n32g430_tim.o(i.TIM_Output_Channel_Polarity_Set) for TIM_Output_Channel_Polarity_Set
+    n32g430_tim.o(i.TIM_Output_Channel1_Initialize) refers to n32g430_tim.o(i.TIM_Capture_Compare_Ch_Enable) for TIM_Capture_Compare_Ch_Enable
+    n32g430_tim.o(i.TIM_Output_Channel1_Initialize) refers to n32g430_tim.o(i.TIM_Output_Channel_N_Polarity_Set) for TIM_Output_Channel_N_Polarity_Set
+    n32g430_tim.o(i.TIM_Output_Channel1_Initialize) refers to n32g430_tim.o(i.TIM_Capture_Compare_Ch_N_Enable) for TIM_Capture_Compare_Ch_N_Enable
+    n32g430_tim.o(i.TIM_Output_Channel1_Initialize) refers to n32g430_tim.o(i.TIM_Capture_Compare_Ch_N_Disable) for TIM_Capture_Compare_Ch_N_Disable
+    n32g430_tim.o(i.TIM_Output_Channel2_Initialize) refers to n32g430_tim.o(i.TIM_Capture_Compare_Ch_Disable) for TIM_Capture_Compare_Ch_Disable
+    n32g430_tim.o(i.TIM_Output_Channel2_Initialize) refers to n32g430_tim.o(i.TIM_Output_Channel_Polarity_Set) for TIM_Output_Channel_Polarity_Set
+    n32g430_tim.o(i.TIM_Output_Channel2_Initialize) refers to n32g430_tim.o(i.TIM_Capture_Compare_Ch_Enable) for TIM_Capture_Compare_Ch_Enable
+    n32g430_tim.o(i.TIM_Output_Channel2_Initialize) refers to n32g430_tim.o(i.TIM_Output_Channel_N_Polarity_Set) for TIM_Output_Channel_N_Polarity_Set
+    n32g430_tim.o(i.TIM_Output_Channel2_Initialize) refers to n32g430_tim.o(i.TIM_Capture_Compare_Ch_N_Enable) for TIM_Capture_Compare_Ch_N_Enable
+    n32g430_tim.o(i.TIM_Output_Channel2_Initialize) refers to n32g430_tim.o(i.TIM_Capture_Compare_Ch_N_Disable) for TIM_Capture_Compare_Ch_N_Disable
+    n32g430_tim.o(i.TIM_Output_Channel3_Initialize) refers to n32g430_tim.o(i.TIM_Capture_Compare_Ch_Disable) for TIM_Capture_Compare_Ch_Disable
+    n32g430_tim.o(i.TIM_Output_Channel3_Initialize) refers to n32g430_tim.o(i.TIM_Output_Channel_Polarity_Set) for TIM_Output_Channel_Polarity_Set
+    n32g430_tim.o(i.TIM_Output_Channel3_Initialize) refers to n32g430_tim.o(i.TIM_Capture_Compare_Ch_Enable) for TIM_Capture_Compare_Ch_Enable
+    n32g430_tim.o(i.TIM_Output_Channel3_Initialize) refers to n32g430_tim.o(i.TIM_Output_Channel_N_Polarity_Set) for TIM_Output_Channel_N_Polarity_Set
+    n32g430_tim.o(i.TIM_Output_Channel3_Initialize) refers to n32g430_tim.o(i.TIM_Capture_Compare_Ch_N_Enable) for TIM_Capture_Compare_Ch_N_Enable
+    n32g430_tim.o(i.TIM_Output_Channel3_Initialize) refers to n32g430_tim.o(i.TIM_Capture_Compare_Ch_N_Disable) for TIM_Capture_Compare_Ch_N_Disable
+    n32g430_tim.o(i.TIM_Output_Channel4_Initialize) refers to n32g430_tim.o(i.TIM_Capture_Compare_Ch_Disable) for TIM_Capture_Compare_Ch_Disable
+    n32g430_tim.o(i.TIM_Output_Channel4_Initialize) refers to n32g430_tim.o(i.TIM_Output_Channel_Polarity_Set) for TIM_Output_Channel_Polarity_Set
+    n32g430_tim.o(i.TIM_Output_Channel4_Initialize) refers to n32g430_tim.o(i.TIM_Capture_Compare_Ch_Enable) for TIM_Capture_Compare_Ch_Enable
+    n32g430_tim.o(i.TIM_Output_Channel4_Initialize) refers to n32g430_tim.o(i.TIM_Output_Channel_N_Polarity_Set) for TIM_Output_Channel_N_Polarity_Set
+    n32g430_tim.o(i.TIM_Output_Channel4_Initialize) refers to n32g430_tim.o(i.TIM_Capture_Compare_Ch_N_Enable) for TIM_Capture_Compare_Ch_N_Enable
+    n32g430_tim.o(i.TIM_Output_Channel4_Initialize) refers to n32g430_tim.o(i.TIM_Capture_Compare_Ch_N_Disable) for TIM_Capture_Compare_Ch_N_Disable
+    n32g430_tim.o(i.TIM_Output_Channel5_Initialize) refers to n32g430_tim.o(i.TIM_Capture_Compare_Ch_Disable) for TIM_Capture_Compare_Ch_Disable
+    n32g430_tim.o(i.TIM_Output_Channel5_Initialize) refers to n32g430_tim.o(i.TIM_Output_Channel_Polarity_Set) for TIM_Output_Channel_Polarity_Set
+    n32g430_tim.o(i.TIM_Output_Channel5_Initialize) refers to n32g430_tim.o(i.TIM_Capture_Compare_Ch_Enable) for TIM_Capture_Compare_Ch_Enable
+    n32g430_tim.o(i.TIM_Output_Channel6_Initialize) refers to n32g430_tim.o(i.TIM_Capture_Compare_Ch_Disable) for TIM_Capture_Compare_Ch_Disable
+    n32g430_tim.o(i.TIM_Output_Channel6_Initialize) refers to n32g430_tim.o(i.TIM_Output_Channel_Polarity_Set) for TIM_Output_Channel_Polarity_Set
+    n32g430_tim.o(i.TIM_Output_Channel6_Initialize) refers to n32g430_tim.o(i.TIM_Capture_Compare_Ch_Enable) for TIM_Capture_Compare_Ch_Enable
+    n32g430_tim.o(i.TIM_PWM_Input_Channel_Config) refers to n32g430_tim.o(i.Input_Channel1_Config) for Input_Channel1_Config
+    n32g430_tim.o(i.TIM_PWM_Input_Channel_Config) refers to n32g430_tim.o(i.TIM_Input_Capture1_Prescaler_Set) for TIM_Input_Capture1_Prescaler_Set
+    n32g430_tim.o(i.TIM_PWM_Input_Channel_Config) refers to n32g430_tim.o(i.Input_Channel2_Config) for Input_Channel2_Config
+    n32g430_tim.o(i.TIM_PWM_Input_Channel_Config) refers to n32g430_tim.o(i.TIM_Input_Capture2_Prescaler_Set) for TIM_Input_Capture2_Prescaler_Set
+    n32g430_tim.o(i.TIM_Reset) refers to n32g430_rcc.o(i.RCC_APB2_Peripheral_Reset) for RCC_APB2_Peripheral_Reset
+    n32g430_tim.o(i.TIM_Reset) refers to n32g430_rcc.o(i.RCC_APB1_Peripheral_Reset) for RCC_APB1_Peripheral_Reset
+    n32g430_tim.o(i.TIM_Trigger_As_External_Clock) refers to n32g430_tim.o(i.Input_Channel2_Config) for Input_Channel2_Config
+    n32g430_tim.o(i.TIM_Trigger_As_External_Clock) refers to n32g430_tim.o(i.Input_Channel1_Config) for Input_Channel1_Config
+    n32g430_tim.o(i.TIM_Trigger_As_External_Clock) refers to n32g430_tim.o(i.TIM_Trigger_Source_Select) for TIM_Trigger_Source_Select
+    n32g430_usart.o(i.USART_Baud_Rate_Config) refers to n32g430_rcc.o(i.RCC_Clocks_Frequencies_Value_Get) for RCC_Clocks_Frequencies_Value_Get
+    n32g430_usart.o(i.USART_Clock_Initializes) refers to n32g430_usart.o(i.USART_Clock_Config) for USART_Clock_Config
+    n32g430_usart.o(i.USART_Clock_Initializes) refers to n32g430_usart.o(i.USART_Polarity_Config) for USART_Polarity_Config
+    n32g430_usart.o(i.USART_Clock_Initializes) refers to n32g430_usart.o(i.USART_Phase_Config) for USART_Phase_Config
+    n32g430_usart.o(i.USART_Clock_Initializes) refers to n32g430_usart.o(i.USART_Last_Bit_Config) for USART_Last_Bit_Config
+    n32g430_usart.o(i.USART_Initializes) refers to n32g430_usart.o(i.USART_Baud_Rate_Config) for USART_Baud_Rate_Config
+    n32g430_usart.o(i.USART_Initializes) refers to n32g430_usart.o(i.USART_Word_Length_Config) for USART_Word_Length_Config
+    n32g430_usart.o(i.USART_Initializes) refers to n32g430_usart.o(i.USART_Stop_Bits_Config) for USART_Stop_Bits_Config
+    n32g430_usart.o(i.USART_Initializes) refers to n32g430_usart.o(i.USART_Parity_Config) for USART_Parity_Config
+    n32g430_usart.o(i.USART_Initializes) refers to n32g430_usart.o(i.USART_Mode_Config) for USART_Mode_Config
+    n32g430_usart.o(i.USART_Initializes) refers to n32g430_usart.o(i.USART_Hardware_Flow_Control_Config) for USART_Hardware_Flow_Control_Config
+    n32g430_usart.o(i.USART_Reset) refers to n32g430_rcc.o(i.RCC_APB2_Peripheral_Reset) for RCC_APB2_Peripheral_Reset
+    n32g430_usart.o(i.USART_Reset) refers to n32g430_rcc.o(i.RCC_APB1_Peripheral_Reset) for RCC_APB1_Peripheral_Reset
+    n32g430_wwdg.o(i.WWDG_Reset) refers to n32g430_rcc.o(i.RCC_APB1_Peripheral_Reset) for RCC_APB1_Peripheral_Reset
+    system_n32g430.o(i.System_Clock_Frequency_Update) refers to system_n32g430.o(.data) for SystemClockFrequency
+    system_n32g430.o(i.System_Clock_Frequency_Update) refers to system_n32g430.o(.constdata) for AHBPrescTable
+    system_n32g430.o(i.System_Clock_Set) refers to system_n32g430.o(.data) for SystemClockFrequency
+    system_n32g430.o(i.System_Initializes) refers to system_n32g430.o(i.System_Clock_Set) for System_Clock_Set
+    startup_n32g430.o(STACK) refers (Special) to heapauxi.o(.text) for __use_two_region_memory
+    startup_n32g430.o(HEAP) refers (Special) to heapauxi.o(.text) for __use_two_region_memory
+    startup_n32g430.o(RESET) refers (Special) to heapauxi.o(.text) for __use_two_region_memory
+    startup_n32g430.o(RESET) refers to startup_n32g430.o(STACK) for __initial_sp
+    startup_n32g430.o(RESET) refers to startup_n32g430.o(.text) for Reset_Handler
+    startup_n32g430.o(RESET) refers to n32g430_it.o(i.NMI_Handler) for NMI_Handler
+    startup_n32g430.o(RESET) refers to n32g430_it.o(i.HardFault_Handler) for HardFault_Handler
+    startup_n32g430.o(RESET) refers to n32g430_it.o(i.MemManage_Handler) for MemManage_Handler
+    startup_n32g430.o(RESET) refers to n32g430_it.o(i.BusFault_Handler) for BusFault_Handler
+    startup_n32g430.o(RESET) refers to n32g430_it.o(i.UsageFault_Handler) for UsageFault_Handler
+    startup_n32g430.o(RESET) refers to n32g430_it.o(i.SVC_Handler) for SVC_Handler
+    startup_n32g430.o(RESET) refers to n32g430_it.o(i.DebugMon_Handler) for DebugMon_Handler
+    startup_n32g430.o(RESET) refers to n32g430_it.o(i.SysTick_Handler) for SysTick_Handler
+    startup_n32g430.o(.text) refers (Special) to heapauxi.o(.text) for __use_two_region_memory
+    startup_n32g430.o(.text) refers to system_n32g430.o(i.System_Initializes) for System_Initializes
+    startup_n32g430.o(.text) refers to __main.o(!!!main) for __main
+    startup_n32g430.o(.text) refers to startup_n32g430.o(HEAP) for Heap_Mem
+    startup_n32g430.o(.text) refers to startup_n32g430.o(STACK) for Stack_Mem
+    __main.o(!!!main) refers to __rtentry.o(.ARM.Collect$$rtentry$$00000000) for __rt_entry
+    __rtentry.o(.ARM.Collect$$rtentry$$00000000) refers (Special) to __rtentry2.o(.ARM.Collect$$rtentry$$0000000A) for __rt_entry_li
+    __rtentry.o(.ARM.Collect$$rtentry$$00000000) refers (Special) to __rtentry2.o(.ARM.Collect$$rtentry$$0000000D) for __rt_entry_main
+    __rtentry.o(.ARM.Collect$$rtentry$$00000000) refers (Special) to __rtentry2.o(.ARM.Collect$$rtentry$$0000000C) for __rt_entry_postli_1
+    __rtentry.o(.ARM.Collect$$rtentry$$00000000) refers (Special) to __rtentry2.o(.ARM.Collect$$rtentry$$00000009) for __rt_entry_postsh_1
+    __rtentry.o(.ARM.Collect$$rtentry$$00000000) refers (Special) to __rtentry2.o(.ARM.Collect$$rtentry$$00000002) for __rt_entry_presh_1
+    __rtentry.o(.ARM.Collect$$rtentry$$00000000) refers (Special) to __rtentry4.o(.ARM.Collect$$rtentry$$00000004) for __rt_entry_sh
+    __rtentry2.o(.ARM.Collect$$rtentry$$00000008) refers to boardinit2.o(.text) for _platform_post_stackheap_init
+    __rtentry2.o(.ARM.Collect$$rtentry$$0000000A) refers to libinit.o(.ARM.Collect$$libinit$$00000000) for __rt_lib_init
+    __rtentry2.o(.ARM.Collect$$rtentry$$0000000B) refers to boardinit3.o(.text) for _platform_post_lib_init
+    __rtentry2.o(.ARM.Collect$$rtentry$$0000000D) refers to main.o(i.main) for main
+    __rtentry2.o(.ARM.Collect$$rtentry$$0000000D) refers to exit.o(.text) for exit
+    __rtentry2.o(.ARM.exidx) refers to __rtentry2.o(.ARM.Collect$$rtentry$$00000001) for .ARM.Collect$$rtentry$$00000001
+    __rtentry2.o(.ARM.exidx) refers to __rtentry2.o(.ARM.Collect$$rtentry$$00000008) for .ARM.Collect$$rtentry$$00000008
+    __rtentry2.o(.ARM.exidx) refers to __rtentry2.o(.ARM.Collect$$rtentry$$0000000A) for .ARM.Collect$$rtentry$$0000000A
+    __rtentry2.o(.ARM.exidx) refers to __rtentry2.o(.ARM.Collect$$rtentry$$0000000B) for .ARM.Collect$$rtentry$$0000000B
+    __rtentry2.o(.ARM.exidx) refers to __rtentry2.o(.ARM.Collect$$rtentry$$0000000D) for .ARM.Collect$$rtentry$$0000000D
+    __rtentry4.o(.ARM.Collect$$rtentry$$00000004) refers to sys_stackheap_outer.o(.text) for __user_setup_stackheap
+    __rtentry4.o(.ARM.exidx) refers to __rtentry4.o(.ARM.Collect$$rtentry$$00000004) for .ARM.Collect$$rtentry$$00000004
+    sys_stackheap_outer.o(.text) refers to libspace.o(.text) for __user_perproc_libspace
+    sys_stackheap_outer.o(.text) refers to startup_n32g430.o(.text) for __user_initial_stackheap
+    exit.o(.text) refers to rtexit.o(.ARM.Collect$$rtexit$$00000000) for __rt_exit
+    libinit.o(.ARM.Collect$$libinit$$00000000) refers (Special) to libinit2.o(.ARM.Collect$$libinit$$0000002E) for __rt_lib_init_alloca_1
+    libinit.o(.ARM.Collect$$libinit$$00000000) refers (Special) to libinit2.o(.ARM.Collect$$libinit$$0000002C) for __rt_lib_init_argv_1
+    libinit.o(.ARM.Collect$$libinit$$00000000) refers (Special) to libinit2.o(.ARM.Collect$$libinit$$0000001B) for __rt_lib_init_atexit_1
+    libinit.o(.ARM.Collect$$libinit$$00000000) refers (Special) to libinit2.o(.ARM.Collect$$libinit$$00000021) for __rt_lib_init_clock_1
+    libinit.o(.ARM.Collect$$libinit$$00000000) refers (Special) to libinit2.o(.ARM.Collect$$libinit$$00000032) for __rt_lib_init_cpp_1
+    libinit.o(.ARM.Collect$$libinit$$00000000) refers (Special) to libinit2.o(.ARM.Collect$$libinit$$00000030) for __rt_lib_init_exceptions_1
+    libinit.o(.ARM.Collect$$libinit$$00000000) refers (Special) to libinit2.o(.ARM.Collect$$libinit$$00000001) for __rt_lib_init_fp_1
+    libinit.o(.ARM.Collect$$libinit$$00000000) refers (Special) to libinit2.o(.ARM.Collect$$libinit$$0000001F) for __rt_lib_init_fp_trap_1
+    libinit.o(.ARM.Collect$$libinit$$00000000) refers (Special) to libinit2.o(.ARM.Collect$$libinit$$00000023) for __rt_lib_init_getenv_1
+    libinit.o(.ARM.Collect$$libinit$$00000000) refers (Special) to libinit2.o(.ARM.Collect$$libinit$$0000000A) for __rt_lib_init_heap_1
+    libinit.o(.ARM.Collect$$libinit$$00000000) refers (Special) to libinit2.o(.ARM.Collect$$libinit$$00000011) for __rt_lib_init_lc_collate_1
+    libinit.o(.ARM.Collect$$libinit$$00000000) refers (Special) to libinit2.o(.ARM.Collect$$libinit$$00000013) for __rt_lib_init_lc_ctype_1
+    libinit.o(.ARM.Collect$$libinit$$00000000) refers (Special) to libinit2.o(.ARM.Collect$$libinit$$00000015) for __rt_lib_init_lc_monetary_1
+    libinit.o(.ARM.Collect$$libinit$$00000000) refers (Special) to libinit2.o(.ARM.Collect$$libinit$$00000017) for __rt_lib_init_lc_numeric_1
+    libinit.o(.ARM.Collect$$libinit$$00000000) refers (Special) to libinit2.o(.ARM.Collect$$libinit$$00000019) for __rt_lib_init_lc_time_1
+    libinit.o(.ARM.Collect$$libinit$$00000000) refers (Special) to libinit2.o(.ARM.Collect$$libinit$$00000004) for __rt_lib_init_preinit_1
+    libinit.o(.ARM.Collect$$libinit$$00000000) refers (Special) to libinit2.o(.ARM.Collect$$libinit$$0000000E) for __rt_lib_init_rand_1
+    libinit.o(.ARM.Collect$$libinit$$00000000) refers (Special) to libinit2.o(.ARM.Collect$$libinit$$00000033) for __rt_lib_init_return
+    libinit.o(.ARM.Collect$$libinit$$00000000) refers (Special) to libinit2.o(.ARM.Collect$$libinit$$0000001D) for __rt_lib_init_signal_1
+    libinit.o(.ARM.Collect$$libinit$$00000000) refers (Special) to libinit2.o(.ARM.Collect$$libinit$$00000025) for __rt_lib_init_stdio_1
+    libinit.o(.ARM.Collect$$libinit$$00000000) refers (Special) to libinit2.o(.ARM.Collect$$libinit$$0000000C) for __rt_lib_init_user_alloc_1
+    libspace.o(.text) refers to libspace.o(.bss) for __libspace_start
+    rtexit.o(.ARM.Collect$$rtexit$$00000000) refers (Special) to rtexit2.o(.ARM.Collect$$rtexit$$00000004) for __rt_exit_exit
+    rtexit.o(.ARM.Collect$$rtexit$$00000000) refers (Special) to rtexit2.o(.ARM.Collect$$rtexit$$00000003) for __rt_exit_ls
+    rtexit.o(.ARM.Collect$$rtexit$$00000000) refers (Special) to rtexit2.o(.ARM.Collect$$rtexit$$00000002) for __rt_exit_prels_1
+    rtexit.o(.ARM.exidx) refers (Special) to rtexit2.o(.ARM.Collect$$rtexit$$00000004) for __rt_exit_exit
+    rtexit.o(.ARM.exidx) refers (Special) to rtexit2.o(.ARM.Collect$$rtexit$$00000003) for __rt_exit_ls
+    rtexit.o(.ARM.exidx) refers (Special) to rtexit2.o(.ARM.Collect$$rtexit$$00000002) for __rt_exit_prels_1
+    rtexit.o(.ARM.exidx) refers to rtexit.o(.ARM.Collect$$rtexit$$00000000) for .ARM.Collect$$rtexit$$00000000
+    libinit2.o(.ARM.Collect$$libinit$$00000001) refers to fpinit.o(x$fpl$fpinit) for _fp_init
+    libinit2.o(.ARM.Collect$$libinit$$00000010) refers to libinit2.o(.ARM.Collect$$libinit$$0000000F) for .ARM.Collect$$libinit$$0000000F
+    libinit2.o(.ARM.Collect$$libinit$$00000012) refers to libinit2.o(.ARM.Collect$$libinit$$0000000F) for .ARM.Collect$$libinit$$0000000F
+    libinit2.o(.ARM.Collect$$libinit$$00000014) refers to libinit2.o(.ARM.Collect$$libinit$$0000000F) for .ARM.Collect$$libinit$$0000000F
+    libinit2.o(.ARM.Collect$$libinit$$00000016) refers to libinit2.o(.ARM.Collect$$libinit$$0000000F) for .ARM.Collect$$libinit$$0000000F
+    libinit2.o(.ARM.Collect$$libinit$$00000018) refers to libinit2.o(.ARM.Collect$$libinit$$0000000F) for .ARM.Collect$$libinit$$0000000F
+    libinit2.o(.ARM.Collect$$libinit$$00000026) refers to argv_veneer.o(.emb_text) for __ARM_argv_veneer
+    libinit2.o(.ARM.Collect$$libinit$$00000027) refers to argv_veneer.o(.emb_text) for __ARM_argv_veneer
+    rtexit2.o(.ARM.Collect$$rtexit$$00000003) refers to libshutdown.o(.ARM.Collect$$libshutdown$$00000000) for __rt_lib_shutdown
+    rtexit2.o(.ARM.Collect$$rtexit$$00000004) refers to sys_exit.o(.text) for _sys_exit
+    rtexit2.o(.ARM.exidx) refers to rtexit2.o(.ARM.Collect$$rtexit$$00000001) for .ARM.Collect$$rtexit$$00000001
+    rtexit2.o(.ARM.exidx) refers to rtexit2.o(.ARM.Collect$$rtexit$$00000003) for .ARM.Collect$$rtexit$$00000003
+    rtexit2.o(.ARM.exidx) refers to rtexit2.o(.ARM.Collect$$rtexit$$00000004) for .ARM.Collect$$rtexit$$00000004
+    argv_veneer.o(.emb_text) refers to no_argv.o(.text) for __ARM_get_argv
+    sys_exit.o(.text) refers (Special) to use_no_semi.o(.text) for __I$use$semihosting
+    sys_exit.o(.text) refers (Special) to indicate_semi.o(.text) for __semihosting_library_function
+    _get_argv_nomalloc.o(.text) refers (Special) to hrguard.o(.text) for __heap_region$guard
+    _get_argv_nomalloc.o(.text) refers to defsig_rtmem_outer.o(.text) for __rt_SIGRTMEM
+    _get_argv_nomalloc.o(.text) refers to sys_command.o(.text) for _sys_command_string
+    libshutdown.o(.ARM.Collect$$libshutdown$$00000000) refers (Special) to libshutdown2.o(.ARM.Collect$$libshutdown$$00000004) for __rt_lib_shutdown_cpp_1
+    libshutdown.o(.ARM.Collect$$libshutdown$$00000000) refers (Special) to libshutdown2.o(.ARM.Collect$$libshutdown$$00000002) for __rt_lib_shutdown_fini_1
+    libshutdown.o(.ARM.Collect$$libshutdown$$00000000) refers (Special) to libshutdown2.o(.ARM.Collect$$libshutdown$$00000009) for __rt_lib_shutdown_fp_trap_1
+    libshutdown.o(.ARM.Collect$$libshutdown$$00000000) refers (Special) to libshutdown2.o(.ARM.Collect$$libshutdown$$00000011) for __rt_lib_shutdown_heap_1
+    libshutdown.o(.ARM.Collect$$libshutdown$$00000000) refers (Special) to libshutdown2.o(.ARM.Collect$$libshutdown$$00000012) for __rt_lib_shutdown_return
+    libshutdown.o(.ARM.Collect$$libshutdown$$00000000) refers (Special) to libshutdown2.o(.ARM.Collect$$libshutdown$$0000000C) for __rt_lib_shutdown_signal_1
+    libshutdown.o(.ARM.Collect$$libshutdown$$00000000) refers (Special) to libshutdown2.o(.ARM.Collect$$libshutdown$$00000006) for __rt_lib_shutdown_stdio_1
+    libshutdown.o(.ARM.Collect$$libshutdown$$00000000) refers (Special) to libshutdown2.o(.ARM.Collect$$libshutdown$$0000000E) for __rt_lib_shutdown_user_alloc_1
+    sys_command.o(.text) refers (Special) to use_no_semi.o(.text) for __I$use$semihosting
+    sys_command.o(.text) refers (Special) to indicate_semi.o(.text) for __semihosting_library_function
+    defsig_rtmem_outer.o(.text) refers to defsig_rtmem_inner.o(.text) for __rt_SIGRTMEM_inner
+    defsig_rtmem_outer.o(.text) refers to defsig_exit.o(.text) for __sig_exit
+    defsig_rtmem_formal.o(.text) refers to rt_raise.o(.text) for __rt_raise
+    rt_raise.o(.text) refers to __raise.o(.text) for __raise
+    rt_raise.o(.text) refers to sys_exit.o(.text) for _sys_exit
+    defsig_exit.o(.text) refers to sys_exit.o(.text) for _sys_exit
+    defsig_rtmem_inner.o(.text) refers to defsig_general.o(.text) for __default_signal_display
+    __raise.o(.text) refers to defsig.o(CL$$defsig) for __default_signal_handler
+    defsig_general.o(.text) refers to sys_wrch.o(.text) for _ttywrch
+    sys_wrch.o(.text) refers (Special) to use_no_semi.o(.text) for __I$use$semihosting
+    sys_wrch.o(.text) refers (Special) to indicate_semi.o(.text) for __semihosting_library_function
+    defsig.o(CL$$defsig) refers to defsig_rtmem_inner.o(.text) for __rt_SIGRTMEM_inner
+    defsig_abrt_inner.o(.text) refers to defsig_general.o(.text) for __default_signal_display
+    defsig_fpe_inner.o(.text) refers to defsig_general.o(.text) for __default_signal_display
+    defsig_rtred_inner.o(.text) refers to defsig_general.o(.text) for __default_signal_display
+    defsig_stak_inner.o(.text) refers to defsig_general.o(.text) for __default_signal_display
+    defsig_pvfn_inner.o(.text) refers to defsig_general.o(.text) for __default_signal_display
+    defsig_cppl_inner.o(.text) refers to defsig_general.o(.text) for __default_signal_display
+    defsig_segv_inner.o(.text) refers to defsig_general.o(.text) for __default_signal_display
+    defsig_other.o(.text) refers to defsig_general.o(.text) for __default_signal_display
+
+
+==============================================================================
+
+Removing Unused input sections from the image.
+
+    Removing main.o(.rev16_text), (4 bytes).
+    Removing main.o(.revsh_text), (4 bytes).
+    Removing main.o(.rrx_text), (6 bytes).
+    Removing n32g430_it.o(.rev16_text), (4 bytes).
+    Removing n32g430_it.o(.revsh_text), (4 bytes).
+    Removing n32g430_it.o(.rrx_text), (6 bytes).
+    Removing misc.o(.rev16_text), (4 bytes).
+    Removing misc.o(.revsh_text), (4 bytes).
+    Removing misc.o(.rrx_text), (6 bytes).
+    Removing misc.o(i.NVIC_Initializes), (112 bytes).
+    Removing misc.o(i.NVIC_Priority_Group_Set), (20 bytes).
+    Removing misc.o(i.NVIC_System_LowPower_Enable), (16 bytes).
+    Removing misc.o(i.NVIC_System_Low_Power_Disable), (16 bytes).
+    Removing misc.o(i.NVIC_Vector_Table_Set), (20 bytes).
+    Removing misc.o(i.SysTick_Clock_Source_Set), (40 bytes).
+    Removing n32g430_adc.o(.rev16_text), (4 bytes).
+    Removing n32g430_adc.o(.revsh_text), (4 bytes).
+    Removing n32g430_adc.o(.rrx_text), (6 bytes).
+    Removing n32g430_adc.o(i.ADC_AHB_Clock_Mode_Config), (20 bytes).
+    Removing n32g430_adc.o(i.ADC_Analog_Watchdog_Disable), (16 bytes).
+    Removing n32g430_adc.o(i.ADC_Analog_Watchdog_Enable), (16 bytes).
+    Removing n32g430_adc.o(i.ADC_Analog_Watchdog_HighThresholds_Config), (12 bytes).
+    Removing n32g430_adc.o(i.ADC_Analog_Watchdog_LowThresholds_Config), (12 bytes).
+    Removing n32g430_adc.o(i.ADC_Analog_Watchdog_Mode_Channel_Config), (56 bytes).
+    Removing n32g430_adc.o(i.ADC_Bypass_Calibration_Disable), (20 bytes).
+    Removing n32g430_adc.o(i.ADC_Bypass_Calibration_Enable), (20 bytes).
+    Removing n32g430_adc.o(i.ADC_Calibration_Auto_Load_Disable), (20 bytes).
+    Removing n32g430_adc.o(i.ADC_Calibration_Auto_Load_Enable), (20 bytes).
+    Removing n32g430_adc.o(i.ADC_Calibration_Operation), (72 bytes).
+    Removing n32g430_adc.o(i.ADC_Channel_Sample_Time_Config), (140 bytes).
+    Removing n32g430_adc.o(i.ADC_Clock_Mode_Config), (40 bytes).
+    Removing n32g430_adc.o(i.ADC_Continue_Conversion_Disable), (20 bytes).
+    Removing n32g430_adc.o(i.ADC_Continue_Conversion_Enable), (20 bytes).
+    Removing n32g430_adc.o(i.ADC_DMA_Transfer_Disable), (20 bytes).
+    Removing n32g430_adc.o(i.ADC_DMA_Transfer_Enable), (20 bytes).
+    Removing n32g430_adc.o(i.ADC_Data_Alignment_Config), (28 bytes).
+    Removing n32g430_adc.o(i.ADC_Data_Resolution_Config), (28 bytes).
+    Removing n32g430_adc.o(i.ADC_Deep_Power_Mode_Disable), (20 bytes).
+    Removing n32g430_adc.o(i.ADC_Deep_Power_Mode_Enable), (20 bytes).
+    Removing n32g430_adc.o(i.ADC_Differential_Channels_Config), (32 bytes).
+    Removing n32g430_adc.o(i.ADC_Differential_Mode_Disable), (20 bytes).
+    Removing n32g430_adc.o(i.ADC_Differential_Mode_Enable), (20 bytes).
+    Removing n32g430_adc.o(i.ADC_Discontinuous_Mode_Channel_Count_Config), (28 bytes).
+    Removing n32g430_adc.o(i.ADC_Discontinuous_Mode_Config), (80 bytes).
+    Removing n32g430_adc.o(i.ADC_External_Trigger_Conversion_Config), (80 bytes).
+    Removing n32g430_adc.o(i.ADC_Flag_Status_Clear), (16 bytes).
+    Removing n32g430_adc.o(i.ADC_Flag_Status_Get), (44 bytes).
+    Removing n32g430_adc.o(i.ADC_INTFlag_Status_Clear), (16 bytes).
+    Removing n32g430_adc.o(i.ADC_INTFlag_Status_Get), (24 bytes).
+    Removing n32g430_adc.o(i.ADC_Initializes), (52 bytes).
+    Removing n32g430_adc.o(i.ADC_Initializes_Ex), (134 bytes).
+    Removing n32g430_adc.o(i.ADC_Initializes_Structure), (14 bytes).
+    Removing n32g430_adc.o(i.ADC_Initializes_StructureEx), (26 bytes).
+    Removing n32g430_adc.o(i.ADC_Injected_Channels_Number_Config), (28 bytes).
+    Removing n32g430_adc.o(i.ADC_Injected_Channels_Offset_Config), (28 bytes).
+    Removing n32g430_adc.o(i.ADC_Injected_Channels_Software_Conversion_Operation), (72 bytes).
+    Removing n32g430_adc.o(i.ADC_Injected_Group_Autoconversion_Disable), (20 bytes).
+    Removing n32g430_adc.o(i.ADC_Injected_Group_Autoconversion_Enable), (20 bytes).
+    Removing n32g430_adc.o(i.ADC_Injected_Group_Conversion_Data_Get), (36 bytes).
+    Removing n32g430_adc.o(i.ADC_Injected_Group_External_Trigger_Source_Config), (28 bytes).
+    Removing n32g430_adc.o(i.ADC_Injected_Sequence_Conversion_Number_Config), (44 bytes).
+    Removing n32g430_adc.o(i.ADC_Interrupts_Disable), (36 bytes).
+    Removing n32g430_adc.o(i.ADC_Interrupts_Enable), (36 bytes).
+    Removing n32g430_adc.o(i.ADC_Multichannels_Disable), (20 bytes).
+    Removing n32g430_adc.o(i.ADC_Multichannels_Enable), (20 bytes).
+    Removing n32g430_adc.o(i.ADC_OFF), (20 bytes).
+    Removing n32g430_adc.o(i.ADC_ON), (20 bytes).
+    Removing n32g430_adc.o(i.ADC_PLL_Clock_Mode_Config), (20 bytes).
+    Removing n32g430_adc.o(i.ADC_Regular_Channels_Number_Config), (28 bytes).
+    Removing n32g430_adc.o(i.ADC_Regular_Channels_Software_Conversion_Operation), (72 bytes).
+    Removing n32g430_adc.o(i.ADC_Regular_Group_Conversion_Data_Get), (12 bytes).
+    Removing n32g430_adc.o(i.ADC_Regular_Group_External_Trigger_Source_Config), (28 bytes).
+    Removing n32g430_adc.o(i.ADC_Regular_Sequence_Conversion_Number_Config), (152 bytes).
+    Removing n32g430_adc.o(i.ADC_Reset), (12 bytes).
+    Removing n32g430_adc.o(i.ADC_Sample_Time_Level_Config), (28 bytes).
+    Removing n32g430_adc.o(i.ADC_Temperature_Sensor_And_Vrefint_Channel_Disable), (40 bytes).
+    Removing n32g430_adc.o(i.ADC_Temperature_Sensor_And_Vrefint_Channel_Enable), (40 bytes).
+    Removing n32g430_adc.o(i.ADC_Vbat_Monitor_Disable), (40 bytes).
+    Removing n32g430_adc.o(i.ADC_Vbat_Monitor_Enable), (40 bytes).
+    Removing n32g430_adc.o(i.ADC_Vrefint_Get), (60 bytes).
+    Removing n32g430_adc.o(.data), (12 bytes).
+    Removing n32g430_beeper.o(.rev16_text), (4 bytes).
+    Removing n32g430_beeper.o(.revsh_text), (4 bytes).
+    Removing n32g430_beeper.o(.rrx_text), (6 bytes).
+    Removing n32g430_beeper.o(i.BEEPER_APB_Clock_Prescale_Set), (28 bytes).
+    Removing n32g430_beeper.o(i.BEEPER_Bypass_Clock_Signal), (20 bytes).
+    Removing n32g430_beeper.o(i.BEEPER_Clock_Select), (28 bytes).
+    Removing n32g430_beeper.o(i.BEEPER_Disable), (20 bytes).
+    Removing n32g430_beeper.o(i.BEEPER_Div_Factor_Select), (32 bytes).
+    Removing n32g430_beeper.o(i.BEEPER_Enable), (20 bytes).
+    Removing n32g430_beeper.o(i.BEEPER_Initialize), (28 bytes).
+    Removing n32g430_beeper.o(i.BEEPER_Inverted_Disable), (20 bytes).
+    Removing n32g430_beeper.o(i.BEEPER_Inverted_Enable), (20 bytes).
+    Removing n32g430_beeper.o(i.BEEPER_Reset), (10 bytes).
+    Removing n32g430_can.o(.rev16_text), (4 bytes).
+    Removing n32g430_can.o(.revsh_text), (4 bytes).
+    Removing n32g430_can.o(.rrx_text), (6 bytes).
+    Removing n32g430_can.o(i.CAN_Arbitration_Lost_Status_Get), (80 bytes).
+    Removing n32g430_can.o(i.CAN_Bit_Timing_Set), (32 bytes).
+    Removing n32g430_can.o(i.CAN_Bus_Off_Disable), (10 bytes).
+    Removing n32g430_can.o(i.CAN_Bus_Off_Enable), (10 bytes).
+    Removing n32g430_can.o(i.CAN_Config_Interrupt_Disable), (8 bytes).
+    Removing n32g430_can.o(i.CAN_Config_Interrupt_Enable), (8 bytes).
+    Removing n32g430_can.o(i.CAN_DATA_FIFO_Receive_Lock_Disable), (10 bytes).
+    Removing n32g430_can.o(i.CAN_DATA_FIFO_Receive_Lock_Enable), (10 bytes).
+    Removing n32g430_can.o(i.CAN_DATA_FIFO_Transmit_Priority_Disable), (10 bytes).
+    Removing n32g430_can.o(i.CAN_DATA_FIFO_Transmit_Priority_Enable), (10 bytes).
+    Removing n32g430_can.o(i.CAN_Debug_Freeze_Disable), (10 bytes).
+    Removing n32g430_can.o(i.CAN_Debug_Freeze_Enable), (10 bytes).
+    Removing n32g430_can.o(i.CAN_FIFO_Release), (22 bytes).
+    Removing n32g430_can.o(i.CAN_Filter_Activate), (16 bytes).
+    Removing n32g430_can.o(i.CAN_Filter_DATA_FIFO_Assign), (32 bytes).
+    Removing n32g430_can.o(i.CAN_Filter_Deactivation), (16 bytes).
+    Removing n32g430_can.o(i.CAN_Filter_Initializes), (74 bytes).
+    Removing n32g430_can.o(i.CAN_Filter_Initializes_Disable), (20 bytes).
+    Removing n32g430_can.o(i.CAN_Filter_Initializes_Enable), (20 bytes).
+    Removing n32g430_can.o(i.CAN_Filter_Mode_Set), (32 bytes).
+    Removing n32g430_can.o(i.CAN_Filter_Scale_16bit_Set), (60 bytes).
+    Removing n32g430_can.o(i.CAN_Filter_Scale_32bit_Set), (64 bytes).
+    Removing n32g430_can.o(i.CAN_Flag_Lowest_Priority_Get), (80 bytes).
+    Removing n32g430_can.o(i.CAN_Flag_Status_Clear), (56 bytes).
+    Removing n32g430_can.o(i.CAN_Flag_Transmit_Mailbox_Empty_Get), (80 bytes).
+    Removing n32g430_can.o(i.CAN_Flag_status_Get), (116 bytes).
+    Removing n32g430_can.o(i.CAN_Initializes), (208 bytes).
+    Removing n32g430_can.o(i.CAN_Initializes_Disable), (10 bytes).
+    Removing n32g430_can.o(i.CAN_Initializes_Enable), (10 bytes).
+    Removing n32g430_can.o(i.CAN_Initializes_Leave_Wait), (24 bytes).
+    Removing n32g430_can.o(i.CAN_Initializes_Wait), (24 bytes).
+    Removing n32g430_can.o(i.CAN_Interrupt_Status_Clear), (168 bytes).
+    Removing n32g430_can.o(i.CAN_Interrupt_Status_Get), (288 bytes).
+    Removing n32g430_can.o(i.CAN_LSB_Transmit_Error_Counter_Get), (12 bytes).
+    Removing n32g430_can.o(i.CAN_Last_Error_Code_Get), (12 bytes).
+    Removing n32g430_can.o(i.CAN_Last_Sample_Point_Get), (18 bytes).
+    Removing n32g430_can.o(i.CAN_Mailbox_Code_Get), (50 bytes).
+    Removing n32g430_can.o(i.CAN_Message_Pending_Get), (30 bytes).
+    Removing n32g430_can.o(i.CAN_Message_Receive), (228 bytes).
+    Removing n32g430_can.o(i.CAN_No_Retransmission_Disable), (10 bytes).
+    Removing n32g430_can.o(i.CAN_No_Retransmission_Enable), (10 bytes).
+    Removing n32g430_can.o(i.CAN_Operating_Mode_Select), (162 bytes).
+    Removing n32g430_can.o(i.CAN_Receive_Error_Counter_Get), (10 bytes).
+    Removing n32g430_can.o(i.CAN_Receive_Mode_Get), (18 bytes).
+    Removing n32g430_can.o(i.CAN_Receive_Signal_Get), (18 bytes).
+    Removing n32g430_can.o(i.CAN_Reset), (14 bytes).
+    Removing n32g430_can.o(i.CAN_Sleep_Mode_Enter), (32 bytes).
+    Removing n32g430_can.o(i.CAN_Sleep_Mode_Exit), (10 bytes).
+    Removing n32g430_can.o(i.CAN_Software_Reset), (10 bytes).
+    Removing n32g430_can.o(i.CAN_Structure_Initializes), (32 bytes).
+    Removing n32g430_can.o(i.CAN_Time_Stamp_Sent_Disable), (58 bytes).
+    Removing n32g430_can.o(i.CAN_Time_Stamp_Sent_Enable), (58 bytes).
+    Removing n32g430_can.o(i.CAN_Time_Trigger_Mode_Disable), (10 bytes).
+    Removing n32g430_can.o(i.CAN_Time_Trigger_Mode_Enable), (10 bytes).
+    Removing n32g430_can.o(i.CAN_Transmit_Enable), (26 bytes).
+    Removing n32g430_can.o(i.CAN_Transmit_Fail_Status_Get), (80 bytes).
+    Removing n32g430_can.o(i.CAN_Transmit_Message_Cancel), (40 bytes).
+    Removing n32g430_can.o(i.CAN_Transmit_Message_DLC_Config), (54 bytes).
+    Removing n32g430_can.o(i.CAN_Transmit_Message_Data_Config), (64 bytes).
+    Removing n32g430_can.o(i.CAN_Transmit_Message_ID_Config), (98 bytes).
+    Removing n32g430_can.o(i.CAN_Transmit_Message_initializes), (102 bytes).
+    Removing n32g430_can.o(i.CAN_Transmit_Mode_Get), (18 bytes).
+    Removing n32g430_can.o(i.CAN_Transmit_Status_Get), (160 bytes).
+    Removing n32g430_can.o(i.CAN_Wake_Up_Enable), (50 bytes).
+    Removing n32g430_can.o(i.CAN_Wake_Up_Mode_Disable), (10 bytes).
+    Removing n32g430_can.o(i.CAN_Wake_Up_Mode_Enable), (10 bytes).
+    Removing n32g430_can.o(i.Interrupt_Status_Check), (16 bytes).
+    Removing n32g430_comp.o(.rev16_text), (4 bytes).
+    Removing n32g430_comp.o(.revsh_text), (4 bytes).
+    Removing n32g430_comp.o(.rrx_text), (6 bytes).
+    Removing n32g430_comp.o(i.COMP2_Output_Xor_Disable), (12 bytes).
+    Removing n32g430_comp.o(i.COMP2_Output_Xor_Enable), (12 bytes).
+    Removing n32g430_comp.o(i.COMP_Blking_Soucre_Config), (96 bytes).
+    Removing n32g430_comp.o(i.COMP_Filter_Clock_Prescale_Config), (84 bytes).
+    Removing n32g430_comp.o(i.COMP_Filter_Control_Config), (46 bytes).
+    Removing n32g430_comp.o(i.COMP_Filter_Disable), (72 bytes).
+    Removing n32g430_comp.o(i.COMP_Filter_Enable), (64 bytes).
+    Removing n32g430_comp.o(i.COMP_Filter_SampWindow_Config), (108 bytes).
+    Removing n32g430_comp.o(i.COMP_Filter_Threshold_Config), (108 bytes).
+    Removing n32g430_comp.o(i.COMP_Hysteresis_Level_Config), (96 bytes).
+    Removing n32g430_comp.o(i.COMP_Initializes), (120 bytes).
+    Removing n32g430_comp.o(i.COMP_Initializes_Structure), (26 bytes).
+    Removing n32g430_comp.o(i.COMP_InmSel_Config), (96 bytes).
+    Removing n32g430_comp.o(i.COMP_InpSel_Config), (96 bytes).
+    Removing n32g430_comp.o(i.COMP_Interrupt_Disable), (16 bytes).
+    Removing n32g430_comp.o(i.COMP_Interrupt_Enable), (16 bytes).
+    Removing n32g430_comp.o(i.COMP_Interrupt_Status_Get), (12 bytes).
+    Removing n32g430_comp.o(i.COMP_Interrupt_Status_OneComp_Clear), (16 bytes).
+    Removing n32g430_comp.o(i.COMP_Interrupt_Status_OneComp_Get), (28 bytes).
+    Removing n32g430_comp.o(i.COMP_Lock_Config), (16 bytes).
+    Removing n32g430_comp.o(i.COMP_LowPower_Clock_Select), (28 bytes).
+    Removing n32g430_comp.o(i.COMP_OFF), (72 bytes).
+    Removing n32g430_comp.o(i.COMP_ON), (72 bytes).
+    Removing n32g430_comp.o(i.COMP_Output_Polarity_Config), (96 bytes).
+    Removing n32g430_comp.o(i.COMP_Output_Status_Get), (48 bytes).
+    Removing n32g430_comp.o(i.COMP_Output_Trigger_Config), (96 bytes).
+    Removing n32g430_comp.o(i.COMP_Reset), (16 bytes).
+    Removing n32g430_comp.o(i.COMP_Voltage_Reference_Config), (92 bytes).
+    Removing n32g430_comp.o(i.COMP_Window_Mode_Disable), (12 bytes).
+    Removing n32g430_comp.o(i.COMP_Window_Mode_Enable), (12 bytes).
+    Removing n32g430_crc.o(.rev16_text), (4 bytes).
+    Removing n32g430_crc.o(.revsh_text), (4 bytes).
+    Removing n32g430_crc.o(.rrx_text), (6 bytes).
+    Removing n32g430_crc.o(i.CRC16_Big_Endian_Format_Set), (20 bytes).
+    Removing n32g430_crc.o(i.CRC16_Buffer_Calculate), (40 bytes).
+    Removing n32g430_crc.o(i.CRC16_Calculate), (16 bytes).
+    Removing n32g430_crc.o(i.CRC16_Get), (12 bytes).
+    Removing n32g430_crc.o(i.CRC16_Little_Endian_Format_Set), (20 bytes).
+    Removing n32g430_crc.o(i.CRC16_Set), (12 bytes).
+    Removing n32g430_crc.o(i.CRC16_Value_Clean_Disable), (20 bytes).
+    Removing n32g430_crc.o(i.CRC16_Value_Clean_Enable), (20 bytes).
+    Removing n32g430_crc.o(i.CRC32_Buffer_Calculate), (36 bytes).
+    Removing n32g430_crc.o(i.CRC32_Calculate), (16 bytes).
+    Removing n32g430_crc.o(i.CRC32_Get), (12 bytes).
+    Removing n32g430_crc.o(i.CRC32_Independent_Data_Get), (12 bytes).
+    Removing n32g430_crc.o(i.CRC32_Independent_Data_Save), (12 bytes).
+    Removing n32g430_crc.o(i.CRC32_Reset), (12 bytes).
+    Removing n32g430_crc.o(i.CRC_LRC_Get), (12 bytes).
+    Removing n32g430_crc.o(i.CRC_LRC_Set), (12 bytes).
+    Removing n32g430_dbg.o(.rev16_text), (4 bytes).
+    Removing n32g430_dbg.o(.revsh_text), (4 bytes).
+    Removing n32g430_dbg.o(.rrx_text), (6 bytes).
+    Removing n32g430_dbg.o(i.DBG_Device_Number_Get), (24 bytes).
+    Removing n32g430_dbg.o(i.DBG_Peripheral_OFF), (16 bytes).
+    Removing n32g430_dbg.o(i.DBG_Peripheral_ON), (16 bytes).
+    Removing n32g430_dbg.o(i.DBG_Revision_Number_Get), (12 bytes).
+    Removing n32g430_dbg.o(i.UCID_Get), (68 bytes).
+    Removing n32g430_dbg.o(i.UID_Get), (68 bytes).
+    Removing n32g430_dma.o(.rev16_text), (4 bytes).
+    Removing n32g430_dma.o(.revsh_text), (4 bytes).
+    Removing n32g430_dma.o(.rrx_text), (6 bytes).
+    Removing n32g430_dma.o(i.DMA_Buffer_Size_Config), (4 bytes).
+    Removing n32g430_dma.o(i.DMA_Channel_Disable), (10 bytes).
+    Removing n32g430_dma.o(i.DMA_Channel_Enable), (10 bytes).
+    Removing n32g430_dma.o(i.DMA_Channel_Request_Remap), (4 bytes).
+    Removing n32g430_dma.o(i.DMA_Circular_Mode_Config), (16 bytes).
+    Removing n32g430_dma.o(i.DMA_Current_Data_Transfer_Number_Get), (8 bytes).
+    Removing n32g430_dma.o(i.DMA_Current_Data_Transfer_Number_Set), (4 bytes).
+    Removing n32g430_dma.o(i.DMA_Destination_Config), (16 bytes).
+    Removing n32g430_dma.o(i.DMA_Flag_Status_Clear), (4 bytes).
+    Removing n32g430_dma.o(i.DMA_Flag_Status_Get), (16 bytes).
+    Removing n32g430_dma.o(i.DMA_Initializes), (96 bytes).
+    Removing n32g430_dma.o(i.DMA_Interrupt_Status_Clear), (4 bytes).
+    Removing n32g430_dma.o(i.DMA_Interrupt_Status_Get), (16 bytes).
+    Removing n32g430_dma.o(i.DMA_Interrupts_Disable), (8 bytes).
+    Removing n32g430_dma.o(i.DMA_Interrupts_Enable), (8 bytes).
+    Removing n32g430_dma.o(i.DMA_Memory_2_Memory_Config), (16 bytes).
+    Removing n32g430_dma.o(i.DMA_Memory_Addr_Increment_Config), (16 bytes).
+    Removing n32g430_dma.o(i.DMA_Memory_Address_Config), (4 bytes).
+    Removing n32g430_dma.o(i.DMA_Memory_Data_Width_Config), (16 bytes).
+    Removing n32g430_dma.o(i.DMA_Peripheral_Addr_Increment_Config), (16 bytes).
+    Removing n32g430_dma.o(i.DMA_Peripheral_Address_Config), (4 bytes).
+    Removing n32g430_dma.o(i.DMA_Peripheral_Data_Width_Config), (16 bytes).
+    Removing n32g430_dma.o(i.DMA_Priority_Config), (16 bytes).
+    Removing n32g430_dma.o(i.DMA_Reset), (228 bytes).
+    Removing n32g430_dma.o(i.DMA_Structure_Initializes), (26 bytes).
+    Removing n32g430_exti.o(.rev16_text), (4 bytes).
+    Removing n32g430_exti.o(.revsh_text), (4 bytes).
+    Removing n32g430_exti.o(.rrx_text), (6 bytes).
+    Removing n32g430_exti.o(i.EXTI_Flag_Status_Clear), (12 bytes).
+    Removing n32g430_exti.o(i.EXTI_Flag_Status_Get), (24 bytes).
+    Removing n32g430_exti.o(i.EXTI_Interrupt_Status_Clear), (12 bytes).
+    Removing n32g430_exti.o(i.EXTI_Interrupt_Status_Get), (32 bytes).
+    Removing n32g430_exti.o(i.EXTI_LineCmd_Disable), (24 bytes).
+    Removing n32g430_exti.o(i.EXTI_Peripheral_Initializes), (32 bytes).
+    Removing n32g430_exti.o(i.EXTI_RTC_Time_Stamp_Select), (24 bytes).
+    Removing n32g430_exti.o(i.EXTI_Reset), (36 bytes).
+    Removing n32g430_exti.o(i.EXTI_Software_Interrupt_Trigger), (16 bytes).
+    Removing n32g430_exti.o(i.EXTI_Structure_Initializes), (16 bytes).
+    Removing n32g430_exti.o(i.EXTI_Trigger_Config), (72 bytes).
+    Removing n32g430_exti.o(i.EXTI_Work_Mode_Config), (44 bytes).
+    Removing n32g430_flash.o(.rev16_text), (4 bytes).
+    Removing n32g430_flash.o(.revsh_text), (4 bytes).
+    Removing n32g430_flash.o(.rrx_text), (6 bytes).
+    Removing n32g430_flash.o(i.FLASH_Cache_LOCK_Cancel), (24 bytes).
+    Removing n32g430_flash.o(i.FLASH_Cache_LOCK_Start), (28 bytes).
+    Removing n32g430_flash.o(i.FLASH_Cache_LOCK_Status_Get), (24 bytes).
+    Removing n32g430_flash.o(i.FLASH_Cache_LOCK_Stop), (16 bytes).
+    Removing n32g430_flash.o(i.FLASH_Flag_Status_Clear), (16 bytes).
+    Removing n32g430_flash.o(i.FLASH_Flag_Status_Get), (24 bytes).
+    Removing n32g430_flash.o(i.FLASH_ICache_Disable), (20 bytes).
+    Removing n32g430_flash.o(i.FLASH_ICache_Enable), (20 bytes).
+    Removing n32g430_flash.o(i.FLASH_ICache_Reset), (20 bytes).
+    Removing n32g430_flash.o(i.FLASH_ICache_Status_Get), (24 bytes).
+    Removing n32g430_flash.o(i.FLASH_Interrupt_Disable), (16 bytes).
+    Removing n32g430_flash.o(i.FLASH_Interrupt_Enable), (16 bytes).
+    Removing n32g430_flash.o(i.FLASH_Last_Operation_Wait), (38 bytes).
+    Removing n32g430_flash.o(i.FLASH_Latency_Get), (16 bytes).
+    Removing n32g430_flash.o(i.FLASH_Latency_Set), (24 bytes).
+    Removing n32g430_flash.o(i.FLASH_Lock), (20 bytes).
+    Removing n32g430_flash.o(i.FLASH_Mass_Erase), (76 bytes).
+    Removing n32g430_flash.o(i.FLASH_One_Page_Erase), (80 bytes).
+    Removing n32g430_flash.o(i.FLASH_Option_Bytes2_User_Get), (24 bytes).
+    Removing n32g430_flash.o(i.FLASH_Option_Bytes_DATA_Program), (96 bytes).
+    Removing n32g430_flash.o(i.FLASH_Option_Bytes_Data0_Get), (16 bytes).
+    Removing n32g430_flash.o(i.FLASH_Option_Bytes_Data1_Get), (16 bytes).
+    Removing n32g430_flash.o(i.FLASH_Option_Bytes_Erase), (120 bytes).
+    Removing n32g430_flash.o(i.FLASH_Option_Bytes_Flag_Get), (24 bytes).
+    Removing n32g430_flash.o(i.FLASH_Option_Bytes_User2_RDP2_Program), (116 bytes).
+    Removing n32g430_flash.o(i.FLASH_Option_Bytes_User_Get), (12 bytes).
+    Removing n32g430_flash.o(i.FLASH_Option_Bytes_User_RDP1_Program), (140 bytes).
+    Removing n32g430_flash.o(i.FLASH_Option_Bytes_Write_Protection_Get), (12 bytes).
+    Removing n32g430_flash.o(i.FLASH_Prefetch_Buffer_Disable), (20 bytes).
+    Removing n32g430_flash.o(i.FLASH_Prefetch_Buffer_Enable), (20 bytes).
+    Removing n32g430_flash.o(i.FLASH_Prefetch_Buffer_Status_Get), (24 bytes).
+    Removing n32g430_flash.o(i.FLASH_Read_Out_Protection_L1_Disable), (176 bytes).
+    Removing n32g430_flash.o(i.FLASH_Read_Out_Protection_L1_Enable), (176 bytes).
+    Removing n32g430_flash.o(i.FLASH_Read_Out_Protection_L2_Enable), (216 bytes).
+    Removing n32g430_flash.o(i.FLASH_Read_Out_Protection_L2_Status_Get), (24 bytes).
+    Removing n32g430_flash.o(i.FLASH_Read_Out_Protection_Status_Get), (24 bytes).
+    Removing n32g430_flash.o(i.FLASH_Status_Get), (52 bytes).
+    Removing n32g430_flash.o(i.FLASH_Unlock), (24 bytes).
+    Removing n32g430_flash.o(i.FLASH_Word_Program), (80 bytes).
+    Removing n32g430_flash.o(i.FLASH_Write_Protection_Enable), (120 bytes).
+    Removing n32g430_flash.o(i.Option_Bytes_Lock), (20 bytes).
+    Removing n32g430_flash.o(i.Option_Bytes_Lock_Status_Get), (24 bytes).
+    Removing n32g430_flash.o(i.Option_Bytes_Unlock), (24 bytes).
+    Removing n32g430_gpio.o(.rev16_text), (4 bytes).
+    Removing n32g430_gpio.o(.revsh_text), (4 bytes).
+    Removing n32g430_gpio.o(.rrx_text), (6 bytes).
+    Removing n32g430_gpio.o(i.AFIO_5V_Tolerance_Disable), (16 bytes).
+    Removing n32g430_gpio.o(i.AFIO_5V_Tolerance_Enable), (16 bytes).
+    Removing n32g430_gpio.o(i.AFIO_ADC_External_Trigger_Remap_Set), (80 bytes).
+    Removing n32g430_gpio.o(i.AFIO_Digital_EFT_Disable), (136 bytes).
+    Removing n32g430_gpio.o(i.AFIO_Digital_EFT_Enable), (136 bytes).
+    Removing n32g430_gpio.o(i.AFIO_EFT_Disable), (136 bytes).
+    Removing n32g430_gpio.o(i.AFIO_EFT_Enable), (136 bytes).
+    Removing n32g430_gpio.o(i.AFIO_EXTI_Reset), (68 bytes).
+    Removing n32g430_gpio.o(i.AFIO_Filter_Stage_Ctrl), (12 bytes).
+    Removing n32g430_gpio.o(i.AFIO_SPI_NSS_Mode_Set), (32 bytes).
+    Removing n32g430_gpio.o(i.GPIOA_Pin_Reset), (260 bytes).
+    Removing n32g430_gpio.o(i.GPIOB_Pin_Reset), (236 bytes).
+    Removing n32g430_gpio.o(i.GPIOC_Pin_Reset), (148 bytes).
+    Removing n32g430_gpio.o(i.GPIOD_Pin_Reset), (200 bytes).
+    Removing n32g430_gpio.o(i.GPIO_ALLPin_Reset), (36 bytes).
+    Removing n32g430_gpio.o(i.GPIO_Alternate_Function_Reset), (10 bytes).
+    Removing n32g430_gpio.o(i.GPIO_Alternate_Set), (64 bytes).
+    Removing n32g430_gpio.o(i.GPIO_Driver_Set), (28 bytes).
+    Removing n32g430_gpio.o(i.GPIO_EXTI_Line_Set), (60 bytes).
+    Removing n32g430_gpio.o(i.GPIO_Input_Data_Get), (8 bytes).
+    Removing n32g430_gpio.o(i.GPIO_Input_Pin_Data_Get), (16 bytes).
+    Removing n32g430_gpio.o(i.GPIO_Mode_Set), (68 bytes).
+    Removing n32g430_gpio.o(i.GPIO_Output_Data_Get), (8 bytes).
+    Removing n32g430_gpio.o(i.GPIO_Output_Pin_Data_Get), (16 bytes).
+    Removing n32g430_gpio.o(i.GPIO_PBC_Pins_Reset), (4 bytes).
+    Removing n32g430_gpio.o(i.GPIO_PBSC_Pins_Reset), (8 bytes).
+    Removing n32g430_gpio.o(i.GPIO_Peripheral_Initialize), (86 bytes).
+    Removing n32g430_gpio.o(i.GPIO_Pin_Lock_Set), (18 bytes).
+    Removing n32g430_gpio.o(i.GPIO_Pin_Remap_Set), (112 bytes).
+    Removing n32g430_gpio.o(i.GPIO_Pin_Toggle), (8 bytes).
+    Removing n32g430_gpio.o(i.GPIO_Pins_Reset), (4 bytes).
+    Removing n32g430_gpio.o(i.GPIO_Pins_Set), (4 bytes).
+    Removing n32g430_gpio.o(i.GPIO_Pull_Set), (28 bytes).
+    Removing n32g430_gpio.o(i.GPIO_Reset), (84 bytes).
+    Removing n32g430_gpio.o(i.GPIO_SlewRate_Set), (24 bytes).
+    Removing n32g430_gpio.o(i.GPIO_Structure_Initialize), (24 bytes).
+    Removing n32g430_gpio.o(i.GPIO_Write), (4 bytes).
+    Removing n32g430_i2c.o(.rev16_text), (4 bytes).
+    Removing n32g430_i2c.o(.revsh_text), (4 bytes).
+    Removing n32g430_i2c.o(.rrx_text), (6 bytes).
+    Removing n32g430_i2c.o(i.I2C_7bit_Addr_Send), (18 bytes).
+    Removing n32g430_i2c.o(i.I2C_ARP_Disable), (10 bytes).
+    Removing n32g430_i2c.o(i.I2C_ARP_Enable), (10 bytes).
+    Removing n32g430_i2c.o(i.I2C_Acknowledg_Disable), (10 bytes).
+    Removing n32g430_i2c.o(i.I2C_Acknowledg_Enable), (10 bytes).
+    Removing n32g430_i2c.o(i.I2C_Acknowledgement_Config), (16 bytes).
+    Removing n32g430_i2c.o(i.I2C_Addressing_Mode_Config), (16 bytes).
+    Removing n32g430_i2c.o(i.I2C_Bus_Mode_Config), (16 bytes).
+    Removing n32g430_i2c.o(i.I2C_Clock_Speed_Config), (268 bytes).
+    Removing n32g430_i2c.o(i.I2C_DMA_Last_Transfer_Disable), (10 bytes).
+    Removing n32g430_i2c.o(i.I2C_DMA_Last_Transfer_Enable), (10 bytes).
+    Removing n32g430_i2c.o(i.I2C_DMA_Transfer_Disable), (10 bytes).
+    Removing n32g430_i2c.o(i.I2C_DMA_Transfer_Enable), (10 bytes).
+    Removing n32g430_i2c.o(i.I2C_Data_Recv), (8 bytes).
+    Removing n32g430_i2c.o(i.I2C_Data_Send), (4 bytes).
+    Removing n32g430_i2c.o(i.I2C_Dual_Addr_Disable), (10 bytes).
+    Removing n32g430_i2c.o(i.I2C_Dual_Addr_Enable), (10 bytes).
+    Removing n32g430_i2c.o(i.I2C_Event_Check), (40 bytes).
+    Removing n32g430_i2c.o(i.I2C_Extend_Clock_Disable), (10 bytes).
+    Removing n32g430_i2c.o(i.I2C_Extend_Clock_Enable), (10 bytes).
+    Removing n32g430_i2c.o(i.I2C_Fast_Mode_Duty_Cycle_Set), (26 bytes).
+    Removing n32g430_i2c.o(i.I2C_Flag_Status_Clear), (12 bytes).
+    Removing n32g430_i2c.o(i.I2C_Flag_Status_Get), (56 bytes).
+    Removing n32g430_i2c.o(i.I2C_General_Call_Disable), (10 bytes).
+    Removing n32g430_i2c.o(i.I2C_General_Call_Enable), (10 bytes).
+    Removing n32g430_i2c.o(i.I2C_Generate_Start_Disable), (10 bytes).
+    Removing n32g430_i2c.o(i.I2C_Generate_Start_Enable), (10 bytes).
+    Removing n32g430_i2c.o(i.I2C_Generate_Stop_Disable), (10 bytes).
+    Removing n32g430_i2c.o(i.I2C_Generate_Stop_Enable), (10 bytes).
+    Removing n32g430_i2c.o(i.I2C_Initializes), (50 bytes).
+    Removing n32g430_i2c.o(i.I2C_Initializes_Structure), (30 bytes).
+    Removing n32g430_i2c.o(i.I2C_Interrupt_Statu_Clear), (12 bytes).
+    Removing n32g430_i2c.o(i.I2C_Interrupt_Status_Get), (36 bytes).
+    Removing n32g430_i2c.o(i.I2C_Interrupts_Disable), (8 bytes).
+    Removing n32g430_i2c.o(i.I2C_Interrupts_Enable), (8 bytes).
+    Removing n32g430_i2c.o(i.I2C_Last_Event_Get), (22 bytes).
+    Removing n32g430_i2c.o(i.I2C_NACK_Position_Set), (26 bytes).
+    Removing n32g430_i2c.o(i.I2C_OFF), (10 bytes).
+    Removing n32g430_i2c.o(i.I2C_ON), (10 bytes).
+    Removing n32g430_i2c.o(i.I2C_Own_Addr1_Config), (16 bytes).
+    Removing n32g430_i2c.o(i.I2C_Own_Addr2_Set), (20 bytes).
+    Removing n32g430_i2c.o(i.I2C_PEC_Compute_Disable), (10 bytes).
+    Removing n32g430_i2c.o(i.I2C_PEC_Compute_Enable), (10 bytes).
+    Removing n32g430_i2c.o(i.I2C_PEC_Get), (8 bytes).
+    Removing n32g430_i2c.o(i.I2C_PEC_Position_Set), (26 bytes).
+    Removing n32g430_i2c.o(i.I2C_PEC_Send_Disable), (10 bytes).
+    Removing n32g430_i2c.o(i.I2C_PEC_Send_Enable), (10 bytes).
+    Removing n32g430_i2c.o(i.I2C_Register_Value_Get), (22 bytes).
+    Removing n32g430_i2c.o(i.I2C_Reset), (36 bytes).
+    Removing n32g430_i2c.o(i.I2C_SCL_Analog_Filter_Disable), (10 bytes).
+    Removing n32g430_i2c.o(i.I2C_SCL_Analog_Filter_Enable), (10 bytes).
+    Removing n32g430_i2c.o(i.I2C_SCL_Analog_Filter_Width_Set), (18 bytes).
+    Removing n32g430_i2c.o(i.I2C_SCL_Digital_Filter_Width_Set), (18 bytes).
+    Removing n32g430_i2c.o(i.I2C_SDA_Analog_Filter_Disable), (10 bytes).
+    Removing n32g430_i2c.o(i.I2C_SDA_Analog_Filter_Enable), (10 bytes).
+    Removing n32g430_i2c.o(i.I2C_SDA_Analog_Filter_Width_Set), (16 bytes).
+    Removing n32g430_i2c.o(i.I2C_SDA_Digital_Filter_Width_Set), (18 bytes).
+    Removing n32g430_i2c.o(i.I2C_SMBus_Alert_Pin_Set), (26 bytes).
+    Removing n32g430_i2c.o(i.I2C_Software_Reset_Disable), (10 bytes).
+    Removing n32g430_i2c.o(i.I2C_Software_Reset_Enable), (10 bytes).
+    Removing n32g430_iwdg.o(.rev16_text), (4 bytes).
+    Removing n32g430_iwdg.o(.revsh_text), (4 bytes).
+    Removing n32g430_iwdg.o(.rrx_text), (6 bytes).
+    Removing n32g430_iwdg.o(i.IWDG_Counter_Reload), (12 bytes).
+    Removing n32g430_iwdg.o(i.IWDG_Enable), (16 bytes).
+    Removing n32g430_iwdg.o(i.IWDG_Freeze_Enable), (16 bytes).
+    Removing n32g430_iwdg.o(i.IWDG_Key_Reload), (16 bytes).
+    Removing n32g430_iwdg.o(i.IWDG_Prescaler_Division_Set), (12 bytes).
+    Removing n32g430_iwdg.o(i.IWDG_Restore_From_Freeze), (16 bytes).
+    Removing n32g430_iwdg.o(i.IWDG_Status_Get), (24 bytes).
+    Removing n32g430_iwdg.o(i.IWDG_Write_Protection_Disable), (16 bytes).
+    Removing n32g430_iwdg.o(i.IWDG_Write_Protection_Enable), (12 bytes).
+    Removing n32g430_lptim.o(.rev16_text), (4 bytes).
+    Removing n32g430_lptim.o(.revsh_text), (4 bytes).
+    Removing n32g430_lptim.o(.rrx_text), (6 bytes).
+    Removing n32g430_lptim.o(i.LPTIM_Auto_Reload_Get), (8 bytes).
+    Removing n32g430_lptim.o(i.LPTIM_Auto_Reload_Set), (4 bytes).
+    Removing n32g430_lptim.o(i.LPTIM_Clock_Config), (22 bytes).
+    Removing n32g430_lptim.o(i.LPTIM_Clock_Filter_Get), (10 bytes).
+    Removing n32g430_lptim.o(i.LPTIM_Clock_Polarity_Get), (10 bytes).
+    Removing n32g430_lptim.o(i.LPTIM_Clock_Source_Get), (10 bytes).
+    Removing n32g430_lptim.o(i.LPTIM_Clock_Source_Set), (16 bytes).
+    Removing n32g430_lptim.o(i.LPTIM_Compare_Get), (8 bytes).
+    Removing n32g430_lptim.o(i.LPTIM_Compare_Set), (4 bytes).
+    Removing n32g430_lptim.o(i.LPTIM_Counter_Get), (8 bytes).
+    Removing n32g430_lptim.o(i.LPTIM_Counter_Mode_Get), (10 bytes).
+    Removing n32g430_lptim.o(i.LPTIM_Counter_Mode_Set), (16 bytes).
+    Removing n32g430_lptim.o(i.LPTIM_Counter_Start), (16 bytes).
+    Removing n32g430_lptim.o(i.LPTIM_Encoder_Mode_Check), (10 bytes).
+    Removing n32g430_lptim.o(i.LPTIM_Encoder_Mode_Disable), (10 bytes).
+    Removing n32g430_lptim.o(i.LPTIM_Encoder_Mode_Enable), (10 bytes).
+    Removing n32g430_lptim.o(i.LPTIM_Encoder_Mode_Get), (10 bytes).
+    Removing n32g430_lptim.o(i.LPTIM_Encoder_Mode_Set), (16 bytes).
+    Removing n32g430_lptim.o(i.LPTIM_FLAG_Clear), (8 bytes).
+    Removing n32g430_lptim.o(i.LPTIM_Flag_Get), (18 bytes).
+    Removing n32g430_lptim.o(i.LPTIM_Initializes), (56 bytes).
+    Removing n32g430_lptim.o(i.LPTIM_Initializes_Structure), (12 bytes).
+    Removing n32g430_lptim.o(i.LPTIM_Input1_Option), (16 bytes).
+    Removing n32g430_lptim.o(i.LPTIM_Input2_Option), (16 bytes).
+    Removing n32g430_lptim.o(i.LPTIM_Interrupt_Check), (18 bytes).
+    Removing n32g430_lptim.o(i.LPTIM_Interrupt_Disable), (8 bytes).
+    Removing n32g430_lptim.o(i.LPTIM_Interrupt_Enable), (8 bytes).
+    Removing n32g430_lptim.o(i.LPTIM_NoEncoder_Mode_Disable), (10 bytes).
+    Removing n32g430_lptim.o(i.LPTIM_NoEncoder_Mode_Enable), (10 bytes).
+    Removing n32g430_lptim.o(i.LPTIM_OFF), (10 bytes).
+    Removing n32g430_lptim.o(i.LPTIM_ON), (10 bytes).
+    Removing n32g430_lptim.o(i.LPTIM_Output_Config), (22 bytes).
+    Removing n32g430_lptim.o(i.LPTIM_Polarity_Get), (10 bytes).
+    Removing n32g430_lptim.o(i.LPTIM_Polarity_Set), (16 bytes).
+    Removing n32g430_lptim.o(i.LPTIM_Prescaler_Get), (10 bytes).
+    Removing n32g430_lptim.o(i.LPTIM_Prescaler_Set), (16 bytes).
+    Removing n32g430_lptim.o(i.LPTIM_Reset), (10 bytes).
+    Removing n32g430_lptim.o(i.LPTIM_Software_Trigger), (10 bytes).
+    Removing n32g430_lptim.o(i.LPTIM_Timeout_Disable), (10 bytes).
+    Removing n32g430_lptim.o(i.LPTIM_Timeout_Enable), (10 bytes).
+    Removing n32g430_lptim.o(i.LPTIM_Timeout_Get), (10 bytes).
+    Removing n32g430_lptim.o(i.LPTIM_Trigger_Config), (28 bytes).
+    Removing n32g430_lptim.o(i.LPTIM_Trigger_Filter_Get), (10 bytes).
+    Removing n32g430_lptim.o(i.LPTIM_Trigger_Polarity_Get), (10 bytes).
+    Removing n32g430_lptim.o(i.LPTIM_Trigger_Source_Get), (10 bytes).
+    Removing n32g430_lptim.o(i.LPTIM_Update_Mode_Get), (10 bytes).
+    Removing n32g430_lptim.o(i.LPTIM_Update_Mode_Set), (16 bytes).
+    Removing n32g430_lptim.o(i.LPTIM_Waveform_Get), (10 bytes).
+    Removing n32g430_lptim.o(i.LPTIM_Waveform_Set), (16 bytes).
+    Removing n32g430_pwr.o(.rev16_text), (4 bytes).
+    Removing n32g430_pwr.o(.revsh_text), (4 bytes).
+    Removing n32g430_pwr.o(.rrx_text), (6 bytes).
+    Removing n32g430_pwr.o(i.PWR_Flag_Status_Clear), (36 bytes).
+    Removing n32g430_pwr.o(i.PWR_Flag_Status_Get), (24 bytes).
+    Removing n32g430_pwr.o(i.PWR_PVD_Disable), (12 bytes).
+    Removing n32g430_pwr.o(i.PWR_PVD_Enable), (12 bytes).
+    Removing n32g430_pwr.o(i.PWR_PVD_Level_Config), (24 bytes).
+    Removing n32g430_pwr.o(i.PWR_RTC_Backup_Access_Disable), (12 bytes).
+    Removing n32g430_pwr.o(i.PWR_RTC_Backup_Access_Enable), (12 bytes).
+    Removing n32g430_pwr.o(i.PWR_RTC_Wakeup_Disable), (12 bytes).
+    Removing n32g430_pwr.o(i.PWR_RTC_Wakeup_Enable), (12 bytes).
+    Removing n32g430_pwr.o(i.PWR_Reset), (12 bytes).
+    Removing n32g430_pwr.o(i.PWR_SLEEP_Mode_Enter), (64 bytes).
+    Removing n32g430_pwr.o(i.PWR_STANDBY_Mode_Enter), (72 bytes).
+    Removing n32g430_pwr.o(i.PWR_STOP0_Mode_Enter), (68 bytes).
+    Removing n32g430_pwr.o(i.PWR_STOP2_Mode_Enter), (72 bytes).
+    Removing n32g430_pwr.o(i.PWR_Wakeup_Pin_Disable), (60 bytes).
+    Removing n32g430_pwr.o(i.PWR_Wakeup_Pin_Enable), (84 bytes).
+    Removing n32g430_rcc.o(.rev16_text), (4 bytes).
+    Removing n32g430_rcc.o(.revsh_text), (4 bytes).
+    Removing n32g430_rcc.o(.rrx_text), (6 bytes).
+    Removing n32g430_rcc.o(i.RCC_ADC_1M_Clock_Config), (28 bytes).
+    Removing n32g430_rcc.o(i.RCC_ADC_Hclk_Config), (24 bytes).
+    Removing n32g430_rcc.o(i.RCC_ADC_Hclk_Disable), (24 bytes).
+    Removing n32g430_rcc.o(i.RCC_ADC_Hclk_Enable), (24 bytes).
+    Removing n32g430_rcc.o(i.RCC_ADC_PLL_Clock_Disable), (20 bytes).
+    Removing n32g430_rcc.o(i.RCC_ADC_PLL_Clock_Prescaler_Enable), (24 bytes).
+    Removing n32g430_rcc.o(i.RCC_AHB_Peripheral_Clock_Disable), (16 bytes).
+    Removing n32g430_rcc.o(i.RCC_AHB_Peripheral_Clock_Enable), (16 bytes).
+    Removing n32g430_rcc.o(i.RCC_AHB_Peripheral_Reset), (24 bytes).
+    Removing n32g430_rcc.o(i.RCC_APB1_Peripheral_Clock_Disable), (16 bytes).
+    Removing n32g430_rcc.o(i.RCC_APB1_Peripheral_Clock_Enable), (16 bytes).
+    Removing n32g430_rcc.o(i.RCC_APB1_Peripheral_Reset), (24 bytes).
+    Removing n32g430_rcc.o(i.RCC_APB2_Peripheral_Clock_Disable), (16 bytes).
+    Removing n32g430_rcc.o(i.RCC_APB2_Peripheral_Clock_Enable), (16 bytes).
+    Removing n32g430_rcc.o(i.RCC_APB2_Peripheral_Reset), (24 bytes).
+    Removing n32g430_rcc.o(i.RCC_BOR_Reset_Disable), (20 bytes).
+    Removing n32g430_rcc.o(i.RCC_BOR_Reset_Enable), (20 bytes).
+    Removing n32g430_rcc.o(i.RCC_Backup_Reset), (16 bytes).
+    Removing n32g430_rcc.o(i.RCC_Clock_Security_System_Disable), (12 bytes).
+    Removing n32g430_rcc.o(i.RCC_Clock_Security_System_Enable), (12 bytes).
+    Removing n32g430_rcc.o(i.RCC_Clocks_Frequencies_Value_Get), (280 bytes).
+    Removing n32g430_rcc.o(i.RCC_Flag_Status_Get), (64 bytes).
+    Removing n32g430_rcc.o(i.RCC_HSE_Config), (64 bytes).
+    Removing n32g430_rcc.o(i.RCC_HSE_Stable_Wait), (84 bytes).
+    Removing n32g430_rcc.o(i.RCC_HSI_Calibration_Value_Set), (24 bytes).
+    Removing n32g430_rcc.o(i.RCC_HSI_Disable), (12 bytes).
+    Removing n32g430_rcc.o(i.RCC_HSI_Enable), (12 bytes).
+    Removing n32g430_rcc.o(i.RCC_HSI_Stable_Wait), (84 bytes).
+    Removing n32g430_rcc.o(i.RCC_Hclk_Config), (24 bytes).
+    Removing n32g430_rcc.o(i.RCC_Interrupt_Disable), (16 bytes).
+    Removing n32g430_rcc.o(i.RCC_Interrupt_Enable), (16 bytes).
+    Removing n32g430_rcc.o(i.RCC_Interrupt_Status_Clear), (16 bytes).
+    Removing n32g430_rcc.o(i.RCC_Interrupt_Status_Get), (24 bytes).
+    Removing n32g430_rcc.o(i.RCC_LPTIM_Clock_Config), (56 bytes).
+    Removing n32g430_rcc.o(i.RCC_LPTIM_Disable), (20 bytes).
+    Removing n32g430_rcc.o(i.RCC_LPTIM_Enable), (20 bytes).
+    Removing n32g430_rcc.o(i.RCC_LPTIM_Reset), (28 bytes).
+    Removing n32g430_rcc.o(i.RCC_LSE_Clock_Security_System_Disable), (12 bytes).
+    Removing n32g430_rcc.o(i.RCC_LSE_Clock_Security_System_Enable), (12 bytes).
+    Removing n32g430_rcc.o(i.RCC_LSE_Clock_Security_System_Status_Get), (24 bytes).
+    Removing n32g430_rcc.o(i.RCC_LSE_Config), (44 bytes).
+    Removing n32g430_rcc.o(i.RCC_LSE_Stable_Wait), (84 bytes).
+    Removing n32g430_rcc.o(i.RCC_LSI_Disable), (12 bytes).
+    Removing n32g430_rcc.o(i.RCC_LSI_Enable), (12 bytes).
+    Removing n32g430_rcc.o(i.RCC_LSI_Stable_Wait), (84 bytes).
+    Removing n32g430_rcc.o(i.RCC_MCO_PLL_Prescaler_Config), (24 bytes).
+    Removing n32g430_rcc.o(i.RCC_MCO_Source_Config), (24 bytes).
+    Removing n32g430_rcc.o(i.RCC_PLL_Config), (56 bytes).
+    Removing n32g430_rcc.o(i.RCC_PLL_Disable), (12 bytes).
+    Removing n32g430_rcc.o(i.RCC_PLL_Enable), (12 bytes).
+    Removing n32g430_rcc.o(i.RCC_Pclk1_Config), (24 bytes).
+    Removing n32g430_rcc.o(i.RCC_Pclk2_Config), (24 bytes).
+    Removing n32g430_rcc.o(i.RCC_RTC_Clock_Config), (28 bytes).
+    Removing n32g430_rcc.o(i.RCC_RTC_Clock_Disable), (12 bytes).
+    Removing n32g430_rcc.o(i.RCC_RTC_Clock_Enable), (12 bytes).
+    Removing n32g430_rcc.o(i.RCC_Reset), (96 bytes).
+    Removing n32g430_rcc.o(i.RCC_Reset_Flag_Clear), (28 bytes).
+    Removing n32g430_rcc.o(i.RCC_Sysclk_Config), (24 bytes).
+    Removing n32g430_rcc.o(i.RCC_Sysclk_Source_Get), (16 bytes).
+    Removing n32g430_rcc.o(i.RCC_TIM1_8_Clock_Config), (24 bytes).
+    Removing n32g430_rcc.o(.constdata), (64 bytes).
+    Removing n32g430_rtc.o(.rev16_text), (4 bytes).
+    Removing n32g430_rtc.o(.revsh_text), (4 bytes).
+    Removing n32g430_rtc.o(.rrx_text), (6 bytes).
+    Removing n32g430_rtc.o(i.RTC_Alarm_Disable), (80 bytes).
+    Removing n32g430_rtc.o(i.RTC_Alarm_Enable), (32 bytes).
+    Removing n32g430_rtc.o(i.RTC_Alarm_Get), (116 bytes).
+    Removing n32g430_rtc.o(i.RTC_Alarm_Set), (176 bytes).
+    Removing n32g430_rtc.o(i.RTC_Alarm_Struct_Initializes), (22 bytes).
+    Removing n32g430_rtc.o(i.RTC_Alarm_SubSecond_Config), (44 bytes).
+    Removing n32g430_rtc.o(i.RTC_Alarm_SubSecond_Get), (36 bytes).
+    Removing n32g430_rtc.o(i.RTC_Backup_Register_Read), (20 bytes).
+    Removing n32g430_rtc.o(i.RTC_Backup_Register_Write), (16 bytes).
+    Removing n32g430_rtc.o(i.RTC_Bcd2_To_Byte), (22 bytes).
+    Removing n32g430_rtc.o(i.RTC_Bypass_Shadow_Disable), (28 bytes).
+    Removing n32g430_rtc.o(i.RTC_Bypass_Shadow_Enable), (28 bytes).
+    Removing n32g430_rtc.o(i.RTC_Byte_To_Bcd2), (28 bytes).
+    Removing n32g430_rtc.o(i.RTC_Calendar_Initializes), (428 bytes).
+    Removing n32g430_rtc.o(i.RTC_Calibration_Output_Config), (40 bytes).
+    Removing n32g430_rtc.o(i.RTC_Calibration_Output_Disable), (28 bytes).
+    Removing n32g430_rtc.o(i.RTC_Calibration_Output_Enable), (28 bytes).
+    Removing n32g430_rtc.o(i.RTC_Date_Get), (76 bytes).
+    Removing n32g430_rtc.o(i.RTC_Date_Struct_Initializes), (14 bytes).
+    Removing n32g430_rtc.o(i.RTC_Day_Light_Saving_Config), (52 bytes).
+    Removing n32g430_rtc.o(i.RTC_Deinitializes), (116 bytes).
+    Removing n32g430_rtc.o(i.RTC_Flag_Clear), (28 bytes).
+    Removing n32g430_rtc.o(i.RTC_Flag_Status_Get), (36 bytes).
+    Removing n32g430_rtc.o(i.RTC_Hour_Format_Set), (28 bytes).
+    Removing n32g430_rtc.o(i.RTC_Initialization_Mode_Enter), (68 bytes).
+    Removing n32g430_rtc.o(i.RTC_Initialization_Mode_Exit), (20 bytes).
+    Removing n32g430_rtc.o(i.RTC_Interrupt_Status_Clear), (32 bytes).
+    Removing n32g430_rtc.o(i.RTC_Interrupt_Status_Get), (76 bytes).
+    Removing n32g430_rtc.o(i.RTC_Interrupts_Disable), (28 bytes).
+    Removing n32g430_rtc.o(i.RTC_Interrupts_Enable), (28 bytes).
+    Removing n32g430_rtc.o(i.RTC_Output_Config), (52 bytes).
+    Removing n32g430_rtc.o(i.RTC_Output_Mode_Config), (28 bytes).
+    Removing n32g430_rtc.o(i.RTC_Prescale_Config), (20 bytes).
+    Removing n32g430_rtc.o(i.RTC_Reference_Clock_Disable), (48 bytes).
+    Removing n32g430_rtc.o(i.RTC_Reference_Clock_Enable), (48 bytes).
+    Removing n32g430_rtc.o(i.RTC_Registers_Reset), (84 bytes).
+    Removing n32g430_rtc.o(i.RTC_Smooth_Calibration_Config), (84 bytes).
+    Removing n32g430_rtc.o(i.RTC_Store_Operation_Get), (16 bytes).
+    Removing n32g430_rtc.o(i.RTC_Structure_Initializes), (14 bytes).
+    Removing n32g430_rtc.o(i.RTC_SubSecond_Get), (12 bytes).
+    Removing n32g430_rtc.o(i.RTC_Synchronization_Shift_Config), (108 bytes).
+    Removing n32g430_rtc.o(i.RTC_Tamper_Backup_Register_Clear_Disable), (16 bytes).
+    Removing n32g430_rtc.o(i.RTC_Tamper_Backup_Register_Clear_Enable), (16 bytes).
+    Removing n32g430_rtc.o(i.RTC_Tamper_Disable), (16 bytes).
+    Removing n32g430_rtc.o(i.RTC_Tamper_Enable), (16 bytes).
+    Removing n32g430_rtc.o(i.RTC_Tamper_Filter_Config), (28 bytes).
+    Removing n32g430_rtc.o(i.RTC_Tamper_Interrput_Disable), (16 bytes).
+    Removing n32g430_rtc.o(i.RTC_Tamper_Interrput_Enable), (16 bytes).
+    Removing n32g430_rtc.o(i.RTC_Tamper_Pins_Precharge_Duration), (28 bytes).
+    Removing n32g430_rtc.o(i.RTC_Tamper_Precharge_Disable), (20 bytes).
+    Removing n32g430_rtc.o(i.RTC_Tamper_Precharge_Enable), (20 bytes).
+    Removing n32g430_rtc.o(i.RTC_Tamper_Sampling_Frequency_Config), (28 bytes).
+    Removing n32g430_rtc.o(i.RTC_Tamper_Trigger_Config), (36 bytes).
+    Removing n32g430_rtc.o(i.RTC_TimeStamp_Disable), (36 bytes).
+    Removing n32g430_rtc.o(i.RTC_TimeStamp_Enable), (44 bytes).
+    Removing n32g430_rtc.o(i.RTC_TimeStamp_Get), (156 bytes).
+    Removing n32g430_rtc.o(i.RTC_TimeStamp_On_Tamper_Detection_Disable), (20 bytes).
+    Removing n32g430_rtc.o(i.RTC_TimeStamp_On_Tamper_Detection_Enable), (20 bytes).
+    Removing n32g430_rtc.o(i.RTC_TimeStamp_SubSecond_Get), (12 bytes).
+    Removing n32g430_rtc.o(i.RTC_Time_Get), (80 bytes).
+    Removing n32g430_rtc.o(i.RTC_Time_Struct_Initializes), (12 bytes).
+    Removing n32g430_rtc.o(i.RTC_Wait_For_Synchronization), (76 bytes).
+    Removing n32g430_rtc.o(i.RTC_WakeUp_Clock_Select), (40 bytes).
+    Removing n32g430_rtc.o(i.RTC_WakeUp_Counter_Get), (12 bytes).
+    Removing n32g430_rtc.o(i.RTC_WakeUp_Counter_Set), (44 bytes).
+    Removing n32g430_rtc.o(i.RTC_WakeUp_Disable), (80 bytes).
+    Removing n32g430_rtc.o(i.RTC_WakeUp_Enable), (32 bytes).
+    Removing n32g430_rtc.o(i.RTC_Write_Protection_Disable), (16 bytes).
+    Removing n32g430_rtc.o(i.RTC_Write_Protection_Enable), (12 bytes).
+    Removing n32g430_rtc.o(.data), (8 bytes).
+    Removing n32g430_spi.o(.rev16_text), (4 bytes).
+    Removing n32g430_spi.o(.revsh_text), (4 bytes).
+    Removing n32g430_spi.o(.rrx_text), (6 bytes).
+    Removing n32g430_spi.o(i.I2S_AudioFrequency_Config), (170 bytes).
+    Removing n32g430_spi.o(i.I2S_CLKPOL_Config), (16 bytes).
+    Removing n32g430_spi.o(i.I2S_DataFormat_Config), (16 bytes).
+    Removing n32g430_spi.o(i.I2S_Initializes), (68 bytes).
+    Removing n32g430_spi.o(i.I2S_Initializes_Structure), (20 bytes).
+    Removing n32g430_spi.o(i.I2S_MCLK_Disable), (10 bytes).
+    Removing n32g430_spi.o(i.I2S_MCLK_Enable), (10 bytes).
+    Removing n32g430_spi.o(i.I2S_Mode_Config), (16 bytes).
+    Removing n32g430_spi.o(i.I2S_OFF), (10 bytes).
+    Removing n32g430_spi.o(i.I2S_ON), (10 bytes).
+    Removing n32g430_spi.o(i.I2S_Standard_Config), (16 bytes).
+    Removing n32g430_spi.o(i.SPI_BaudRatePres_Config), (16 bytes).
+    Removing n32g430_spi.o(i.SPI_CLKPHA_Config), (16 bytes).
+    Removing n32g430_spi.o(i.SPI_CLKPOL_Config), (16 bytes).
+    Removing n32g430_spi.o(i.SPI_CRC_Data_Get), (14 bytes).
+    Removing n32g430_spi.o(i.SPI_CRC_Disable), (10 bytes).
+    Removing n32g430_spi.o(i.SPI_CRC_Enable), (10 bytes).
+    Removing n32g430_spi.o(i.SPI_CRC_Polynomial_Get), (6 bytes).
+    Removing n32g430_spi.o(i.SPI_CRC_Polynomial_Set), (4 bytes).
+    Removing n32g430_spi.o(i.SPI_DataDirection_Config), (16 bytes).
+    Removing n32g430_spi.o(i.SPI_DataLen_Config), (16 bytes).
+    Removing n32g430_spi.o(i.SPI_FirstBit_Config), (16 bytes).
+    Removing n32g430_spi.o(i.SPI_I2S_Clear_Flag_Status), (72 bytes).
+    Removing n32g430_spi.o(i.SPI_I2S_DMA_Transfer_Disable), (8 bytes).
+    Removing n32g430_spi.o(i.SPI_I2S_DMA_Transfer_Enable), (8 bytes).
+    Removing n32g430_spi.o(i.SPI_I2S_Data_Get), (6 bytes).
+    Removing n32g430_spi.o(i.SPI_I2S_Data_Transmit), (4 bytes).
+    Removing n32g430_spi.o(i.SPI_I2S_Flag_Status_Get), (18 bytes).
+    Removing n32g430_spi.o(i.SPI_I2S_Interrupt_Flag_Status_Get), (122 bytes).
+    Removing n32g430_spi.o(i.SPI_I2S_Interrupts_Disable), (8 bytes).
+    Removing n32g430_spi.o(i.SPI_I2S_Interrupts_Enable), (8 bytes).
+    Removing n32g430_spi.o(i.SPI_I2S_Mode_Select), (16 bytes).
+    Removing n32g430_spi.o(i.SPI_I2S_Reset), (44 bytes).
+    Removing n32g430_spi.o(i.SPI_Initializes), (80 bytes).
+    Removing n32g430_spi.o(i.SPI_Initializes_Structure), (24 bytes).
+    Removing n32g430_spi.o(i.SPI_NSS_Config), (16 bytes).
+    Removing n32g430_spi.o(i.SPI_Next_Transmit_CRC), (10 bytes).
+    Removing n32g430_spi.o(i.SPI_OFF), (10 bytes).
+    Removing n32g430_spi.o(i.SPI_ON), (10 bytes).
+    Removing n32g430_spi.o(i.SPI_SS_Output_Disable), (10 bytes).
+    Removing n32g430_spi.o(i.SPI_SS_Output_Enable), (10 bytes).
+    Removing n32g430_spi.o(i.SPI_Set_Nss_Level), (26 bytes).
+    Removing n32g430_spi.o(i.SPI_SpiMode_Config), (16 bytes).
+    Removing n32g430_tim.o(.rev16_text), (4 bytes).
+    Removing n32g430_tim.o(.revsh_text), (4 bytes).
+    Removing n32g430_tim.o(.rrx_text), (6 bytes).
+    Removing n32g430_tim.o(i.Input_Channel1_Config), (124 bytes).
+    Removing n32g430_tim.o(i.Input_Channel2_Config), (136 bytes).
+    Removing n32g430_tim.o(i.Input_Channel3_Config), (132 bytes).
+    Removing n32g430_tim.o(i.Input_Channel4_Config), (140 bytes).
+    Removing n32g430_tim.o(i.TIM_Asymmetric_Disable), (10 bytes).
+    Removing n32g430_tim.o(i.TIM_Asymmetric_Enable), (10 bytes).
+    Removing n32g430_tim.o(i.TIM_Auto_Reload_Get), (6 bytes).
+    Removing n32g430_tim.o(i.TIM_Auto_Reload_Preload_Disable), (10 bytes).
+    Removing n32g430_tim.o(i.TIM_Auto_Reload_Preload_Enable), (10 bytes).
+    Removing n32g430_tim.o(i.TIM_Base_Auto_Reload_Set), (4 bytes).
+    Removing n32g430_tim.o(i.TIM_Base_Center_Aligned_Mode_OC4_7_8_9_Trigger_Set), (16 bytes).
+    Removing n32g430_tim.o(i.TIM_Base_Channel1), (22 bytes).
+    Removing n32g430_tim.o(i.TIM_Base_Channel2), (22 bytes).
+    Removing n32g430_tim.o(i.TIM_Base_Channel3), (22 bytes).
+    Removing n32g430_tim.o(i.TIM_Base_Channel4), (22 bytes).
+    Removing n32g430_tim.o(i.TIM_Base_Count_Get), (6 bytes).
+    Removing n32g430_tim.o(i.TIM_Base_Count_Mode_Set), (16 bytes).
+    Removing n32g430_tim.o(i.TIM_Base_Count_Set), (4 bytes).
+    Removing n32g430_tim.o(i.TIM_Base_Initialize), (176 bytes).
+    Removing n32g430_tim.o(i.TIM_Base_OCrefClear), (22 bytes).
+    Removing n32g430_tim.o(i.TIM_Base_Prescaler_Get), (6 bytes).
+    Removing n32g430_tim.o(i.TIM_Base_Prescaler_Set), (4 bytes).
+    Removing n32g430_tim.o(i.TIM_Base_Reload_Mode_Set), (4 bytes).
+    Removing n32g430_tim.o(i.TIM_Base_Repeat_Count_Set), (4 bytes).
+    Removing n32g430_tim.o(i.TIM_Base_Struct_Initialize), (30 bytes).
+    Removing n32g430_tim.o(i.TIM_Break_And_Dead_Time_Set), (96 bytes).
+    Removing n32g430_tim.o(i.TIM_Break_And_Dead_Time_Struct_Initialize), (24 bytes).
+    Removing n32g430_tim.o(i.TIM_Break_Filter_Config), (52 bytes).
+    Removing n32g430_tim.o(i.TIM_Break_Filter_Disable), (10 bytes).
+    Removing n32g430_tim.o(i.TIM_Break_Filter_Enable), (10 bytes).
+    Removing n32g430_tim.o(i.TIM_CCEN_Status_Get), (16 bytes).
+    Removing n32g430_tim.o(i.TIM_Capture_Compare_Ch_Disable), (12 bytes).
+    Removing n32g430_tim.o(i.TIM_Capture_Compare_Ch_Enable), (12 bytes).
+    Removing n32g430_tim.o(i.TIM_Capture_Compare_Ch_N_Disable), (12 bytes).
+    Removing n32g430_tim.o(i.TIM_Capture_Compare_Ch_N_Enable), (12 bytes).
+    Removing n32g430_tim.o(i.TIM_Capture_Compare_Control_Preload_Disable), (10 bytes).
+    Removing n32g430_tim.o(i.TIM_Capture_Compare_Control_Preload_Enable), (10 bytes).
+    Removing n32g430_tim.o(i.TIM_Channel1_Filter_Config), (68 bytes).
+    Removing n32g430_tim.o(i.TIM_Channel1_Filter_Disable), (10 bytes).
+    Removing n32g430_tim.o(i.TIM_Channel1_Filter_Enable), (10 bytes).
+    Removing n32g430_tim.o(i.TIM_Channel2_Filter_Config), (68 bytes).
+    Removing n32g430_tim.o(i.TIM_Channel2_Filter_Disable), (10 bytes).
+    Removing n32g430_tim.o(i.TIM_Channel2_Filter_Enable), (10 bytes).
+    Removing n32g430_tim.o(i.TIM_Channel3_Filter_Config), (68 bytes).
+    Removing n32g430_tim.o(i.TIM_Channel3_Filter_Disable), (10 bytes).
+    Removing n32g430_tim.o(i.TIM_Channel3_Filter_Enable), (10 bytes).
+    Removing n32g430_tim.o(i.TIM_Channel4_Filter_Config), (68 bytes).
+    Removing n32g430_tim.o(i.TIM_Channel4_Filter_Disable), (10 bytes).
+    Removing n32g430_tim.o(i.TIM_Channel4_Filter_Enable), (10 bytes).
+    Removing n32g430_tim.o(i.TIM_Clock_Division_Set), (16 bytes).
+    Removing n32g430_tim.o(i.TIM_Commutation_Event_Disable), (10 bytes).
+    Removing n32g430_tim.o(i.TIM_Commutation_Event_Enable), (10 bytes).
+    Removing n32g430_tim.o(i.TIM_Compare1_D_Set), (14 bytes).
+    Removing n32g430_tim.o(i.TIM_Compare1_Set), (14 bytes).
+    Removing n32g430_tim.o(i.TIM_Compare2_D_Set), (14 bytes).
+    Removing n32g430_tim.o(i.TIM_Compare2_Set), (14 bytes).
+    Removing n32g430_tim.o(i.TIM_Compare3_D_Set), (14 bytes).
+    Removing n32g430_tim.o(i.TIM_Compare3_Set), (14 bytes).
+    Removing n32g430_tim.o(i.TIM_Compare4_D_Set), (14 bytes).
+    Removing n32g430_tim.o(i.TIM_Compare4_Set), (14 bytes).
+    Removing n32g430_tim.o(i.TIM_Compare5_Set), (6 bytes).
+    Removing n32g430_tim.o(i.TIM_Compare6_Set), (6 bytes).
+    Removing n32g430_tim.o(i.TIM_Compare7_Set), (6 bytes).
+    Removing n32g430_tim.o(i.TIM_Compare8_Set), (6 bytes).
+    Removing n32g430_tim.o(i.TIM_Compare9_Set), (6 bytes).
+    Removing n32g430_tim.o(i.TIM_Compare_Capture1_D_Get), (8 bytes).
+    Removing n32g430_tim.o(i.TIM_Compare_Capture1_Get), (8 bytes).
+    Removing n32g430_tim.o(i.TIM_Compare_Capture2_D_Get), (8 bytes).
+    Removing n32g430_tim.o(i.TIM_Compare_Capture2_Get), (8 bytes).
+    Removing n32g430_tim.o(i.TIM_Compare_Capture3_D_Get), (8 bytes).
+    Removing n32g430_tim.o(i.TIM_Compare_Capture3_Get), (8 bytes).
+    Removing n32g430_tim.o(i.TIM_Compare_Capture4_D_Get), (8 bytes).
+    Removing n32g430_tim.o(i.TIM_Compare_Capture4_Get), (8 bytes).
+    Removing n32g430_tim.o(i.TIM_Compare_Capture5_Get), (8 bytes).
+    Removing n32g430_tim.o(i.TIM_Compare_Capture6_Get), (8 bytes).
+    Removing n32g430_tim.o(i.TIM_Compare_Capture7_Get), (8 bytes).
+    Removing n32g430_tim.o(i.TIM_Compare_Capture8_Get), (8 bytes).
+    Removing n32g430_tim.o(i.TIM_Compare_Capture9_Get), (8 bytes).
+    Removing n32g430_tim.o(i.TIM_Dma_Config), (10 bytes).
+    Removing n32g430_tim.o(i.TIM_Dma_Disable), (8 bytes).
+    Removing n32g430_tim.o(i.TIM_Dma_Enable), (8 bytes).
+    Removing n32g430_tim.o(i.TIM_Encoder_Interface_Set), (64 bytes).
+    Removing n32g430_tim.o(i.TIM_Event_Generate), (4 bytes).
+    Removing n32g430_tim.o(i.TIM_External_Clock_Mode1_Set), (66 bytes).
+    Removing n32g430_tim.o(i.TIM_External_Clock_Mode2_Set), (44 bytes).
+    Removing n32g430_tim.o(i.TIM_External_Trigger_Filter_Set), (24 bytes).
+    Removing n32g430_tim.o(i.TIM_External_Trigger_Polarity_Set), (26 bytes).
+    Removing n32g430_tim.o(i.TIM_External_Trigger_Prescaler_Set), (16 bytes).
+    Removing n32g430_tim.o(i.TIM_Flag_Clear), (6 bytes).
+    Removing n32g430_tim.o(i.TIM_Flag_Status_Get), (16 bytes).
+    Removing n32g430_tim.o(i.TIM_Forced_Output_Channel1_Set), (18 bytes).
+    Removing n32g430_tim.o(i.TIM_Forced_Output_Channel2_Set), (26 bytes).
+    Removing n32g430_tim.o(i.TIM_Forced_Output_Channel3_Set), (20 bytes).
+    Removing n32g430_tim.o(i.TIM_Forced_Output_Channel4_Set), (28 bytes).
+    Removing n32g430_tim.o(i.TIM_Forced_Output_Channel5_Set), (22 bytes).
+    Removing n32g430_tim.o(i.TIM_Forced_Output_Channel6_Set), (30 bytes).
+    Removing n32g430_tim.o(i.TIM_Hall_Sensor_Disable), (10 bytes).
+    Removing n32g430_tim.o(i.TIM_Hall_Sensor_Enable), (10 bytes).
+    Removing n32g430_tim.o(i.TIM_IOM_Comp_Break), (22 bytes).
+    Removing n32g430_tim.o(i.TIM_Input_Capture1_Prescaler_Set), (18 bytes).
+    Removing n32g430_tim.o(i.TIM_Input_Capture2_Prescaler_Set), (26 bytes).
+    Removing n32g430_tim.o(i.TIM_Input_Capture3_Prescaler_Set), (18 bytes).
+    Removing n32g430_tim.o(i.TIM_Input_Capture4_Prescaler_Set), (20 bytes).
+    Removing n32g430_tim.o(i.TIM_Input_Channel_Initialize), (110 bytes).
+    Removing n32g430_tim.o(i.TIM_Input_Struct_Initialize), (16 bytes).
+    Removing n32g430_tim.o(i.TIM_Internal_Clock_Set), (12 bytes).
+    Removing n32g430_tim.o(i.TIM_Internal_Trig_To_Ext_Set), (24 bytes).
+    Removing n32g430_tim.o(i.TIM_Interrupt_Disable), (8 bytes).
+    Removing n32g430_tim.o(i.TIM_Interrupt_Enable), (8 bytes).
+    Removing n32g430_tim.o(i.TIM_Interrupt_Status_Clear), (6 bytes).
+    Removing n32g430_tim.o(i.TIM_Interrupt_Status_Get), (32 bytes).
+    Removing n32g430_tim.o(i.TIM_Lock_Up_Break_Disable), (10 bytes).
+    Removing n32g430_tim.o(i.TIM_Lock_Up_Break_Enable), (10 bytes).
+    Removing n32g430_tim.o(i.TIM_Master_Slave_Mode_Set), (18 bytes).
+    Removing n32g430_tim.o(i.TIM_OC4REF_Trigger_To_ADC_Disable), (10 bytes).
+    Removing n32g430_tim.o(i.TIM_OC4REF_Trigger_To_ADC_Enable), (10 bytes).
+    Removing n32g430_tim.o(i.TIM_OC7REF_Trigger_To_ADC_Disable), (10 bytes).
+    Removing n32g430_tim.o(i.TIM_OC7REF_Trigger_To_ADC_Enable), (10 bytes).
+    Removing n32g430_tim.o(i.TIM_OC8REF_Trigger_To_ADC_Disable), (10 bytes).
+    Removing n32g430_tim.o(i.TIM_OC8REF_Trigger_To_ADC_Enable), (10 bytes).
+    Removing n32g430_tim.o(i.TIM_OC9REF_Trigger_To_ADC_Disable), (10 bytes).
+    Removing n32g430_tim.o(i.TIM_OC9REF_Trigger_To_ADC_Enable), (10 bytes).
+    Removing n32g430_tim.o(i.TIM_Off), (10 bytes).
+    Removing n32g430_tim.o(i.TIM_On), (10 bytes).
+    Removing n32g430_tim.o(i.TIM_One_Pulse_Mode_Select), (16 bytes).
+    Removing n32g430_tim.o(i.TIM_Output_Channel1_Fast_Set), (18 bytes).
+    Removing n32g430_tim.o(i.TIM_Output_Channel1_Initialize), (148 bytes).
+    Removing n32g430_tim.o(i.TIM_Output_Channel1_Preload_Set), (18 bytes).
+    Removing n32g430_tim.o(i.TIM_Output_Channel1_Reference_Clear), (18 bytes).
+    Removing n32g430_tim.o(i.TIM_Output_Channel2_Fast_Set), (26 bytes).
+    Removing n32g430_tim.o(i.TIM_Output_Channel2_Initialize), (160 bytes).
+    Removing n32g430_tim.o(i.TIM_Output_Channel2_Preload_Set), (26 bytes).
+    Removing n32g430_tim.o(i.TIM_Output_Channel2_Reference_Clear), (24 bytes).
+    Removing n32g430_tim.o(i.TIM_Output_Channel3_Fast_Set), (20 bytes).
+    Removing n32g430_tim.o(i.TIM_Output_Channel3_Initialize), (156 bytes).
+    Removing n32g430_tim.o(i.TIM_Output_Channel3_Preload_Set), (20 bytes).
+    Removing n32g430_tim.o(i.TIM_Output_Channel3_Reference_Clear), (20 bytes).
+    Removing n32g430_tim.o(i.TIM_Output_Channel4_Fast_Set), (28 bytes).
+    Removing n32g430_tim.o(i.TIM_Output_Channel4_Initialize), (176 bytes).
+    Removing n32g430_tim.o(i.TIM_Output_Channel4_Preload_Set), (28 bytes).
+    Removing n32g430_tim.o(i.TIM_Output_Channel4_Reference_Clear), (26 bytes).
+    Removing n32g430_tim.o(i.TIM_Output_Channel5_Fast_Set), (22 bytes).
+    Removing n32g430_tim.o(i.TIM_Output_Channel5_Initialize), (112 bytes).
+    Removing n32g430_tim.o(i.TIM_Output_Channel5_Preload_Set), (22 bytes).
+    Removing n32g430_tim.o(i.TIM_Output_Channel5_Reference_Clear), (22 bytes).
+    Removing n32g430_tim.o(i.TIM_Output_Channel6_Fast_Set), (30 bytes).
+    Removing n32g430_tim.o(i.TIM_Output_Channel6_Initialize), (120 bytes).
+    Removing n32g430_tim.o(i.TIM_Output_Channel6_Preload_Set), (30 bytes).
+    Removing n32g430_tim.o(i.TIM_Output_Channel6_Reference_Clear), (28 bytes).
+    Removing n32g430_tim.o(i.TIM_Output_Channel7_Preload_Set), (26 bytes).
+    Removing n32g430_tim.o(i.TIM_Output_Channel8_Preload_Set), (26 bytes).
+    Removing n32g430_tim.o(i.TIM_Output_Channel9_Preload_Set), (26 bytes).
+    Removing n32g430_tim.o(i.TIM_Output_Channel_Mode_Set), (86 bytes).
+    Removing n32g430_tim.o(i.TIM_Output_Channel_N_Polarity_Set), (22 bytes).
+    Removing n32g430_tim.o(i.TIM_Output_Channel_Polarity_Set), (22 bytes).
+    Removing n32g430_tim.o(i.TIM_Output_Channel_Struct_Initialize), (20 bytes).
+    Removing n32g430_tim.o(i.TIM_Output_Trigger_Select), (20 bytes).
+    Removing n32g430_tim.o(i.TIM_PWM_Input_Channel_Config), (120 bytes).
+    Removing n32g430_tim.o(i.TIM_PWM_Output_Disable), (14 bytes).
+    Removing n32g430_tim.o(i.TIM_PWM_Output_Enable), (14 bytes).
+    Removing n32g430_tim.o(i.TIM_Pvd_Break_Disable), (10 bytes).
+    Removing n32g430_tim.o(i.TIM_Pvd_Break_Enable), (10 bytes).
+    Removing n32g430_tim.o(i.TIM_Reset), (128 bytes).
+    Removing n32g430_tim.o(i.TIM_Slave_Mode_Select), (18 bytes).
+    Removing n32g430_tim.o(i.TIM_Trigger_As_External_Clock), (58 bytes).
+    Removing n32g430_tim.o(i.TIM_Trigger_Source_Select), (18 bytes).
+    Removing n32g430_tim.o(i.TIM_Update_Event_Disable), (10 bytes).
+    Removing n32g430_tim.o(i.TIM_Update_Event_Enable), (10 bytes).
+    Removing n32g430_tim.o(i.TIM_Update_Request_Source_Set), (22 bytes).
+    Removing n32g430_usart.o(.rev16_text), (4 bytes).
+    Removing n32g430_usart.o(.revsh_text), (4 bytes).
+    Removing n32g430_usart.o(.rrx_text), (6 bytes).
+    Removing n32g430_usart.o(i.USART_Address_Set), (16 bytes).
+    Removing n32g430_usart.o(i.USART_Baud_Rate_Config), (128 bytes).
+    Removing n32g430_usart.o(i.USART_Break_Frame_Send), (10 bytes).
+    Removing n32g430_usart.o(i.USART_Clock_Config), (16 bytes).
+    Removing n32g430_usart.o(i.USART_Clock_Initializes), (40 bytes).
+    Removing n32g430_usart.o(i.USART_Clock_Structure_Initializes), (12 bytes).
+    Removing n32g430_usart.o(i.USART_DMA_Transfer_Disable), (8 bytes).
+    Removing n32g430_usart.o(i.USART_DMA_Transfer_Enable), (8 bytes).
+    Removing n32g430_usart.o(i.USART_Data_Receive), (10 bytes).
+    Removing n32g430_usart.o(i.USART_Data_Send), (8 bytes).
+    Removing n32g430_usart.o(i.USART_Disable), (10 bytes).
+    Removing n32g430_usart.o(i.USART_Enable), (10 bytes).
+    Removing n32g430_usart.o(i.USART_Flag_Clear), (6 bytes).
+    Removing n32g430_usart.o(i.USART_Flag_Status_Get), (16 bytes).
+    Removing n32g430_usart.o(i.USART_Guard_Time_Set), (16 bytes).
+    Removing n32g430_usart.o(i.USART_Half_Duplex_Disable), (10 bytes).
+    Removing n32g430_usart.o(i.USART_Half_Duplex_Enable), (10 bytes).
+    Removing n32g430_usart.o(i.USART_Hardware_Flow_Control_Config), (16 bytes).
+    Removing n32g430_usart.o(i.USART_Initializes), (56 bytes).
+    Removing n32g430_usart.o(i.USART_Interrput_Disable), (54 bytes).
+    Removing n32g430_usart.o(i.USART_Interrput_Enable), (54 bytes).
+    Removing n32g430_usart.o(i.USART_Interrupt_Status_Clear), (20 bytes).
+    Removing n32g430_usart.o(i.USART_Interrupt_Status_Get), (74 bytes).
+    Removing n32g430_usart.o(i.USART_IrDA_Disable), (10 bytes).
+    Removing n32g430_usart.o(i.USART_IrDA_Enable), (10 bytes).
+    Removing n32g430_usart.o(i.USART_IrDA_Mode_Set), (16 bytes).
+    Removing n32g430_usart.o(i.USART_LIN_Break_Detect_Length_Set), (16 bytes).
+    Removing n32g430_usart.o(i.USART_LIN_Disable), (10 bytes).
+    Removing n32g430_usart.o(i.USART_LIN_Enable), (10 bytes).
+    Removing n32g430_usart.o(i.USART_Last_Bit_Config), (16 bytes).
+    Removing n32g430_usart.o(i.USART_Mode_Config), (16 bytes).
+    Removing n32g430_usart.o(i.USART_Parity_Config), (16 bytes).
+    Removing n32g430_usart.o(i.USART_Phase_Config), (16 bytes).
+    Removing n32g430_usart.o(i.USART_Polarity_Config), (16 bytes).
+    Removing n32g430_usart.o(i.USART_Prescaler_Set), (16 bytes).
+    Removing n32g430_usart.o(i.USART_Receiver_Wakeup_Disable), (10 bytes).
+    Removing n32g430_usart.o(i.USART_Receiver_Wakeup_Enable), (10 bytes).
+    Removing n32g430_usart.o(i.USART_Reset), (84 bytes).
+    Removing n32g430_usart.o(i.USART_Smart_Card_Disable), (10 bytes).
+    Removing n32g430_usart.o(i.USART_Smart_Card_Enable), (10 bytes).
+    Removing n32g430_usart.o(i.USART_Smart_Card_NACK_Disable), (10 bytes).
+    Removing n32g430_usart.o(i.USART_Smart_Card_NACK_Enable), (10 bytes).
+    Removing n32g430_usart.o(i.USART_Stop_Bits_Config), (16 bytes).
+    Removing n32g430_usart.o(i.USART_Structure_Initializes), (24 bytes).
+    Removing n32g430_usart.o(i.USART_WakeUp_Mode_Set), (16 bytes).
+    Removing n32g430_usart.o(i.USART_Word_Length_Config), (16 bytes).
+    Removing n32g430_wwdg.o(.rev16_text), (4 bytes).
+    Removing n32g430_wwdg.o(.revsh_text), (4 bytes).
+    Removing n32g430_wwdg.o(.rrx_text), (6 bytes).
+    Removing n32g430_wwdg.o(i.WWDG_Counter_Value_Set), (16 bytes).
+    Removing n32g430_wwdg.o(i.WWDG_EWINTF_Flag_Clear), (12 bytes).
+    Removing n32g430_wwdg.o(i.WWDG_EWINTF_Flag_Get), (12 bytes).
+    Removing n32g430_wwdg.o(i.WWDG_Enable), (16 bytes).
+    Removing n32g430_wwdg.o(i.WWDG_Interrupt_Enable), (12 bytes).
+    Removing n32g430_wwdg.o(i.WWDG_Prescaler_Division_Set), (24 bytes).
+    Removing n32g430_wwdg.o(i.WWDG_Reset), (12 bytes).
+    Removing n32g430_wwdg.o(i.WWDG_Window_Value_Set), (40 bytes).
+    Removing system_n32g430.o(.rev16_text), (4 bytes).
+    Removing system_n32g430.o(.revsh_text), (4 bytes).
+    Removing system_n32g430.o(.rrx_text), (6 bytes).
+    Removing system_n32g430.o(i.System_Clock_Frequency_Update), (208 bytes).
+    Removing system_n32g430.o(.constdata), (16 bytes).
+
+920 unused section(s) (total 28690 bytes) removed from the image.
+
+==============================================================================
+
+Image Symbol Table
+
+    Local Symbols
+
+    Symbol Name                              Value     Ov Type        Size  Object(Section)
+
+    ../clib/angel/boardlib.s                 0x00000000   Number         0  boardinit1.o ABSOLUTE
+    ../clib/angel/boardlib.s                 0x00000000   Number         0  boardshut.o ABSOLUTE
+    ../clib/angel/boardlib.s                 0x00000000   Number         0  boardinit3.o ABSOLUTE
+    ../clib/angel/boardlib.s                 0x00000000   Number         0  boardinit2.o ABSOLUTE
+    ../clib/angel/handlers.s                 0x00000000   Number         0  __scatter_copy.o ABSOLUTE
+    ../clib/angel/handlers.s                 0x00000000   Number         0  __scatter_zi.o ABSOLUTE
+    ../clib/angel/kernel.s                   0x00000000   Number         0  __rtentry2.o ABSOLUTE
+    ../clib/angel/kernel.s                   0x00000000   Number         0  __rtentry.o ABSOLUTE
+    ../clib/angel/kernel.s                   0x00000000   Number         0  rtexit2.o ABSOLUTE
+    ../clib/angel/kernel.s                   0x00000000   Number         0  rtexit.o ABSOLUTE
+    ../clib/angel/kernel.s                   0x00000000   Number         0  __rtentry4.o ABSOLUTE
+    ../clib/angel/rt.s                       0x00000000   Number         0  rt_raise.o ABSOLUTE
+    ../clib/angel/scatter.s                  0x00000000   Number         0  __scatter.o ABSOLUTE
+    ../clib/angel/startup.s                  0x00000000   Number         0  __main.o ABSOLUTE
+    ../clib/angel/sys.s                      0x00000000   Number         0  indicate_semi.o ABSOLUTE
+    ../clib/angel/sys.s                      0x00000000   Number         0  use_no_semi.o ABSOLUTE
+    ../clib/angel/sys.s                      0x00000000   Number         0  sys_stackheap_outer.o ABSOLUTE
+    ../clib/angel/sys.s                      0x00000000   Number         0  libspace.o ABSOLUTE
+    ../clib/angel/sysapp.c                   0x00000000   Number         0  sys_command.o ABSOLUTE
+    ../clib/angel/sysapp.c                   0x00000000   Number         0  sys_exit.o ABSOLUTE
+    ../clib/angel/sysapp.c                   0x00000000   Number         0  sys_wrch.o ABSOLUTE
+    ../clib/armsys.c                         0x00000000   Number         0  argv_veneer.o ABSOLUTE
+    ../clib/armsys.c                         0x00000000   Number         0  no_argv.o ABSOLUTE
+    ../clib/armsys.c                         0x00000000   Number         0  _get_argv_nomalloc.o ABSOLUTE
+    ../clib/armsys.c                         0x00000000   Number         0  argv_veneer.o ABSOLUTE
+    ../clib/heapalloc.c                      0x00000000   Number         0  hrguard.o ABSOLUTE
+    ../clib/heapaux.c                        0x00000000   Number         0  heapauxi.o ABSOLUTE
+    ../clib/libinit.s                        0x00000000   Number         0  libinit.o ABSOLUTE
+    ../clib/libinit.s                        0x00000000   Number         0  libinit2.o ABSOLUTE
+    ../clib/libinit.s                        0x00000000   Number         0  libshutdown2.o ABSOLUTE
+    ../clib/libinit.s                        0x00000000   Number         0  libshutdown.o ABSOLUTE
+    ../clib/signal.c                         0x00000000   Number         0  defsig_general.o ABSOLUTE
+    ../clib/signal.c                         0x00000000   Number         0  defsig_fpe_inner.o ABSOLUTE
+    ../clib/signal.c                         0x00000000   Number         0  defsig_rtred_inner.o ABSOLUTE
+    ../clib/signal.c                         0x00000000   Number         0  defsig_stak_inner.o ABSOLUTE
+    ../clib/signal.c                         0x00000000   Number         0  defsig_pvfn_inner.o ABSOLUTE
+    ../clib/signal.c                         0x00000000   Number         0  defsig_cppl_inner.o ABSOLUTE
+    ../clib/signal.c                         0x00000000   Number         0  defsig_rtmem_inner.o ABSOLUTE
+    ../clib/signal.c                         0x00000000   Number         0  defsig_rtmem_outer.o ABSOLUTE
+    ../clib/signal.c                         0x00000000   Number         0  defsig_rtmem_formal.o ABSOLUTE
+    ../clib/signal.c                         0x00000000   Number         0  defsig_exit.o ABSOLUTE
+    ../clib/signal.c                         0x00000000   Number         0  __raise.o ABSOLUTE
+    ../clib/signal.c                         0x00000000   Number         0  defsig_segv_inner.o ABSOLUTE
+    ../clib/signal.c                         0x00000000   Number         0  defsig_other.o ABSOLUTE
+    ../clib/signal.c                         0x00000000   Number         0  defsig_abrt_inner.o ABSOLUTE
+    ../clib/signal.s                         0x00000000   Number         0  defsig.o ABSOLUTE
+    ../clib/stdlib.c                         0x00000000   Number         0  exit.o ABSOLUTE
+    ../fplib/fpinit.s                        0x00000000   Number         0  fpinit.o ABSOLUTE
+    ..\FWLIB\src\misc.c                      0x00000000   Number         0  misc.o ABSOLUTE
+    ..\FWLIB\src\n32g430_adc.c               0x00000000   Number         0  n32g430_adc.o ABSOLUTE
+    ..\FWLIB\src\n32g430_beeper.c            0x00000000   Number         0  n32g430_beeper.o ABSOLUTE
+    ..\FWLIB\src\n32g430_can.c               0x00000000   Number         0  n32g430_can.o ABSOLUTE
+    ..\FWLIB\src\n32g430_comp.c              0x00000000   Number         0  n32g430_comp.o ABSOLUTE
+    ..\FWLIB\src\n32g430_crc.c               0x00000000   Number         0  n32g430_crc.o ABSOLUTE
+    ..\FWLIB\src\n32g430_dbg.c               0x00000000   Number         0  n32g430_dbg.o ABSOLUTE
+    ..\FWLIB\src\n32g430_dma.c               0x00000000   Number         0  n32g430_dma.o ABSOLUTE
+    ..\FWLIB\src\n32g430_exti.c              0x00000000   Number         0  n32g430_exti.o ABSOLUTE
+    ..\FWLIB\src\n32g430_flash.c             0x00000000   Number         0  n32g430_flash.o ABSOLUTE
+    ..\FWLIB\src\n32g430_gpio.c              0x00000000   Number         0  n32g430_gpio.o ABSOLUTE
+    ..\FWLIB\src\n32g430_i2c.c               0x00000000   Number         0  n32g430_i2c.o ABSOLUTE
+    ..\FWLIB\src\n32g430_iwdg.c              0x00000000   Number         0  n32g430_iwdg.o ABSOLUTE
+    ..\FWLIB\src\n32g430_lptim.c             0x00000000   Number         0  n32g430_lptim.o ABSOLUTE
+    ..\FWLIB\src\n32g430_pwr.c               0x00000000   Number         0  n32g430_pwr.o ABSOLUTE
+    ..\FWLIB\src\n32g430_rcc.c               0x00000000   Number         0  n32g430_rcc.o ABSOLUTE
+    ..\FWLIB\src\n32g430_rtc.c               0x00000000   Number         0  n32g430_rtc.o ABSOLUTE
+    ..\FWLIB\src\n32g430_spi.c               0x00000000   Number         0  n32g430_spi.o ABSOLUTE
+    ..\FWLIB\src\n32g430_tim.c               0x00000000   Number         0  n32g430_tim.o ABSOLUTE
+    ..\FWLIB\src\n32g430_usart.c             0x00000000   Number         0  n32g430_usart.o ABSOLUTE
+    ..\FWLIB\src\n32g430_wwdg.c              0x00000000   Number         0  n32g430_wwdg.o ABSOLUTE
+    ..\FWLIB\src\system_n32g430.c            0x00000000   Number         0  system_n32g430.o ABSOLUTE
+    ..\STARTUP\startup_n32g430.s             0x00000000   Number         0  startup_n32g430.o ABSOLUTE
+    ..\USER\src\main.c                       0x00000000   Number         0  main.o ABSOLUTE
+    ..\USER\src\n32g430_it.c                 0x00000000   Number         0  n32g430_it.o ABSOLUTE
+    ..\\FWLIB\\src\\misc.c                   0x00000000   Number         0  misc.o ABSOLUTE
+    ..\\FWLIB\\src\\n32g430_adc.c            0x00000000   Number         0  n32g430_adc.o ABSOLUTE
+    ..\\FWLIB\\src\\n32g430_beeper.c         0x00000000   Number         0  n32g430_beeper.o ABSOLUTE
+    ..\\FWLIB\\src\\n32g430_can.c            0x00000000   Number         0  n32g430_can.o ABSOLUTE
+    ..\\FWLIB\\src\\n32g430_comp.c           0x00000000   Number         0  n32g430_comp.o ABSOLUTE
+    ..\\FWLIB\\src\\n32g430_crc.c            0x00000000   Number         0  n32g430_crc.o ABSOLUTE
+    ..\\FWLIB\\src\\n32g430_dbg.c            0x00000000   Number         0  n32g430_dbg.o ABSOLUTE
+    ..\\FWLIB\\src\\n32g430_dma.c            0x00000000   Number         0  n32g430_dma.o ABSOLUTE
+    ..\\FWLIB\\src\\n32g430_exti.c           0x00000000   Number         0  n32g430_exti.o ABSOLUTE
+    ..\\FWLIB\\src\\n32g430_flash.c          0x00000000   Number         0  n32g430_flash.o ABSOLUTE
+    ..\\FWLIB\\src\\n32g430_gpio.c           0x00000000   Number         0  n32g430_gpio.o ABSOLUTE
+    ..\\FWLIB\\src\\n32g430_i2c.c            0x00000000   Number         0  n32g430_i2c.o ABSOLUTE
+    ..\\FWLIB\\src\\n32g430_iwdg.c           0x00000000   Number         0  n32g430_iwdg.o ABSOLUTE
+    ..\\FWLIB\\src\\n32g430_lptim.c          0x00000000   Number         0  n32g430_lptim.o ABSOLUTE
+    ..\\FWLIB\\src\\n32g430_pwr.c            0x00000000   Number         0  n32g430_pwr.o ABSOLUTE
+    ..\\FWLIB\\src\\n32g430_rcc.c            0x00000000   Number         0  n32g430_rcc.o ABSOLUTE
+    ..\\FWLIB\\src\\n32g430_rtc.c            0x00000000   Number         0  n32g430_rtc.o ABSOLUTE
+    ..\\FWLIB\\src\\n32g430_spi.c            0x00000000   Number         0  n32g430_spi.o ABSOLUTE
+    ..\\FWLIB\\src\\n32g430_tim.c            0x00000000   Number         0  n32g430_tim.o ABSOLUTE
+    ..\\FWLIB\\src\\n32g430_usart.c          0x00000000   Number         0  n32g430_usart.o ABSOLUTE
+    ..\\FWLIB\\src\\n32g430_wwdg.c           0x00000000   Number         0  n32g430_wwdg.o ABSOLUTE
+    ..\\FWLIB\\src\\system_n32g430.c         0x00000000   Number         0  system_n32g430.o ABSOLUTE
+    ..\\USER\\src\\main.c                    0x00000000   Number         0  main.o ABSOLUTE
+    ..\\USER\\src\\n32g430_it.c              0x00000000   Number         0  n32g430_it.o ABSOLUTE
+    dc.s                                     0x00000000   Number         0  dc.o ABSOLUTE
+    RESET                                    0x08000000   Section      276  startup_n32g430.o(RESET)
+    !!!main                                  0x08000114   Section        8  __main.o(!!!main)
+    !!!scatter                               0x0800011c   Section       52  __scatter.o(!!!scatter)
+    !!handler_copy                           0x08000150   Section       26  __scatter_copy.o(!!handler_copy)
+    !!handler_zi                             0x0800016c   Section       28  __scatter_zi.o(!!handler_zi)
+    .ARM.Collect$$libinit$$00000000          0x08000188   Section        2  libinit.o(.ARM.Collect$$libinit$$00000000)
+    .ARM.Collect$$libinit$$00000001          0x0800018a   Section        4  libinit2.o(.ARM.Collect$$libinit$$00000001)
+    .ARM.Collect$$libinit$$00000004          0x0800018e   Section        0  libinit2.o(.ARM.Collect$$libinit$$00000004)
+    .ARM.Collect$$libinit$$0000000A          0x0800018e   Section        0  libinit2.o(.ARM.Collect$$libinit$$0000000A)
+    .ARM.Collect$$libinit$$0000000C          0x0800018e   Section        0  libinit2.o(.ARM.Collect$$libinit$$0000000C)
+    .ARM.Collect$$libinit$$0000000E          0x0800018e   Section        0  libinit2.o(.ARM.Collect$$libinit$$0000000E)
+    .ARM.Collect$$libinit$$00000011          0x0800018e   Section        0  libinit2.o(.ARM.Collect$$libinit$$00000011)
+    .ARM.Collect$$libinit$$00000013          0x0800018e   Section        0  libinit2.o(.ARM.Collect$$libinit$$00000013)
+    .ARM.Collect$$libinit$$00000015          0x0800018e   Section        0  libinit2.o(.ARM.Collect$$libinit$$00000015)
+    .ARM.Collect$$libinit$$00000017          0x0800018e   Section        0  libinit2.o(.ARM.Collect$$libinit$$00000017)
+    .ARM.Collect$$libinit$$00000019          0x0800018e   Section        0  libinit2.o(.ARM.Collect$$libinit$$00000019)
+    .ARM.Collect$$libinit$$0000001B          0x0800018e   Section        0  libinit2.o(.ARM.Collect$$libinit$$0000001B)
+    .ARM.Collect$$libinit$$0000001D          0x0800018e   Section        0  libinit2.o(.ARM.Collect$$libinit$$0000001D)
+    .ARM.Collect$$libinit$$0000001F          0x0800018e   Section        0  libinit2.o(.ARM.Collect$$libinit$$0000001F)
+    .ARM.Collect$$libinit$$00000021          0x0800018e   Section        0  libinit2.o(.ARM.Collect$$libinit$$00000021)
+    .ARM.Collect$$libinit$$00000023          0x0800018e   Section        0  libinit2.o(.ARM.Collect$$libinit$$00000023)
+    .ARM.Collect$$libinit$$00000025          0x0800018e   Section        0  libinit2.o(.ARM.Collect$$libinit$$00000025)
+    .ARM.Collect$$libinit$$0000002C          0x0800018e   Section        0  libinit2.o(.ARM.Collect$$libinit$$0000002C)
+    .ARM.Collect$$libinit$$0000002E          0x0800018e   Section        0  libinit2.o(.ARM.Collect$$libinit$$0000002E)
+    .ARM.Collect$$libinit$$00000030          0x0800018e   Section        0  libinit2.o(.ARM.Collect$$libinit$$00000030)
+    .ARM.Collect$$libinit$$00000032          0x0800018e   Section        0  libinit2.o(.ARM.Collect$$libinit$$00000032)
+    .ARM.Collect$$libinit$$00000033          0x0800018e   Section        2  libinit2.o(.ARM.Collect$$libinit$$00000033)
+    .ARM.Collect$$libshutdown$$00000000      0x08000190   Section        2  libshutdown.o(.ARM.Collect$$libshutdown$$00000000)
+    .ARM.Collect$$libshutdown$$00000002      0x08000192   Section        0  libshutdown2.o(.ARM.Collect$$libshutdown$$00000002)
+    .ARM.Collect$$libshutdown$$00000004      0x08000192   Section        0  libshutdown2.o(.ARM.Collect$$libshutdown$$00000004)
+    .ARM.Collect$$libshutdown$$00000006      0x08000192   Section        0  libshutdown2.o(.ARM.Collect$$libshutdown$$00000006)
+    .ARM.Collect$$libshutdown$$00000009      0x08000192   Section        0  libshutdown2.o(.ARM.Collect$$libshutdown$$00000009)
+    .ARM.Collect$$libshutdown$$0000000C      0x08000192   Section        0  libshutdown2.o(.ARM.Collect$$libshutdown$$0000000C)
+    .ARM.Collect$$libshutdown$$0000000E      0x08000192   Section        0  libshutdown2.o(.ARM.Collect$$libshutdown$$0000000E)
+    .ARM.Collect$$libshutdown$$00000011      0x08000192   Section        0  libshutdown2.o(.ARM.Collect$$libshutdown$$00000011)
+    .ARM.Collect$$libshutdown$$00000012      0x08000192   Section        2  libshutdown2.o(.ARM.Collect$$libshutdown$$00000012)
+    .ARM.Collect$$rtentry$$00000000          0x08000194   Section        0  __rtentry.o(.ARM.Collect$$rtentry$$00000000)
+    .ARM.Collect$$rtentry$$00000002          0x08000194   Section        0  __rtentry2.o(.ARM.Collect$$rtentry$$00000002)
+    .ARM.Collect$$rtentry$$00000004          0x08000194   Section        6  __rtentry4.o(.ARM.Collect$$rtentry$$00000004)
+    .ARM.Collect$$rtentry$$00000009          0x0800019a   Section        0  __rtentry2.o(.ARM.Collect$$rtentry$$00000009)
+    .ARM.Collect$$rtentry$$0000000A          0x0800019a   Section        4  __rtentry2.o(.ARM.Collect$$rtentry$$0000000A)
+    .ARM.Collect$$rtentry$$0000000C          0x0800019e   Section        0  __rtentry2.o(.ARM.Collect$$rtentry$$0000000C)
+    .ARM.Collect$$rtentry$$0000000D          0x0800019e   Section        8  __rtentry2.o(.ARM.Collect$$rtentry$$0000000D)
+    .ARM.Collect$$rtexit$$00000000           0x080001a6   Section        2  rtexit.o(.ARM.Collect$$rtexit$$00000000)
+    .ARM.Collect$$rtexit$$00000002           0x080001a8   Section        0  rtexit2.o(.ARM.Collect$$rtexit$$00000002)
+    .ARM.Collect$$rtexit$$00000003           0x080001a8   Section        4  rtexit2.o(.ARM.Collect$$rtexit$$00000003)
+    .ARM.Collect$$rtexit$$00000004           0x080001ac   Section        6  rtexit2.o(.ARM.Collect$$rtexit$$00000004)
+    .text                                    0x080001b4   Section       64  startup_n32g430.o(.text)
+    $v0                                      0x080001b4   Number         0  startup_n32g430.o(.text)
+    .text                                    0x080001f4   Section        0  heapauxi.o(.text)
+    .text                                    0x080001fa   Section       74  sys_stackheap_outer.o(.text)
+    .text                                    0x08000244   Section        0  exit.o(.text)
+    .text                                    0x08000258   Section        8  libspace.o(.text)
+    .text                                    0x08000260   Section        0  sys_exit.o(.text)
+    .text                                    0x0800026c   Section        2  use_no_semi.o(.text)
+    .text                                    0x0800026e   Section        0  indicate_semi.o(.text)
+    i.BusFault_Handler                       0x0800026e   Section        0  n32g430_it.o(i.BusFault_Handler)
+    i.DebugMon_Handler                       0x08000272   Section        0  n32g430_it.o(i.DebugMon_Handler)
+    i.HardFault_Handler                      0x08000274   Section        0  n32g430_it.o(i.HardFault_Handler)
+    i.MemManage_Handler                      0x08000278   Section        0  n32g430_it.o(i.MemManage_Handler)
+    i.NMI_Handler                            0x0800027c   Section        0  n32g430_it.o(i.NMI_Handler)
+    i.SVC_Handler                            0x0800027e   Section        0  n32g430_it.o(i.SVC_Handler)
+    i.SysTick_Handler                        0x08000280   Section        0  n32g430_it.o(i.SysTick_Handler)
+    i.System_Clock_Set                       0x08000284   Section        0  system_n32g430.o(i.System_Clock_Set)
+    System_Clock_Set                         0x08000285   Thumb Code   236  system_n32g430.o(i.System_Clock_Set)
+    i.System_Initializes                     0x08000384   Section        0  system_n32g430.o(i.System_Initializes)
+    i.UsageFault_Handler                     0x08000434   Section        0  n32g430_it.o(i.UsageFault_Handler)
+    i.main                                   0x08000438   Section        0  main.o(i.main)
+    x$fpl$fpinit                             0x0800043c   Section       10  fpinit.o(x$fpl$fpinit)
+    $v0                                      0x0800043c   Number         0  fpinit.o(x$fpl$fpinit)
+    .data                                    0x20000000   Section        4  system_n32g430.o(.data)
+    .bss                                     0x20000004   Section       96  libspace.o(.bss)
+    HEAP                                     0x20000068   Section      768  startup_n32g430.o(HEAP)
+    Heap_Mem                                 0x20000068   Data         768  startup_n32g430.o(HEAP)
+    STACK                                    0x20000368   Section     5376  startup_n32g430.o(STACK)
+    Stack_Mem                                0x20000368   Data        5376  startup_n32g430.o(STACK)
+    __initial_sp                             0x20001868   Data           0  startup_n32g430.o(STACK)
+
+    Global Symbols
+
+    Symbol Name                              Value     Ov Type        Size  Object(Section)
+
+    BuildAttributes$$THM_ISAv4$E$P$D$K$B$S$7EM$VFPi3$EXTD16$VFPS$VFMA$PE$A:L22UL41UL21$X:L11$S22US41US21$IEEE1$IW$USESV6$~STKCKD$USESV7$~SHL$OSPACE$ROPI$EBA8$UX$STANDARDLIB$REQ8$PRES8$EABIv2 0x00000000   Number         0  anon$$obj.o ABSOLUTE
+    __ARM_use_no_argv                        0x00000000   Number         0  main.o ABSOLUTE
+    __ARM_exceptions_init                     - Undefined Weak Reference
+    __alloca_initialize                       - Undefined Weak Reference
+    __arm_fini_                               - Undefined Weak Reference
+    __arm_preinit_                            - Undefined Weak Reference
+    __cpp_initialize__aeabi_                  - Undefined Weak Reference
+    __cxa_finalize                            - Undefined Weak Reference
+    __rt_locale                               - Undefined Weak Reference
+    __sigvec_lookup                           - Undefined Weak Reference
+    _atexit_init                              - Undefined Weak Reference
+    _call_atexit_fns                          - Undefined Weak Reference
+    _clock_init                               - Undefined Weak Reference
+    _fp_trap_init                             - Undefined Weak Reference
+    _fp_trap_shutdown                         - Undefined Weak Reference
+    _get_lc_collate                           - Undefined Weak Reference
+    _get_lc_ctype                             - Undefined Weak Reference
+    _get_lc_monetary                          - Undefined Weak Reference
+    _get_lc_numeric                           - Undefined Weak Reference
+    _get_lc_time                              - Undefined Weak Reference
+    _getenv_init                              - Undefined Weak Reference
+    _handle_redirection                       - Undefined Weak Reference
+    _init_alloc                               - Undefined Weak Reference
+    _init_user_alloc                          - Undefined Weak Reference
+    _initio                                   - Undefined Weak Reference
+    _rand_init                                - Undefined Weak Reference
+    _signal_finish                            - Undefined Weak Reference
+    _signal_init                              - Undefined Weak Reference
+    _terminate_alloc                          - Undefined Weak Reference
+    _terminate_user_alloc                     - Undefined Weak Reference
+    _terminateio                              - Undefined Weak Reference
+    __Vectors_Size                           0x00000114   Number         0  startup_n32g430.o ABSOLUTE
+    __Vectors                                0x08000000   Data           4  startup_n32g430.o(RESET)
+    __Vectors_End                            0x08000114   Data           0  startup_n32g430.o(RESET)
+    __main                                   0x08000115   Thumb Code     8  __main.o(!!!main)
+    __scatterload                            0x0800011d   Thumb Code     0  __scatter.o(!!!scatter)
+    __scatterload_rt2                        0x0800011d   Thumb Code    44  __scatter.o(!!!scatter)
+    __scatterload_rt2_thumb_only             0x0800011d   Thumb Code     0  __scatter.o(!!!scatter)
+    __scatterload_null                       0x0800012b   Thumb Code     0  __scatter.o(!!!scatter)
+    __scatterload_copy                       0x08000151   Thumb Code    26  __scatter_copy.o(!!handler_copy)
+    __scatterload_zeroinit                   0x0800016d   Thumb Code    28  __scatter_zi.o(!!handler_zi)
+    __rt_lib_init                            0x08000189   Thumb Code     0  libinit.o(.ARM.Collect$$libinit$$00000000)
+    __rt_lib_init_fp_1                       0x0800018b   Thumb Code     0  libinit2.o(.ARM.Collect$$libinit$$00000001)
+    __rt_lib_init_alloca_1                   0x0800018f   Thumb Code     0  libinit2.o(.ARM.Collect$$libinit$$0000002E)
+    __rt_lib_init_argv_1                     0x0800018f   Thumb Code     0  libinit2.o(.ARM.Collect$$libinit$$0000002C)
+    __rt_lib_init_atexit_1                   0x0800018f   Thumb Code     0  libinit2.o(.ARM.Collect$$libinit$$0000001B)
+    __rt_lib_init_clock_1                    0x0800018f   Thumb Code     0  libinit2.o(.ARM.Collect$$libinit$$00000021)
+    __rt_lib_init_cpp_1                      0x0800018f   Thumb Code     0  libinit2.o(.ARM.Collect$$libinit$$00000032)
+    __rt_lib_init_exceptions_1               0x0800018f   Thumb Code     0  libinit2.o(.ARM.Collect$$libinit$$00000030)
+    __rt_lib_init_fp_trap_1                  0x0800018f   Thumb Code     0  libinit2.o(.ARM.Collect$$libinit$$0000001F)
+    __rt_lib_init_getenv_1                   0x0800018f   Thumb Code     0  libinit2.o(.ARM.Collect$$libinit$$00000023)
+    __rt_lib_init_heap_1                     0x0800018f   Thumb Code     0  libinit2.o(.ARM.Collect$$libinit$$0000000A)
+    __rt_lib_init_lc_collate_1               0x0800018f   Thumb Code     0  libinit2.o(.ARM.Collect$$libinit$$00000011)
+    __rt_lib_init_lc_ctype_1                 0x0800018f   Thumb Code     0  libinit2.o(.ARM.Collect$$libinit$$00000013)
+    __rt_lib_init_lc_monetary_1              0x0800018f   Thumb Code     0  libinit2.o(.ARM.Collect$$libinit$$00000015)
+    __rt_lib_init_lc_numeric_1               0x0800018f   Thumb Code     0  libinit2.o(.ARM.Collect$$libinit$$00000017)
+    __rt_lib_init_lc_time_1                  0x0800018f   Thumb Code     0  libinit2.o(.ARM.Collect$$libinit$$00000019)
+    __rt_lib_init_preinit_1                  0x0800018f   Thumb Code     0  libinit2.o(.ARM.Collect$$libinit$$00000004)
+    __rt_lib_init_rand_1                     0x0800018f   Thumb Code     0  libinit2.o(.ARM.Collect$$libinit$$0000000E)
+    __rt_lib_init_return                     0x0800018f   Thumb Code     0  libinit2.o(.ARM.Collect$$libinit$$00000033)
+    __rt_lib_init_signal_1                   0x0800018f   Thumb Code     0  libinit2.o(.ARM.Collect$$libinit$$0000001D)
+    __rt_lib_init_stdio_1                    0x0800018f   Thumb Code     0  libinit2.o(.ARM.Collect$$libinit$$00000025)
+    __rt_lib_init_user_alloc_1               0x0800018f   Thumb Code     0  libinit2.o(.ARM.Collect$$libinit$$0000000C)
+    __rt_lib_shutdown                        0x08000191   Thumb Code     0  libshutdown.o(.ARM.Collect$$libshutdown$$00000000)
+    __rt_lib_shutdown_cpp_1                  0x08000193   Thumb Code     0  libshutdown2.o(.ARM.Collect$$libshutdown$$00000004)
+    __rt_lib_shutdown_fini_1                 0x08000193   Thumb Code     0  libshutdown2.o(.ARM.Collect$$libshutdown$$00000002)
+    __rt_lib_shutdown_fp_trap_1              0x08000193   Thumb Code     0  libshutdown2.o(.ARM.Collect$$libshutdown$$00000009)
+    __rt_lib_shutdown_heap_1                 0x08000193   Thumb Code     0  libshutdown2.o(.ARM.Collect$$libshutdown$$00000011)
+    __rt_lib_shutdown_return                 0x08000193   Thumb Code     0  libshutdown2.o(.ARM.Collect$$libshutdown$$00000012)
+    __rt_lib_shutdown_signal_1               0x08000193   Thumb Code     0  libshutdown2.o(.ARM.Collect$$libshutdown$$0000000C)
+    __rt_lib_shutdown_stdio_1                0x08000193   Thumb Code     0  libshutdown2.o(.ARM.Collect$$libshutdown$$00000006)
+    __rt_lib_shutdown_user_alloc_1           0x08000193   Thumb Code     0  libshutdown2.o(.ARM.Collect$$libshutdown$$0000000E)
+    __rt_entry                               0x08000195   Thumb Code     0  __rtentry.o(.ARM.Collect$$rtentry$$00000000)
+    __rt_entry_presh_1                       0x08000195   Thumb Code     0  __rtentry2.o(.ARM.Collect$$rtentry$$00000002)
+    __rt_entry_sh                            0x08000195   Thumb Code     0  __rtentry4.o(.ARM.Collect$$rtentry$$00000004)
+    __rt_entry_li                            0x0800019b   Thumb Code     0  __rtentry2.o(.ARM.Collect$$rtentry$$0000000A)
+    __rt_entry_postsh_1                      0x0800019b   Thumb Code     0  __rtentry2.o(.ARM.Collect$$rtentry$$00000009)
+    __rt_entry_main                          0x0800019f   Thumb Code     0  __rtentry2.o(.ARM.Collect$$rtentry$$0000000D)
+    __rt_entry_postli_1                      0x0800019f   Thumb Code     0  __rtentry2.o(.ARM.Collect$$rtentry$$0000000C)
+    __rt_exit                                0x080001a7   Thumb Code     0  rtexit.o(.ARM.Collect$$rtexit$$00000000)
+    __rt_exit_ls                             0x080001a9   Thumb Code     0  rtexit2.o(.ARM.Collect$$rtexit$$00000003)
+    __rt_exit_prels_1                        0x080001a9   Thumb Code     0  rtexit2.o(.ARM.Collect$$rtexit$$00000002)
+    __rt_exit_exit                           0x080001ad   Thumb Code     0  rtexit2.o(.ARM.Collect$$rtexit$$00000004)
+    Reset_Handler                            0x080001b5   Thumb Code     8  startup_n32g430.o(.text)
+    PendSV_Handler                           0x080001cb   Thumb Code     2  startup_n32g430.o(.text)
+    ADC_IRQHandler                           0x080001cf   Thumb Code     0  startup_n32g430.o(.text)
+    CAN_RX0_IRQHandler                       0x080001cf   Thumb Code     0  startup_n32g430.o(.text)
+    CAN_RX1_IRQHandler                       0x080001cf   Thumb Code     0  startup_n32g430.o(.text)
+    CAN_SCE_IRQHandler                       0x080001cf   Thumb Code     0  startup_n32g430.o(.text)
+    CAN_TX_IRQHandler                        0x080001cf   Thumb Code     0  startup_n32g430.o(.text)
+    COMP_1_2_3_IRQHandler                    0x080001cf   Thumb Code     0  startup_n32g430.o(.text)
+    DMA_Channel1_IRQHandler                  0x080001cf   Thumb Code     0  startup_n32g430.o(.text)
+    DMA_Channel2_IRQHandler                  0x080001cf   Thumb Code     0  startup_n32g430.o(.text)
+    DMA_Channel3_IRQHandler                  0x080001cf   Thumb Code     0  startup_n32g430.o(.text)
+    DMA_Channel4_IRQHandler                  0x080001cf   Thumb Code     0  startup_n32g430.o(.text)
+    DMA_Channel5_IRQHandler                  0x080001cf   Thumb Code     0  startup_n32g430.o(.text)
+    DMA_Channel6_IRQHandler                  0x080001cf   Thumb Code     0  startup_n32g430.o(.text)
+    DMA_Channel7_IRQHandler                  0x080001cf   Thumb Code     0  startup_n32g430.o(.text)
+    DMA_Channel8_IRQHandler                  0x080001cf   Thumb Code     0  startup_n32g430.o(.text)
+    EXTI0_IRQHandler                         0x080001cf   Thumb Code     0  startup_n32g430.o(.text)
+    EXTI15_10_IRQHandler                     0x080001cf   Thumb Code     0  startup_n32g430.o(.text)
+    EXTI1_IRQHandler                         0x080001cf   Thumb Code     0  startup_n32g430.o(.text)
+    EXTI2_IRQHandler                         0x080001cf   Thumb Code     0  startup_n32g430.o(.text)
+    EXTI3_IRQHandler                         0x080001cf   Thumb Code     0  startup_n32g430.o(.text)
+    EXTI4_IRQHandler                         0x080001cf   Thumb Code     0  startup_n32g430.o(.text)
+    EXTI9_5_IRQHandler                       0x080001cf   Thumb Code     0  startup_n32g430.o(.text)
+    FLASH_IRQHandler                         0x080001cf   Thumb Code     0  startup_n32g430.o(.text)
+    I2C1_ER_IRQHandler                       0x080001cf   Thumb Code     0  startup_n32g430.o(.text)
+    I2C1_EV_IRQHandler                       0x080001cf   Thumb Code     0  startup_n32g430.o(.text)
+    I2C2_ER_IRQHandler                       0x080001cf   Thumb Code     0  startup_n32g430.o(.text)
+    I2C2_EV_IRQHandler                       0x080001cf   Thumb Code     0  startup_n32g430.o(.text)
+    LPTIM_WKUP_IRQHandler                    0x080001cf   Thumb Code     0  startup_n32g430.o(.text)
+    MMU_IRQHandler                           0x080001cf   Thumb Code     0  startup_n32g430.o(.text)
+    PVD_IRQHandler                           0x080001cf   Thumb Code     0  startup_n32g430.o(.text)
+    RCC_IRQHandler                           0x080001cf   Thumb Code     0  startup_n32g430.o(.text)
+    RTCAlarm_IRQHandler                      0x080001cf   Thumb Code     0  startup_n32g430.o(.text)
+    RTC_TAMPER_STAMP_IRQHandler              0x080001cf   Thumb Code     0  startup_n32g430.o(.text)
+    RTC_WKUP_IRQHandler                      0x080001cf   Thumb Code     0  startup_n32g430.o(.text)
+    SPI1_IRQHandler                          0x080001cf   Thumb Code     0  startup_n32g430.o(.text)
+    SPI2_IRQHandler                          0x080001cf   Thumb Code     0  startup_n32g430.o(.text)
+    TIM1_BRK_IRQHandler                      0x080001cf   Thumb Code     0  startup_n32g430.o(.text)
+    TIM1_CC_IRQHandler                       0x080001cf   Thumb Code     0  startup_n32g430.o(.text)
+    TIM1_TRG_COM_IRQHandler                  0x080001cf   Thumb Code     0  startup_n32g430.o(.text)
+    TIM1_UP_IRQHandler                       0x080001cf   Thumb Code     0  startup_n32g430.o(.text)
+    TIM2_IRQHandler                          0x080001cf   Thumb Code     0  startup_n32g430.o(.text)
+    TIM3_IRQHandler                          0x080001cf   Thumb Code     0  startup_n32g430.o(.text)
+    TIM4_IRQHandler                          0x080001cf   Thumb Code     0  startup_n32g430.o(.text)
+    TIM5_IRQHandler                          0x080001cf   Thumb Code     0  startup_n32g430.o(.text)
+    TIM6_IRQHandler                          0x080001cf   Thumb Code     0  startup_n32g430.o(.text)
+    TIM8_BRK_IRQHandler                      0x080001cf   Thumb Code     0  startup_n32g430.o(.text)
+    TIM8_CC_IRQHandler                       0x080001cf   Thumb Code     0  startup_n32g430.o(.text)
+    TIM8_TRG_COM_IRQHandler                  0x080001cf   Thumb Code     0  startup_n32g430.o(.text)
+    TIM8_UP_IRQHandler                       0x080001cf   Thumb Code     0  startup_n32g430.o(.text)
+    UART3_IRQHandler                         0x080001cf   Thumb Code     0  startup_n32g430.o(.text)
+    UART4_IRQHandler                         0x080001cf   Thumb Code     0  startup_n32g430.o(.text)
+    USART1_IRQHandler                        0x080001cf   Thumb Code     0  startup_n32g430.o(.text)
+    USART2_IRQHandler                        0x080001cf   Thumb Code     0  startup_n32g430.o(.text)
+    WWDG_IRQHandler                          0x080001cf   Thumb Code     0  startup_n32g430.o(.text)
+    __user_initial_stackheap                 0x080001d1   Thumb Code     0  startup_n32g430.o(.text)
+    __use_two_region_memory                  0x080001f5   Thumb Code     2  heapauxi.o(.text)
+    __rt_heap_escrow$2region                 0x080001f7   Thumb Code     2  heapauxi.o(.text)
+    __rt_heap_expand$2region                 0x080001f9   Thumb Code     2  heapauxi.o(.text)
+    __user_setup_stackheap                   0x080001fb   Thumb Code    74  sys_stackheap_outer.o(.text)
+    exit                                     0x08000245   Thumb Code    18  exit.o(.text)
+    __user_libspace                          0x08000259   Thumb Code     8  libspace.o(.text)
+    __user_perproc_libspace                  0x08000259   Thumb Code     0  libspace.o(.text)
+    __user_perthread_libspace                0x08000259   Thumb Code     0  libspace.o(.text)
+    _sys_exit                                0x08000261   Thumb Code     8  sys_exit.o(.text)
+    __I$use$semihosting                      0x0800026d   Thumb Code     0  use_no_semi.o(.text)
+    __use_no_semihosting_swi                 0x0800026d   Thumb Code     2  use_no_semi.o(.text)
+    BusFault_Handler                         0x0800026f   Thumb Code     4  n32g430_it.o(i.BusFault_Handler)
+    __semihosting_library_function           0x0800026f   Thumb Code     0  indicate_semi.o(.text)
+    DebugMon_Handler                         0x08000273   Thumb Code     2  n32g430_it.o(i.DebugMon_Handler)
+    HardFault_Handler                        0x08000275   Thumb Code     4  n32g430_it.o(i.HardFault_Handler)
+    MemManage_Handler                        0x08000279   Thumb Code     4  n32g430_it.o(i.MemManage_Handler)
+    NMI_Handler                              0x0800027d   Thumb Code     2  n32g430_it.o(i.NMI_Handler)
+    SVC_Handler                              0x0800027f   Thumb Code     2  n32g430_it.o(i.SVC_Handler)
+    SysTick_Handler                          0x08000281   Thumb Code     2  n32g430_it.o(i.SysTick_Handler)
+    System_Initializes                       0x08000385   Thumb Code   146  system_n32g430.o(i.System_Initializes)
+    UsageFault_Handler                       0x08000435   Thumb Code     4  n32g430_it.o(i.UsageFault_Handler)
+    main                                     0x08000439   Thumb Code     4  main.o(i.main)
+    _fp_init                                 0x0800043d   Thumb Code    10  fpinit.o(x$fpl$fpinit)
+    __fplib_config_fpu_vfp                   0x08000445   Thumb Code     0  fpinit.o(x$fpl$fpinit)
+    __fplib_config_pureend_doubles           0x08000445   Thumb Code     0  fpinit.o(x$fpl$fpinit)
+    Region$$Table$$Base                      0x08000448   Number         0  anon$$obj.o(Region$$Table)
+    Region$$Table$$Limit                     0x08000468   Number         0  anon$$obj.o(Region$$Table)
+    SystemClockFrequency                     0x20000000   Data           4  system_n32g430.o(.data)
+    __libspace_start                         0x20000004   Data          96  libspace.o(.bss)
+    __temporary_stack_top$libspace           0x20000064   Data           0  libspace.o(.bss)
+
+
+
+==============================================================================
+
+Memory Map of the image
+
+  Image Entry point : 0x08000115
+
+  Load Region LR_IROM1 (Base: 0x08000000, Size: 0x0000046c, Max: 0x00010000, ABSOLUTE)
+
+    Execution Region ER_IROM1 (Exec base: 0x08000000, Load base: 0x08000000, Size: 0x00000468, Max: 0x00010000, ABSOLUTE)
+
+    Exec Addr    Load Addr    Size         Type   Attr      Idx    E Section Name        Object
+
+    0x08000000   0x08000000   0x00000114   Data   RO         5685    RESET               startup_n32g430.o
+    0x08000114   0x08000114   0x00000008   Code   RO         5694  * !!!main             c_w.l(__main.o)
+    0x0800011c   0x0800011c   0x00000034   Code   RO         5853    !!!scatter          c_w.l(__scatter.o)
+    0x08000150   0x08000150   0x0000001a   Code   RO         5855    !!handler_copy      c_w.l(__scatter_copy.o)
+    0x0800016a   0x0800016a   0x00000002   PAD
+    0x0800016c   0x0800016c   0x0000001c   Code   RO         5857    !!handler_zi        c_w.l(__scatter_zi.o)
+    0x08000188   0x08000188   0x00000002   Code   RO         5721    .ARM.Collect$$libinit$$00000000  c_w.l(libinit.o)
+    0x0800018a   0x0800018a   0x00000004   Code   RO         5727    .ARM.Collect$$libinit$$00000001  c_w.l(libinit2.o)
+    0x0800018e   0x0800018e   0x00000000   Code   RO         5730    .ARM.Collect$$libinit$$00000004  c_w.l(libinit2.o)
+    0x0800018e   0x0800018e   0x00000000   Code   RO         5733    .ARM.Collect$$libinit$$0000000A  c_w.l(libinit2.o)
+    0x0800018e   0x0800018e   0x00000000   Code   RO         5735    .ARM.Collect$$libinit$$0000000C  c_w.l(libinit2.o)
+    0x0800018e   0x0800018e   0x00000000   Code   RO         5737    .ARM.Collect$$libinit$$0000000E  c_w.l(libinit2.o)
+    0x0800018e   0x0800018e   0x00000000   Code   RO         5740    .ARM.Collect$$libinit$$00000011  c_w.l(libinit2.o)
+    0x0800018e   0x0800018e   0x00000000   Code   RO         5742    .ARM.Collect$$libinit$$00000013  c_w.l(libinit2.o)
+    0x0800018e   0x0800018e   0x00000000   Code   RO         5744    .ARM.Collect$$libinit$$00000015  c_w.l(libinit2.o)
+    0x0800018e   0x0800018e   0x00000000   Code   RO         5746    .ARM.Collect$$libinit$$00000017  c_w.l(libinit2.o)
+    0x0800018e   0x0800018e   0x00000000   Code   RO         5748    .ARM.Collect$$libinit$$00000019  c_w.l(libinit2.o)
+    0x0800018e   0x0800018e   0x00000000   Code   RO         5750    .ARM.Collect$$libinit$$0000001B  c_w.l(libinit2.o)
+    0x0800018e   0x0800018e   0x00000000   Code   RO         5752    .ARM.Collect$$libinit$$0000001D  c_w.l(libinit2.o)
+    0x0800018e   0x0800018e   0x00000000   Code   RO         5754    .ARM.Collect$$libinit$$0000001F  c_w.l(libinit2.o)
+    0x0800018e   0x0800018e   0x00000000   Code   RO         5756    .ARM.Collect$$libinit$$00000021  c_w.l(libinit2.o)
+    0x0800018e   0x0800018e   0x00000000   Code   RO         5758    .ARM.Collect$$libinit$$00000023  c_w.l(libinit2.o)
+    0x0800018e   0x0800018e   0x00000000   Code   RO         5760    .ARM.Collect$$libinit$$00000025  c_w.l(libinit2.o)
+    0x0800018e   0x0800018e   0x00000000   Code   RO         5764    .ARM.Collect$$libinit$$0000002C  c_w.l(libinit2.o)
+    0x0800018e   0x0800018e   0x00000000   Code   RO         5766    .ARM.Collect$$libinit$$0000002E  c_w.l(libinit2.o)
+    0x0800018e   0x0800018e   0x00000000   Code   RO         5768    .ARM.Collect$$libinit$$00000030  c_w.l(libinit2.o)
+    0x0800018e   0x0800018e   0x00000000   Code   RO         5770    .ARM.Collect$$libinit$$00000032  c_w.l(libinit2.o)
+    0x0800018e   0x0800018e   0x00000002   Code   RO         5771    .ARM.Collect$$libinit$$00000033  c_w.l(libinit2.o)
+    0x08000190   0x08000190   0x00000002   Code   RO         5791    .ARM.Collect$$libshutdown$$00000000  c_w.l(libshutdown.o)
+    0x08000192   0x08000192   0x00000000   Code   RO         5804    .ARM.Collect$$libshutdown$$00000002  c_w.l(libshutdown2.o)
+    0x08000192   0x08000192   0x00000000   Code   RO         5806    .ARM.Collect$$libshutdown$$00000004  c_w.l(libshutdown2.o)
+    0x08000192   0x08000192   0x00000000   Code   RO         5808    .ARM.Collect$$libshutdown$$00000006  c_w.l(libshutdown2.o)
+    0x08000192   0x08000192   0x00000000   Code   RO         5811    .ARM.Collect$$libshutdown$$00000009  c_w.l(libshutdown2.o)
+    0x08000192   0x08000192   0x00000000   Code   RO         5814    .ARM.Collect$$libshutdown$$0000000C  c_w.l(libshutdown2.o)
+    0x08000192   0x08000192   0x00000000   Code   RO         5816    .ARM.Collect$$libshutdown$$0000000E  c_w.l(libshutdown2.o)
+    0x08000192   0x08000192   0x00000000   Code   RO         5819    .ARM.Collect$$libshutdown$$00000011  c_w.l(libshutdown2.o)
+    0x08000192   0x08000192   0x00000002   Code   RO         5820    .ARM.Collect$$libshutdown$$00000012  c_w.l(libshutdown2.o)
+    0x08000194   0x08000194   0x00000000   Code   RO         5696    .ARM.Collect$$rtentry$$00000000  c_w.l(__rtentry.o)
+    0x08000194   0x08000194   0x00000000   Code   RO         5698    .ARM.Collect$$rtentry$$00000002  c_w.l(__rtentry2.o)
+    0x08000194   0x08000194   0x00000006   Code   RO         5710    .ARM.Collect$$rtentry$$00000004  c_w.l(__rtentry4.o)
+    0x0800019a   0x0800019a   0x00000000   Code   RO         5700    .ARM.Collect$$rtentry$$00000009  c_w.l(__rtentry2.o)
+    0x0800019a   0x0800019a   0x00000004   Code   RO         5701    .ARM.Collect$$rtentry$$0000000A  c_w.l(__rtentry2.o)
+    0x0800019e   0x0800019e   0x00000000   Code   RO         5703    .ARM.Collect$$rtentry$$0000000C  c_w.l(__rtentry2.o)
+    0x0800019e   0x0800019e   0x00000008   Code   RO         5704    .ARM.Collect$$rtentry$$0000000D  c_w.l(__rtentry2.o)
+    0x080001a6   0x080001a6   0x00000002   Code   RO         5725    .ARM.Collect$$rtexit$$00000000  c_w.l(rtexit.o)
+    0x080001a8   0x080001a8   0x00000000   Code   RO         5773    .ARM.Collect$$rtexit$$00000002  c_w.l(rtexit2.o)
+    0x080001a8   0x080001a8   0x00000004   Code   RO         5774    .ARM.Collect$$rtexit$$00000003  c_w.l(rtexit2.o)
+    0x080001ac   0x080001ac   0x00000006   Code   RO         5775    .ARM.Collect$$rtexit$$00000004  c_w.l(rtexit2.o)
+    0x080001b2   0x080001b2   0x00000002   PAD
+    0x080001b4   0x080001b4   0x00000040   Code   RO         5686    .text               startup_n32g430.o
+    0x080001f4   0x080001f4   0x00000006   Code   RO         5692    .text               c_w.l(heapauxi.o)
+    0x080001fa   0x080001fa   0x0000004a   Code   RO         5712    .text               c_w.l(sys_stackheap_outer.o)
+    0x08000244   0x08000244   0x00000012   Code   RO         5714    .text               c_w.l(exit.o)
+    0x08000256   0x08000256   0x00000002   PAD
+    0x08000258   0x08000258   0x00000008   Code   RO         5722    .text               c_w.l(libspace.o)
+    0x08000260   0x08000260   0x0000000c   Code   RO         5783    .text               c_w.l(sys_exit.o)
+    0x0800026c   0x0800026c   0x00000002   Code   RO         5794    .text               c_w.l(use_no_semi.o)
+    0x0800026e   0x0800026e   0x00000000   Code   RO         5796    .text               c_w.l(indicate_semi.o)
+    0x0800026e   0x0800026e   0x00000004   Code   RO          126    i.BusFault_Handler  n32g430_it.o
+    0x08000272   0x08000272   0x00000002   Code   RO          127    i.DebugMon_Handler  n32g430_it.o
+    0x08000274   0x08000274   0x00000004   Code   RO          128    i.HardFault_Handler  n32g430_it.o
+    0x08000278   0x08000278   0x00000004   Code   RO          129    i.MemManage_Handler  n32g430_it.o
+    0x0800027c   0x0800027c   0x00000002   Code   RO          130    i.NMI_Handler       n32g430_it.o
+    0x0800027e   0x0800027e   0x00000002   Code   RO          131    i.SVC_Handler       n32g430_it.o
+    0x08000280   0x08000280   0x00000002   Code   RO          132    i.SysTick_Handler   n32g430_it.o
+    0x08000282   0x08000282   0x00000002   PAD
+    0x08000284   0x08000284   0x00000100   Code   RO         5645    i.System_Clock_Set  system_n32g430.o
+    0x08000384   0x08000384   0x000000b0   Code   RO         5646    i.System_Initializes  system_n32g430.o
+    0x08000434   0x08000434   0x00000004   Code   RO          133    i.UsageFault_Handler  n32g430_it.o
+    0x08000438   0x08000438   0x00000004   Code   RO            4    i.main              main.o
+    0x0800043c   0x0800043c   0x0000000a   Code   RO         5781    x$fpl$fpinit        fz_wm.l(fpinit.o)
+    0x08000446   0x08000446   0x00000002   PAD
+    0x08000448   0x08000448   0x00000020   Data   RO         5851    Region$$Table       anon$$obj.o
+
+
+    Execution Region RW_IRAM1 (Exec base: 0x20000000, Load base: 0x08000468, Size: 0x00001868, Max: 0x00004000, ABSOLUTE)
+
+    Exec Addr    Load Addr    Size         Type   Attr      Idx    E Section Name        Object
+
+    0x20000000   0x08000468   0x00000004   Data   RW         5648    .data               system_n32g430.o
+    0x20000004        -       0x00000060   Zero   RW         5723    .bss                c_w.l(libspace.o)
+    0x20000064   0x0800046c   0x00000004   PAD
+    0x20000068        -       0x00000300   Zero   RW         5684    HEAP                startup_n32g430.o
+    0x20000368        -       0x00001500   Zero   RW         5683    STACK               startup_n32g430.o
+
+
+==============================================================================
+
+Image component sizes
+
+
+      Code (inc. data)   RO Data    RW Data    ZI Data      Debug   Object Name
+
+         4          0          0          0          0       4987   main.o
+        24          0          0          0          0       3641   n32g430_it.o
+        64         26        276          0       6144        820   startup_n32g430.o
+       432         50          0          4          0       2070   system_n32g430.o
+
+    ----------------------------------------------------------------------
+       526         76        308          4       6144      11518   Object Totals
+         0          0         32          0          0          0   (incl. Generated)
+         2          0          0          0          0          0   (incl. Padding)
+
+    ----------------------------------------------------------------------
+
+      Code (inc. data)   RO Data    RW Data    ZI Data      Debug   Library Member Name
+
+         8          0          0          0          0         68   __main.o
+         0          0          0          0          0          0   __rtentry.o
+        12          0          0          0          0          0   __rtentry2.o
+         6          0          0          0          0          0   __rtentry4.o
+        52          8          0          0          0          0   __scatter.o
+        26          0          0          0          0          0   __scatter_copy.o
+        28          0          0          0          0          0   __scatter_zi.o
+        18          0          0          0          0         80   exit.o
+         6          0          0          0          0        152   heapauxi.o
+         0          0          0          0          0          0   indicate_semi.o
+         2          0          0          0          0          0   libinit.o
+         6          0          0          0          0          0   libinit2.o
+         2          0          0          0          0          0   libshutdown.o
+         2          0          0          0          0          0   libshutdown2.o
+         8          4          0          0         96         68   libspace.o
+         2          0          0          0          0          0   rtexit.o
+        10          0          0          0          0          0   rtexit2.o
+        12          4          0          0          0         68   sys_exit.o
+        74          0          0          0          0         80   sys_stackheap_outer.o
+         2          0          0          0          0         68   use_no_semi.o
+        10          0          0          0          0        116   fpinit.o
+
+    ----------------------------------------------------------------------
+       294         16          0          0        100        700   Library Totals
+         8          0          0          0          4          0   (incl. Padding)
+
+    ----------------------------------------------------------------------
+
+      Code (inc. data)   RO Data    RW Data    ZI Data      Debug   Library Name
+
+       276         16          0          0         96        584   c_w.l
+        10          0          0          0          0        116   fz_wm.l
+
+    ----------------------------------------------------------------------
+       294         16          0          0        100        700   Library Totals
+
+    ----------------------------------------------------------------------
+
+==============================================================================
+
+
+      Code (inc. data)   RO Data    RW Data    ZI Data      Debug   
+
+       820         92        308          4       6244      11162   Grand Totals
+       820         92        308          4       6244      11162   ELF Image Totals
+       820         92        308          4          0          0   ROM Totals
+
+==============================================================================
+
+    Total RO  Size (Code + RO Data)                 1128 (   1.10kB)
+    Total RW  Size (RW Data + ZI Data)              6248 (   6.10kB)
+    Total ROM Size (Code + RO Data + RW Data)       1132 (   1.11kB)
+
+==============================================================================
+
